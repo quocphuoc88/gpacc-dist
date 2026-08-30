@@ -1,0 +1,48 @@
+﻿# =============================================================================
+#  GPAcc TT99 - MANIFEST PHAT HANH
+#  Doc boi ModDist.bas trong file GPAcc.
+#  Phan cach bang dau |  -  dong bat dau bang # la ghi chu, bi bo qua.
+#  KHONG dung dau | trong noi dung cac truong.
+#
+#  Sua file nay tren GitHub = phat hanh phien ban moi. Khong can sua code.
+#  Chay tools\PhatHanh.ps1 de tu tinh lai SHA256 va cap nhat cac dong duoi.
+# =============================================================================
+
+# VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
+VER|260830|
+
+# BIN | <url vbaProject.bin> | <sha256>
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|
+
+# UI | <url customUI.xml> | <sha256>
+UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|35949f2f49a9e56a025b2c4cd874343aa87b0c3099eea4226e4831c3ced1da19
+
+# MAUBIEU | <so schema> | <url MauBieu.xlsx> | <sha256>
+#   Tang so schema len 1 moi khi goi mau bieu co them sheet moi.
+#   File GPAcc so sanh voi o N1 tren sheet MAP cua no de biet co can tai khong.
+MAUBIEU|2|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|a2195f95d69eb115cecf8d92aa3f8f93e2f5684b28b5a9ecc0f88447fe62ddb6
+
+# -----------------------------------------------------------------------------
+# MAU | MauSo | PhienBan | HieuLucTu | HieuLucDen | MocChon | SheetName | UrlXML | Sha256
+#
+#   HieuLucTu / HieuLucDen : yyyy-mm-dd, HieuLucDen bo trong = con hieu luc
+#   MocChon  : DauKy  -> chon mau theo ngay DAU ky tinh thue (khai thang / quy)
+#              CuoiKy -> chon mau theo ngay CUOI ky (quyet toan nam, vi ky
+#                        2026 vat qua moc 01/7/2026 doi mau theo TT89)
+#   SheetName: ten sheet chua mau bieu trong file GPAcc
+#
+#   Khi 2 dong cung thoa ngay ap dung thi dong co HieuLucTu TRE HON thang.
+#   => Them mau moi chi can them 1 dong, khong phai sua dong cu.
+# -----------------------------------------------------------------------------
+
+MAU|01/GTGT|TT80|2022-01-01||DauKy|GTGT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT80.xml|
+
+# --- CHUAN BI CHO THONG TU 89 (hieu luc 01/7/2026) ---------------------------
+# Bo dau # o dau dong khi da co mau chinh thuc va da them sheet GTGT_89
+# vao goi MauBieu.xlsx (nho tang so schema o dong MAUBIEU o tren).
+#
+# MAU|01/GTGT|TT89|2026-07-01||DauKy|GTGT_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT89.xml|
+# MAU|05/QTT-TNCN|TT80|2022-01-01||CuoiKy|05KK_02KK|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_QTT_TT80.xml|
+# MAU|05/QTT-TNCN|TT89|2026-07-01||CuoiKy|05KK_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_QTT_TT89.xml|
+# MAU|03/TNDN|TT80|2022-01-01||CuoiKy|TNDN03|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT80.xml|
+# MAU|BCTC|TT99|2026-01-01||CuoiKy|CDKT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/BCTC_TT99.xml|
