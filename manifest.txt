@@ -9,18 +9,18 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|260830|
+VER|260831|
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin||
 
 # UI | <url customUI.xml> | <sha256>
-UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|35949f2f49a9e56a025b2c4cd874343aa87b0c3099eea4226e4831c3ced1da19
+UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|35949f2f49a9e56a025b2c4cd874343aa87b0c3099eea4226e4831c3ced1da19|16493
 
 # MAUBIEU | <so schema> | <url MauBieu.xlsx> | <sha256>
 #   Tang so schema len 1 moi khi goi mau bieu co them sheet moi.
 #   File GPAcc so sanh voi o N1 tren sheet MAP cua no de biet co can tai khong.
-MAUBIEU|2|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|a2195f95d69eb115cecf8d92aa3f8f93e2f5684b28b5a9ecc0f88447fe62ddb6
+MAUBIEU|2|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|3be40c98d5b9b8c7aac114f2d8cd428ba9416e391e50ab7b7ba4aa703da280cb|80754
 
 # -----------------------------------------------------------------------------
 # MAU | MauSo | PhienBan | HieuLucTu | HieuLucDen | MocChon | SheetName | UrlXML | Sha256
@@ -35,8 +35,8 @@ MAUBIEU|2|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.
 #   => Them mau moi chi can them 1 dong, khong phai sua dong cu.
 # -----------------------------------------------------------------------------
 
-MAU|01/GTGT|TT80|2022-01-01||DauKy|GTGT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT80.xml|
-MAU|03/TNDN|TT80|2022-01-01||CuoiKy|TNDN03|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT80.xml|
+MAU|01/GTGT|TT80|2022-01-01||DauKy|GTGT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT80.xml||
+MAU|03/TNDN|TT80|2022-01-01||CuoiKy|TNDN03|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT80.xml||
 MAU|03-1A/TNDN|TT80|2022-01-01||CuoiKy|PL_03TNDN||
 
 # Hai mau 05 duoi day moi co BANG MAP, CHUA co lenh ket xuat XML.
