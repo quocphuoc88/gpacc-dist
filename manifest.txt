@@ -36,6 +36,13 @@ MAUBIEU|2|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.
 # -----------------------------------------------------------------------------
 
 MAU|01/GTGT|TT80|2022-01-01||DauKy|GTGT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT80.xml|
+MAU|03/TNDN|TT80|2022-01-01||CuoiKy|TNDN03|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT80.xml|
+MAU|03-1A/TNDN|TT80|2022-01-01||CuoiKy|PL_03TNDN||
+
+# Hai mau 05 duoi day moi co BANG MAP, CHUA co lenh ket xuat XML.
+# Khai bao san de khi lam lenh ket xuat thi chi viec dien URL template vao.
+MAU|05/KK-TNCN|TT80|2022-01-01||DauKy|05KK_02KK||
+MAU|05/QTT-TNCN|TT80|2022-01-01||CuoiKy|05KK_02KK||
 
 # --- CHUAN BI CHO THONG TU 89 (hieu luc 01/7/2026) ---------------------------
 # Bo dau # o dau dong khi da co mau chinh thuc va da them sheet GTGT_89
