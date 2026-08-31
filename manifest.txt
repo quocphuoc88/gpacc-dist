@@ -39,13 +39,22 @@ MAU|01/GTGT|TT80|2022-01-01||DauKy|GTGT|https://raw.githubusercontent.com/quocph
 MAU|03/TNDN|TT80|2022-01-01||CuoiKy|TNDN03|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT80.xml|109f609fb4e214cc2268d5758da5d45cd68dcc80b3d6c8e5c808e35e92fcc9da|5007
 MAU|03-1A/TNDN|TT80|2022-01-01||CuoiKy|PL_03TNDN||
 
-# Hai mau 05 duoi day moi co BANG MAP, CHUA co lenh ket xuat XML.
-# Khai bao san de khi lam lenh ket xuat thi chi viec dien URL template vao.
+# CANH BAO - hai mau 05 duoi day CHUA DUNG DUOC.
+# Bang MAP da dung nhung SHEET trong file GPAcc dang lui MOT THE HE so voi
+# mau 05/KK va 05/QTT hien hanh cua HTKK:
+#    05/KK  : khuon co ct15..ct32 + ct25_1 (19 the), sheet chi co [16]..[32] (17)
+#    05/QTT : khuon chia 2 nhom  NVuKhauTruThue ct16-ct34 (19)
+#                                NVuQToanThay   ct35-ct41 (7)
+#             sheet co 21 + 5  ->  form da TAI CO CAU, khong suy ra duoc
+# Phai cap nhat sheet theo mau hien hanh TRUOC, roi moi do lai MAP va viet lenh.
+# Cac dong MAP tuong ung da danh dau "CHUA DUNG DUOC" o cot GhiChu.
 MAU|05/KK-TNCN|TT80|2022-01-01||DauKy|05KK_02KK||
 MAU|05/QTT-TNCN|TT80|2022-01-01||CuoiKy|05KK_02KK||
 
 # BCTC theo Thong Tu 99/2025/TT-BTC - khuon lay tu HTKK 5.7.6 (maTKhai 1281)
-# Chua co bang MAP, chua co lenh ket xuat. Khuon da san sang.
+# DA XONG: bang MAP 211 chi tieu x 2 cot, lenh ModBCTC99.KXuat_BCTC_TT99,
+# gan o menu Ket Xuat Bao Cao Tai Chinh -> lua chon 4. Da nap vao HTKK thanh cong.
+# Hai dong BCTC va BCTC-KQKD khong co URL vi ghi chung vao file cua dong LCTT.
 MAU|BCTC|TT99|2026-01-01||CuoiKy|CDKT||
 MAU|BCTC-KQKD|TT99|2026-01-01||CuoiKy|KQKD||
 MAU|BCTC-LCTTTT|TT99|2026-01-01||CuoiKy|LCTT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/BCTC_TT99_LCTTTT.xml|f2dd2a2dd1475595c8859c9a2d27b05ff2ae78520186a6e546d88a474690c830|21494
@@ -56,7 +65,4 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 # vao goi MauBieu.xlsx (nho tang so schema o dong MAUBIEU o tren).
 #
 # MAU|01/GTGT|TT89|2026-07-01||DauKy|GTGT_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT89.xml|
-# MAU|05/QTT-TNCN|TT80|2022-01-01||CuoiKy|05KK_02KK|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_QTT_TT80.xml|
 # MAU|05/QTT-TNCN|TT89|2026-07-01||CuoiKy|05KK_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_QTT_TT89.xml|
-# MAU|03/TNDN|TT80|2022-01-01||CuoiKy|TNDN03|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT80.xml|
-# MAU|BCTC|TT99|2026-01-01||CuoiKy|CDKT||
