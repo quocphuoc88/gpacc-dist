@@ -15,7 +15,7 @@
 					<menu id="splitMenu1" itemSize="large">
 						<button 
 							id="LuuY" 
-							imageMso="CommentInsert" 
+							imageMso="NewAlert" 
 							label="L&#432;u &#221;" 
 							onAction="LinkSHB" 
 							screentip="N&#417;i t&#7853;p h&#7907;p t&#7845;t c&#7843; c&#225;c th&#244;ng tin l&#432;u &#253; v&#7873; Doanh Nghi&#7879;p" />
@@ -199,7 +199,7 @@
 						id="NXT" 
 						label="B&#7843;ng Nh&#7853;p Xu&#7845;t T&#7891;n" 
 						onAction="LinkSHB" 
-						imageMso="Subtotal" />
+						imageMso="PivotTableInsert" />
 					<menuSeparator id="MyMenuSeparator18" />
 					<button 
 						id="GV" 
@@ -302,7 +302,7 @@
 					<button id="Tinh_Hinh1" label="B&#7843;ng T&#7893;ng H&#7907;p Thu&#7871;" onAction="BTH_Thue" imageMso="AddInsMenu" />
 					<menuSeparator id="MyMenuSeparator8" />
 					<button id="DT_CP" label="Ph&#226;n T&#237;ch Bi&#7871;n &#272;&#7897;ng Doanh Thu - Chi Ph&#237;" onAction="LinkSHB" imageMso="ChartInsert" />
-					<button id="TH_DKhoan" label="T&#7893;ng H&#7907;p &#272;&#7883;nh Kho&#7843;n" onAction="LinkSHB" imageMso="Subtotal" />
+					<button id="TH_DKhoan" label="T&#7893;ng H&#7907;p &#272;&#7883;nh Kho&#7843;n" onAction="LinkSHB" imageMso="AutoSummarize" />
 				</menu>
 			</group>
 			

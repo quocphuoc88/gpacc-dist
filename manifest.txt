@@ -9,18 +9,18 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|260831|
+VER|260831|U
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin||
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|d44181119455ae007b3d986c6c379d626f169e5aa806d1766e02781f9756ad80|3849216
 
 # UI | <url customUI.xml> | <sha256>
-UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|35949f2f49a9e56a025b2c4cd874343aa87b0c3099eea4226e4831c3ced1da19|16493
+UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|bfe0f19fb8ede54d2480e16e9aa494a3443960854a17ef77a5340edfc384f1be|16116
 
 # MAUBIEU | <so schema> | <url MauBieu.xlsx> | <sha256>
 #   Tang so schema len 1 moi khi goi mau bieu co them sheet moi.
 #   File GPAcc so sanh voi o N1 tren sheet MAP cua no de biet co can tai khong.
-MAUBIEU|2|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|3be40c98d5b9b8c7aac114f2d8cd428ba9416e391e50ab7b7ba4aa703da280cb|80754
+MAUBIEU|2|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|1270c596a9511e94404a586e321da129d92b539989ba024b0d59f8d82530c6a8|101127
 
 # -----------------------------------------------------------------------------
 # MAU | MauSo | PhienBan | HieuLucTu | HieuLucDen | MocChon | SheetName | UrlXML | Sha256
@@ -35,14 +35,21 @@ MAUBIEU|2|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.
 #   => Them mau moi chi can them 1 dong, khong phai sua dong cu.
 # -----------------------------------------------------------------------------
 
-MAU|01/GTGT|TT80|2022-01-01||DauKy|GTGT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT80.xml||
-MAU|03/TNDN|TT80|2022-01-01||CuoiKy|TNDN03|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT80.xml||
+MAU|01/GTGT|TT80|2022-01-01||DauKy|GTGT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT80.xml|4193555daec9956fed996048b07cf2254341238b7b8067e889c3925a5fde22a3|3198
+MAU|03/TNDN|TT80|2022-01-01||CuoiKy|TNDN03|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT80.xml|109f609fb4e214cc2268d5758da5d45cd68dcc80b3d6c8e5c808e35e92fcc9da|5007
 MAU|03-1A/TNDN|TT80|2022-01-01||CuoiKy|PL_03TNDN||
 
 # Hai mau 05 duoi day moi co BANG MAP, CHUA co lenh ket xuat XML.
 # Khai bao san de khi lam lenh ket xuat thi chi viec dien URL template vao.
 MAU|05/KK-TNCN|TT80|2022-01-01||DauKy|05KK_02KK||
 MAU|05/QTT-TNCN|TT80|2022-01-01||CuoiKy|05KK_02KK||
+
+# BCTC theo Thong Tu 99/2025/TT-BTC - khuon lay tu HTKK 5.7.6 (maTKhai 1281)
+# Chua co bang MAP, chua co lenh ket xuat. Khuon da san sang.
+MAU|BCTC|TT99|2026-01-01||CuoiKy|CDKT||
+MAU|BCTC-KQKD|TT99|2026-01-01||CuoiKy|KQKD||
+MAU|BCTC-LCTTTT|TT99|2026-01-01||CuoiKy|LCTT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/BCTC_TT99_LCTTTT.xml|f2dd2a2dd1475595c8859c9a2d27b05ff2ae78520186a6e546d88a474690c830|21494
+MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/BCTC_TT99_LCTTGT.xml|dcaf516ac72e27058546b6b9e2683a05547dc0154a703b15244aba35e15f5cae|22214
 
 # --- CHUAN BI CHO THONG TU 89 (hieu luc 01/7/2026) ---------------------------
 # Bo dau # o dau dong khi da co mau chinh thuc va da them sheet GTGT_89
@@ -52,4 +59,4 @@ MAU|05/QTT-TNCN|TT80|2022-01-01||CuoiKy|05KK_02KK||
 # MAU|05/QTT-TNCN|TT80|2022-01-01||CuoiKy|05KK_02KK|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_QTT_TT80.xml|
 # MAU|05/QTT-TNCN|TT89|2026-07-01||CuoiKy|05KK_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_QTT_TT89.xml|
 # MAU|03/TNDN|TT80|2022-01-01||CuoiKy|TNDN03|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT80.xml|
-# MAU|BCTC|TT99|2026-01-01||CuoiKy|CDKT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/BCTC_TT99.xml|
+# MAU|BCTC|TT99|2026-01-01||CuoiKy|CDKT||
