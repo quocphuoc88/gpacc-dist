@@ -87,5 +87,5 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 #  Ban bien the KHONG dung chung dong VER/BIN/UI voi ban goc: ClsUpdate cua no doc
 #  VER_BT / BIN_BT / UI_BT. Khach dung ban goc khong bao gio thay 3 dong nay.
 VER_BT|260911|U
-BIN_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/vbaProject.bin|c2a3c08e3cad98752ace7bd9434532fd76031a4ab73fc0ffdbd1662f8b8f0f08|4969984
+BIN_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/vbaProject.bin|5ef36d1d7be4149ddbc634187d08e1aa7db8b4b9681c64cda94e8f51d1453701|4979712
 UI_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/customUI.xml|6264001cbc44a0e179762bd82b316b0d5d0e9954bb7bc62254fbfb9d01d862c0|21053
