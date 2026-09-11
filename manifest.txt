@@ -9,18 +9,18 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|260831|U
+VER|260911|U
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|d44181119455ae007b3d986c6c379d626f169e5aa806d1766e02781f9756ad80|3849216
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|ce1f721ed0d10550c84f9febfd43106028bd587a24d27dda30b7e7fc39599027|3883520
 
 # UI | <url customUI.xml> | <sha256>
-UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|bfe0f19fb8ede54d2480e16e9aa494a3443960854a17ef77a5340edfc384f1be|16116
+UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|f30f04ffa96dc4ddf6fdf224a12b5040aec6418ce64034a2c51886b7c95095d3|18634
 
 # MAUBIEU | <so schema> | <url MauBieu.xlsx> | <sha256>
 #   Tang so schema len 1 moi khi goi mau bieu co them sheet moi.
 #   File GPAcc so sanh voi o N1 tren sheet MAP cua no de biet co can tai khong.
-MAUBIEU|2|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|1270c596a9511e94404a586e321da129d92b539989ba024b0d59f8d82530c6a8|101127
+MAUBIEU|3|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|00dd65f739519b3dabd4b6197a87b7491cf81ed6233e22304437168607d0e23c|202610
 
 # -----------------------------------------------------------------------------
 # MAU | MauSo | PhienBan | HieuLucTu | HieuLucDen | MocChon | SheetName | UrlXML | Sha256
@@ -60,9 +60,25 @@ MAU|BCTC-KQKD|TT99|2026-01-01||CuoiKy|KQKD||
 MAU|BCTC-LCTTTT|TT99|2026-01-01||CuoiKy|LCTT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/BCTC_TT99_LCTTTT.xml|f2dd2a2dd1475595c8859c9a2d27b05ff2ae78520186a6e546d88a474690c830|21494
 MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/BCTC_TT99_LCTTGT.xml|dcaf516ac72e27058546b6b9e2683a05547dc0154a703b15244aba35e15f5cae|22214
 
-# --- CHUAN BI CHO THONG TU 89 (hieu luc 01/7/2026) ---------------------------
-# Bo dau # o dau dong khi da co mau chinh thuc va da them sheet GTGT_89
-# vao goi MauBieu.xlsx (nho tang so schema o dong MAUBIEU o tren).
+# --- BO MAU BIEU THONG TU 89/2026/TT-BTC (hieu luc 01/7/2026) -----------------
+# TRANG THAI 31/08/2026:
+#   DA XONG   : 5 sheet mau bieu trong file GPAcc + 166 dong trong bang MAP
+#               GTGT_89 . TNDN03_89 . PL_03TN89 . 05KK_89 . 05QTT_89
+#               MapKiemTra (mo phong Python): 150/150 chi tieu khop nhan tren sheet
+#   CON THIEU : KHUON XML that. HTKK 5.7.6 CHUA phat hanh mau TT89 cho cac to khai
+#               nay (kho InterfaceTemplates chi co 01_TNS_DK_TT89_307).
+#               The XML trong bang MAP dang dat theo QUY UOC ct<ma chi tieu>,
+#               CHUA doi chieu voi khuon that.
+#
+# KHI HTKK PHAT HANH MAU TT89 :
+#   1. Lay khuon that tu HTKK (InterfaceTemplates/xml/*_xml_*.xml), lam sach bang
+#      scratchpad/lamsach.py roi dat vao thu muc mau-bieu/
+#   2. Chay ModMap.MapDoiChieuXML cho tung mau de bat the XML sai
+#   3. Bo dau # o cac dong duoi day
+#   4. PhatHanh.ps1 -Ver -TangSchema   (co sheet moi => phai tang so schema)
 #
 # MAU|01/GTGT|TT89|2026-07-01||DauKy|GTGT_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT89.xml|
-# MAU|05/QTT-TNCN|TT89|2026-07-01||CuoiKy|05KK_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_QTT_TT89.xml|
+# MAU|03/TNDN|TT89|2026-07-01||CuoiKy|TNDN03_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT89.xml|
+# MAU|03-2/TNDN|TT89|2026-07-01||CuoiKy|PL_03TN89||
+# MAU|05/KK-TNCN|TT89|2026-07-01||DauKy|05KK_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_KK_TT89.xml|
+# MAU|05/QTT-TNCN|TT89|2026-07-01||CuoiKy|05QTT_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_QTT_TT89.xml|
