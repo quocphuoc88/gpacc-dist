@@ -12,7 +12,7 @@
 VER|260911|U
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|ce1f721ed0d10550c84f9febfd43106028bd587a24d27dda30b7e7fc39599027|3883520
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|04832b9e035badaaad8aa081464648f3c61b750201abcff1903a2359ec5133e3|3809792
 
 # UI | <url customUI.xml> | <sha256>
 UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|f30f04ffa96dc4ddf6fdf224a12b5040aec6418ce64034a2c51886b7c95095d3|18634
@@ -20,7 +20,7 @@ UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xm
 # MAUBIEU | <so schema> | <url MauBieu.xlsx> | <sha256>
 #   Tang so schema len 1 moi khi goi mau bieu co them sheet moi.
 #   File GPAcc so sanh voi o N1 tren sheet MAP cua no de biet co can tai khong.
-MAUBIEU|3|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|00dd65f739519b3dabd4b6197a87b7491cf81ed6233e22304437168607d0e23c|202610
+MAUBIEU|4|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|94665acdf454d077801bf22e74033c80c3e25380a17dd960d10f690474d00750|168806
 
 # -----------------------------------------------------------------------------
 # MAU | MauSo | PhienBan | HieuLucTu | HieuLucDen | MocChon | SheetName | UrlXML | Sha256
