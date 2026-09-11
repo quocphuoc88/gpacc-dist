@@ -82,3 +82,10 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 # MAU|03-2/TNDN|TT89|2026-07-01||CuoiKy|PL_03TN89||
 # MAU|05/KK-TNCN|TT89|2026-07-01||DauKy|05KK_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_KK_TT89.xml|
 # MAU|05/QTT-TNCN|TT89|2026-07-01||CuoiKy|05QTT_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_QTT_TT89.xml|
+
+# --- KENH RIENG CUA BAN BIEN THE (gia thanh - san xuat - TKHQ) -----------------
+#  Ban bien the KHONG dung chung dong VER/BIN/UI voi ban goc: ClsUpdate cua no doc
+#  VER_BT / BIN_BT / UI_BT. Khach dung ban goc khong bao gio thay 3 dong nay.
+VER_BT|260911|U
+BIN_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/vbaProject.bin|c2a3c08e3cad98752ace7bd9434532fd76031a4ab73fc0ffdbd1662f8b8f0f08|4969984
+UI_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/customUI.xml|6264001cbc44a0e179762bd82b316b0d5d0e9954bb7bc62254fbfb9d01d862c0|21053
