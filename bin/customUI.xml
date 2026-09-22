@@ -42,38 +42,40 @@
 						tag="TQP" />
 					<button id="ModNhapNgoai.NhapDLNgoai" image="import" label="K&#233;o d&#7919; li&#7879;u t&#7915; PM" onAction="DoFuncB" screentip="K&#233;o B&#225;n ra / Mua v&#224;o / NK Mua / NK B&#225;n / Linh tinh / Ng&#226;n h&#224;ng t&#7915; ph&#7847;n m&#7873;m GPAcc (M&#225;y l&#224;m - Ng&#432;&#7901;i duy&#7879;t) v&#224;o file n&#224;y" supertip="Ch&#7881; TH&#202;M d&#242;ng ch&#432;a c&#243;, kh&#244;ng x&#243;a / s&#7917;a d&#242;ng &#273;ang c&#243;. Ch&#7871;n kho&#7843;ng ng&#224;y ch&#7913;ng t&#7915;. PM ph&#7843;i &#273;ang ch&#7841;y tr&#234;n m&#225;y n&#224;y (&#273;&#7883;a ch&#7881; &#7903; THAMSO m&#227; PM_URL)." />
 					<menuSeparator id="MyMenuSeparator100" />
-					<menu id="MyDrop_GPAcc" label="GPAcc"  image="msn" >
-						<button 
-							id="ModLTinh.CheckUpdate" 
-							label="Check Update" 
-							onAction="DoFuncB"
-							image="update_version" />
-          				<button 
-							id="ModLTinh.DownLog" 
-							label="L&#7883;ch S&#7917; C&#7853;p Nh&#7853;t" 
-							onAction="DoFuncB"
-							imageMso="ImportTextFile" />   
-						<button 
-							id="ModLTinh.DownExHDSD" 
-							label="H&#432;&#7899;ng D&#7851;n S&#7917; D&#7909;ng" 
-							onAction="DoFuncB"
-							imageMso="Help" />
-						<menuSeparator id="MySep_MauBieu" />
-						<button
-							id="CapNhatMauBieu"
-							imageMso="RefreshAll"
-							label="C&#7853;p Nh&#7853;t M&#7851;u Bi&#7875;u"
-							onAction="DoFuncB"
-							screentip="T&#7843;i b&#7897; m&#7851;u bi&#7875;u m&#7899;i (theo Th&#244;ng T&#432; m&#7899;i) v&#7873; file n&#224;y"
-							supertip="Ch&#7881; TH&#202;M sheet m&#7851;u bi&#7875;u m&#7899;i v&#224; c&#7853;p nh&#7853;t b&#7843;ng MAP. D&#7919; li&#7879;u hi&#7879;n c&#243; kh&#244;ng b&#7883; &#7843;nh h&#432;&#7903;ng." />
-						<button
-							id="KiemTraToanBoMap"
-							imageMso="FindDialog"
-							label="Ki&#7875;m Tra M&#7851;u Bi&#7875;u"
-							onAction="DoFuncB"
-							screentip="&#272;&#7889;i chi&#7871;u b&#7843;ng MAP v&#7899;i nh&#227;n ch&#7881; ti&#234;u tr&#234;n c&#225;c sheet t&#7901; khai"
-							supertip="Ch&#7841;y sau khi c&#7853;p nh&#7853;t m&#7851;u bi&#7875;u &#273;&#7875; ch&#7855;c ch&#7855;n kh&#244;ng c&#243; ch&#7881; ti&#234;u n&#224;o b&#7883; l&#7879;ch d&#242;ng." />
-						<button id="ModBoCuc.NangCapBoCuc" image="wizard" label="N&#226;ng C&#7845;p B&#7889; C&#7909;c" onAction="DoFuncB" screentip="D&#242; b&#7889; c&#7909;c sheet c&#7911;a file n&#224;y v&#224; s&#7917;a cho kh&#7899;p code m&#7899;i" supertip="C&#7853;p nh&#7853;t code (Check Update) ch&#7881; thay code, kh&#244;ng &#273;&#7897;ng &#273;&#7871;n sheet. L&#7879;nh n&#224;y th&#234;m c&#7897;t &#39;M&#227; &#272;/C&#39; v&#224; c&#7897;t &#273;&#7879;m &#7903; Mua V&#224;o, ch&#7881;nh KIEMTRA, th&#234;m THAMSO PM_URL, b&#7887; c&#244;ng th&#7913;c c&#7897;t N&#259;m tr&#432;&#7899;c c&#7911;a KQKD. Ch&#7841;y l&#7841;i nhi&#7873;u l&#7847;n kh&#244;ng h&#7841;i, nh&#7853;t k&#253; ghi &#7903; sheet BAO_LOI." /> 
+										<menu id="MyDrop_GPAcc" label="GPAcc"  image="msn" >
+						<button id="ModDist.CapNhatTatCa" image="update_version" label="C&#7853;p Nh&#7853;t" onAction="DoFuncB"
+							screentip="C&#7853;p nh&#7853;t tr&#7885;n b&#7897; file n&#224;y: code &#8594; b&#7897; m&#7851;u bi&#7875;u &#8594; b&#7889; c&#7909;c sheet"
+							supertip="Ch&#7881; c&#7847;n b&#7845;m m&#7897;t n&#250;t n&#224;y. D&#7919; li&#7879;u &#273;ang c&#243; KH&#212;NG b&#7883; &#7843;nh h&#432;&#7903;ng. N&#7871;u c&#243; b&#7843;n code m&#7899;i th&#236; file t&#7921; m&#7903; l&#7841;i r&#7891;i l&#224;m n&#7889;t hai ph&#7847;n sau." />
+						<button id="ModDist.XemDiemMoi" image="ligthbulb_on" label="&#272;i&#7875;m M&#7899;i" onAction="DoFuncB"
+							screentip="B&#7843;n &#273;ang d&#249;ng (v&#224; b&#7843;n m&#7899;i tr&#234;n kho) c&#243; g&#236; thay &#273;&#7893;i"
+							supertip="&#272;&#7885;c ghi ch&#250; ph&#225;t h&#224;nh. B&#7845;m C&#7853;p Nh&#7853;t th&#236; &#273;i&#7875;m m&#7899;i c&#361;ng hi&#7879;n ngay trong c&#226;u h&#7887;i." />
+						<button id="ModLTinh.DownExHDSD" imageMso="Help" label="H&#432;&#7899;ng D&#7851;n S&#7917; D&#7909;ng" onAction="DoFuncB" />
+						<menuSeparator id="MySep_NangCao" />
+						<menu id="MyDrop_NangCao" label="N&#226;ng Cao (khi &#273;&#432;&#7907;c h&#432;&#7899;ng d&#7851;n)" image="wizard" >
+							<button id="ModDist.ThongTinPhienBan" image="notepad" label="Th&#244;ng Tin Phi&#234;n B&#7843;n" onAction="DoFuncB"
+								screentip="Xem file &#273;ang &#7903; phi&#234;n b&#7843;n n&#224;o, b&#7897; m&#7851;u bi&#7875;u schema m&#7845;y, b&#7889; c&#7909;c c&#242;n thi&#7871;u b&#432;&#7899;c n&#224;o"
+								supertip="D&#249;ng khi h&#7895; tr&#7907; t&#7915; xa: m&#7897;t h&#7897;p tho&#7841;i l&#224; bi&#7871;t &#273;&#7911;." />
+							<menuSeparator id="MySep_TungBuoc" />
+							<button id="ModLTinh.CheckUpdate" image="update_version" label="Ch&#7881; C&#7853;p Nh&#7853;t Code" onAction="DoFuncB"
+								screentip="Ch&#7881; t&#7843;i code m&#7899;i, kh&#244;ng &#273;&#7909;ng &#273;&#7871;n sheet"
+								supertip="B&#236;nh th&#432;&#7901;ng d&#249;ng &#171;C&#7853;p Nh&#7853;t&#187; l&#224; &#273;&#7911; &#8212; l&#7879;nh n&#224;y ch&#7881; l&#224;m m&#7897;t ph&#7847;n." />
+							<button id="CapNhatMauBieu" imageMso="RefreshAll" label="Ch&#7881; C&#7853;p Nh&#7853;t M&#7851;u Bi&#7875;u" onAction="DoFuncB"
+								screentip="Ch&#7881; t&#7843;i b&#7897; m&#7851;u bi&#7875;u m&#7899;i (theo Th&#244;ng T&#432; m&#7899;i) v&#7873; file n&#224;y"
+								supertip="Ch&#7881; TH&#202;M sheet m&#7851;u bi&#7875;u m&#7899;i v&#224; c&#7853;p nh&#7853;t b&#7843;ng MAP. D&#7919; li&#7879;u hi&#7879;n c&#243; kh&#244;ng b&#7883; &#7843;nh h&#432;&#7903;ng." />
+							<button id="ModBoCuc.NangCapBoCuc" image="wizard" label="Ch&#7881; N&#226;ng C&#7845;p B&#7889; C&#7909;c" onAction="DoFuncB"
+								screentip="Ch&#7881; d&#242; b&#7889; c&#7909;c sheet c&#7911;a file n&#224;y v&#224; s&#7917;a cho kh&#7899;p code m&#7899;i"
+								supertip="Ch&#7841;y l&#7841;i nhi&#7873;u l&#7847;n kh&#244;ng h&#7841;i, nh&#7853;t k&#253; ghi &#7903; sheet BAO_LOI." />
+							<menuSeparator id="MySep_KiemTra" />
+							<button id="KiemTraToanBoMap" imageMso="FindDialog" label="Ki&#7875;m Tra M&#7851;u Bi&#7875;u" onAction="DoFuncB"
+								screentip="&#272;&#7889;i chi&#7871;u b&#7843;ng MAP v&#7899;i nh&#227;n ch&#7881; ti&#234;u tr&#234;n c&#225;c sheet t&#7901; khai"
+								supertip="Ch&#7841;y sau khi c&#7853;p nh&#7853;t m&#7851;u bi&#7875;u &#273;&#7875; ch&#7855;c ch&#7855;n kh&#244;ng c&#243; ch&#7881; ti&#234;u n&#224;o b&#7883; l&#7879;ch d&#242;ng." />
+							<button id="ModVaBoCuc.BangVaBoCuc" image="page_color" label="B&#7843;ng V&#225; B&#7889; C&#7909;c" onAction="DoFuncB"
+								screentip="Xem b&#7843;ng v&#225; b&#7889; c&#7909;c c&#242;n vi&#7879;c n&#224;o ch&#7901; &#225;p, m&#7903; b&#7843;ng ra xem / s&#7917;a"
+								supertip="M&#7895;i d&#242;ng trong b&#7843;ng l&#224; m&#7897;t vi&#7879;c s&#7917;a b&#7889; c&#7909;c &#273;&#432;&#7907;c khai b&#225;o s&#7861;n." />
+							<button id="ModLTinh.DownLog" image="history" label="L&#7883;ch S&#7917; C&#7853;p Nh&#7853;t (t&#7879;p tr&#234;n Drive)" onAction="DoFuncB"
+								screentip="T&#7843;i t&#7879;p l&#7883;ch s&#7917; c&#361; tr&#234;n Google Drive r&#7891;i m&#7903; b&#7857;ng Notepad"
+								supertip="&#272;&#432;&#7901;ng c&#361;, gi&#7919; l&#7841;i &#273;&#7875; d&#7921; ph&#242;ng. B&#236;nh th&#432;&#7901;ng xem &#171;&#272;i&#7875;m M&#7899;i&#187; l&#224; &#273;&#7911;." />
+						</menu>
 					</menu>
 					<menuSeparator id="MyMenuSeparator1" />
 					<menu id="MyDropdownMenu2" label="Gi&#7899;i Thi&#7879;u"  imageMso="NewAlert" >

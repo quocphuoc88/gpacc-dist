@@ -1,3 +1,7 @@
 # khong dua file tam vao repo
 *.tmp
 ~$*
+
+# Ban bien the (gia thanh/san xuat): bin CHUA KHOA, TUYET DOI khong day len GitHub.
+#   Xem ghi chu trong manifest.txt. Muon phat hanh kenh do thi bo dong duoi day di.
+bin_bt/

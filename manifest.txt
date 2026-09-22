@@ -9,18 +9,18 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|260911|U
+VER|260922|U
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|04832b9e035badaaad8aa081464648f3c61b750201abcff1903a2359ec5133e3|3809792
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|2cdd31740c2bf706906a0f0f9ba55a71469777930700e8cac91f428b6c93e63b|4344832
 
 # UI | <url customUI.xml> | <sha256>
-UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|f30f04ffa96dc4ddf6fdf224a12b5040aec6418ce64034a2c51886b7c95095d3|18634
+UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|5ebbf543287ec8a6a94d1363e59cdd0c5e3ad8e6be41226961599af2418c586b|20942
 
 # MAUBIEU | <so schema> | <url MauBieu.xlsx> | <sha256>
 #   Tang so schema len 1 moi khi goi mau bieu co them sheet moi.
 #   File GPAcc so sanh voi o N1 tren sheet MAP cua no de biet co can tai khong.
-MAUBIEU|4|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|94665acdf454d077801bf22e74033c80c3e25380a17dd960d10f690474d00750|168806
+MAUBIEU|5|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|09801dcdc6a5831dfb39a6d24fcee256468a9246605061d6a33591fe7a7023d4|184911
 
 # -----------------------------------------------------------------------------
 # MAU | MauSo | PhienBan | HieuLucTu | HieuLucDen | MocChon | SheetName | UrlXML | Sha256
@@ -86,6 +86,25 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 # --- KENH RIENG CUA BAN BIEN THE (gia thanh - san xuat - TKHQ) -----------------
 #  Ban bien the KHONG dung chung dong VER/BIN/UI voi ban goc: ClsUpdate cua no doc
 #  VER_BT / BIN_BT / UI_BT. Khach dung ban goc khong bao gio thay 3 dong nay.
-VER_BT|260911|U
-BIN_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/vbaProject.bin|5ef36d1d7be4149ddbc634187d08e1aa7db8b4b9681c64cda94e8f51d1453701|4979712
-UI_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/customUI.xml|6264001cbc44a0e179762bd82b316b0d5d0e9954bb7bc62254fbfb9d01d862c0|21053
+#  TAT KENH NAY 22/09/2026 (tac gia quyet): da bo 3 dong VER_BT / BIN_BT / UI_BT.
+#  Ly do: thu muc bin_bt CHUA BAO GIO len GitHub, va bin cua ban bien the CHUA KHOA
+#  -> day len la cong khai code noi bo; con de 3 dong ma khong day file thi ban bien
+#  the tai ve se 404. Bo ra = kenh im lang dung nhu truoc 11/09.
+#  MUON BAT LAI: (1) khoa ban noi bo, (2) bo dong 'bin_bt/' trong .gitignore,
+#  (3) chay  PhatHanhTT.ps1 -Channel bienthe -Ver <yymmdd>  (lenh do tu ghi lai 3 dong).
+#  Gia tri cu de lai day cho de doi chieu:
+# VER_BT|260911|U
+# BIN_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/vbaProject.bin|5ef36d1d7be4149ddbc634187d08e1aa7db8b4b9681c64cda94e8f51d1453701|4979712
+# UI_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/customUI.xml|6264001cbc44a0e179762bd82b316b0d5d0e9954bb7bc62254fbfb9d01d862c0|21053
+
+# GHICHU | <so| <url ghi-chu.txt> | <sha256> | <kich thuoc>
+#   «Diem moi» hien cho nguoi dung: luc bam Check Update (vai dong dau, Cancel de xem
+#   day du), ngay sau khi cap nhat xong, va bat cu luc nao qua «Thong Tin Phien Ban».
+#   Moi ban la mot muc bat dau bang [yymmdd] o dau dong. Doc boi ModDist.DistGhiChu.
+GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|f276133c9e3e688b079f09ce4970bcd5bbe671b4e1aeb72d48809297e6e114ac|6468
+
+# KHOSHEET | <so schema> | <url KhoSheet.xlsx> | <sha256> | <kich thuoc>
+#   Goi chua BAN TRONG cua MOI sheet trong ban goc. Chi tai ve khi file khach THIEU HAN
+#   mot sheet goc - thay cho duong nang "tao file moi roi Lay DL file cu".
+#   Doc boi ModKhoSheet.LaySheetThieu (Code new 2026-09-21).
+KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|e2677c7e276cdd69f2de5536af41b9fe73c1f695eb5bff709c5608e12e6f0537|1703609

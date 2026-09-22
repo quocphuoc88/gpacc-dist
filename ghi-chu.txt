@@ -1,0 +1,81 @@
+# =============================================================================
+#  GHI CHU CAC BAN CAP NHAT  -  GPAcc TT99
+#
+#  File nay do chuong trinh DOC de hien "Diem moi" cho nguoi dung:
+#     - luc bam Check Update (hien vai dong dau, Cancel de xem day du)
+#     - ngay sau khi cap nhat xong
+#     - bat cu luc nao qua nut «Diem Moi»
+#
+#  QUY UOC: moi ban la mot muc bat dau bang  [yymmdd]  o DAU DONG.
+#  Dong bat dau bang # la CHU THICH, khong hien cho nguoi dung.
+#
+#  VIET BANG CHU CO DAU (day la thu nguoi dung doc). MOT DIEU DUY NHAT PHAI TRANH:
+#  khong de nguyen am (a e i o u y) hoac chu d DINH LIEN mot chu so - vi MsgBoxVN
+#  chay qua UniConvert nen cap chu+so do se bi doi thanh chu co dau sai.
+#  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
+# =============================================================================
+
+[260922] 22/09/2026
+
+- KIỂM TRA DỮ LIỆU - ĐỠ ỒN VÀ DỄ TÌM CHỖ SAI:
+  * Dòng mới chỉ gõ sẵn số hóa đơn (chưa có ngày, chưa có số tiền) thì không báo lỗi
+    nữa - dòng như vậy chưa chạy vào Nhật Ký Chung nên chưa có gì để kiểm. Nhưng dòng
+    ĐÃ CÓ số tiền mà thiếu ngày thì VẪN báo, vì đó mới là dòng bị bỏ sót âm thầm.
+  * Ô định khoản để số 0 (ví dụ Đ/K VAT khi thuế suất bằng không) nay coi như chưa
+    định khoản, không còn báo «tài khoản không có trong hệ thống» hàng ngàn dòng.
+  * Kết chuyển Nhật Ký Chung đến tháng nào thì CHỈ KIỂM đến tháng đó - dữ liệu tháng
+    sau, dù đã nhập, không còn bị bắt lỗi. Các lệnh khác dùng cùng bảng chọn kỳ thì
+    lấy theo kỳ đã chọn lần trước. Nút «Kiểm Tra Dữ Liệu» bấm tay vẫn quét trọn năm.
+  * Sheet báo lỗi có thêm nút lọc, lọc theo sổ hoặc theo loại lỗi cho dễ xem.
+  * PBKH: ô ngày ghi ký hiệu CT (chưa trích) không còn bị báo là sai ngày. Trước đây
+    chỉ cột «Ngày bắt đầu P.Bổ K.Hao» được phép ghi CT, còn cột «Ngày đưa vào SD» thì
+    bị tô cam và vào bảng báo lỗi; nay cả hai cột đều nhận CT.
+  * Bấm ở cột «Ô (bấm để tới)» thì màn hình KÉO HẲN tới dòng sai; trước đây ô được
+    chọn nhưng màn hình vẫn đứng ở đầu sổ nên lỗi nằm dòng hai nghìn thì không thấy.
+    Dòng sai đang bị ẩn vì sổ đang lọc thì chương trình hỏi để hiện hết dòng.
+- BẢNG TÍNH LƯƠNG - THÊM VÙNG CÔNG ĐOÀN (cuối sheet TinhLuong, sau vùng thuế TNCN):
+  * Kinh phí công đoàn 2% - CÔNG TY chịu - tính cho MỌI lao động có lương đóng BHXH.
+  * Đoàn phí 1% - khấu trừ NGƯỜI LAO ĐỘNG - CHỈ tính cho đoàn viên.
+    Cách khai đoàn viên: trên sheet TTNV, ô «Tháng tính bảo hiểm» của người đó ghi
+    THÊM chữ CD, ví dụ  ALL,CD . Ghi ALL không thôi thì KHÔNG tính đoàn phí.
+    Khai theo TỪNG THÁNG nên ai vào công đoàn giữa năm cũng đúng.
+  * Cả hai tính trên cùng căn cứ với BHXH (đã chặn trần 20 lần lương tối thiểu vùng).
+  * Đoàn phí có trần 10% mức lương cơ sở; đoàn phí bị TRỪ vào thực lãnh nhưng
+    KHÔNG được giảm trừ thuế TNCN (chỉ bảo hiểm bắt buộc mới được).
+  * Muốn TẮT hẳn một trong hai khoản: xóa trắng ô tỷ lệ (2,0% / 1,0%) ở đầu cột.
+- BÚT TOÁN CÔNG ĐOÀN: bảng định khoản lương (sheet GV) được thêm 4 dòng
+  622 / 6411 / 6421 - 3382  và  3341 - 3382, nên số tiền tự chạy vào Nhật Ký Chung.
+- BÁO CÁO KQKD: bọc IFERROR cho 4 ô tỷ lệ, file chưa có số liệu không còn hiện #DIV/0!.
+- SỬA LỖI NÚT «LẤY SỐ DƯ» trên sheet PBKH (Phân Bổ - Khấu Hao): nút đó trước đây trỏ
+  sai lệnh (chạy «Kết chuyển chi tiết»), nên vùng «lấy số dư cho đầu năm sau» không bao
+  giờ được điền. Nay bấm là ra số. Bấm «Cập Nhật» một lần là được sửa.
+- MENU GỌN LẠI: nhóm GPAcc trước đây có 9 dòng, nay còn 3 dòng người dùng cần
+  (Cập Nhật - Điểm Mới - Hướng Dẫn Sử Dụng); sáu lệnh kỹ thuật còn lại đưa vào nhóm
+  con «Nâng Cao (khi được hướng dẫn)».
+- KÉO DỮ LIỆU TỪ PM:
+  * Chưa mở phần mềm nào thì báo rõ «Chưa mở phần mềm để kéo dữ liệu» kèm nút «Thử lại»
+    - mở phần mềm lên rồi bấm Thử lại, không phải làm lại từ đầu.
+  * Máy nào đang chạy CẢ HAI (PM kế toán cổng 8801 và GPAcc Thuế cổng 8811) thì chương
+    trình HỎI lấy từ bên nào. Máy chỉ có một bên thì tự kéo, không hỏi gì.
+- CẬP NHẬT DỄ HƠN:
+  * Một nút «Cập Nhật» làm trọn ba việc: code - bộ mẫu biểu - bố cục sheet.
+  * «Thông Tin Phiên Bản» (trong nhóm Nâng Cao): xem file đang ở bản nào, thiếu bước nào.
+  * File thiếu hẳn một sheet gốc thì tải bản trống về, không phải đi đường
+    «Lấy Dữ Liệu File Cũ» nữa.
+  * Mốc phiên bản và mốc bộ mẫu biểu nay ghi theo TỪNG FILE: máy có nhiều file GPAcc
+    thì file nào cũng được nhắc đúng lúc (trước đây chỉ ghi theo máy).
+  * Mở file lên được nhắc đúng những mục bố cục còn thiếu (trước đây bỏ lọt vài mục).
+  * Có «Điểm Mới»: bấm Check Update là thấy ngay bản mới thay đổi những gì.
+- SỬA LỖI KHÁC:
+  * Phân bổ - khấu hao: dòng cộng tổng trên sheet PBKH để ở đầu hay cuối cũng được,
+    không bị dựng thêm dòng thứ hai.
+  * Cổng hóa đơn điện tử đòi mã phiên làm việc: đã gắn, đăng nhập không còn bị báo sai
+    mật khẩu khi thực tế là bị chặn.
+  * Giữ nguyên vùng lọc (AutoFilter) của sheet sau khi chạy các lệnh kết chuyển.
+
+[260911] 11/09/2026
+
+- «Lấy Dữ Liệu File Cũ»: nhận diện đúng DÒNG FILE trước khi chép, không còn chép lệch
+  cột khi file nguồn là thế hệ cũ.
+- Bỏ bộ mẫu biểu MAP ra khỏi gói cập nhật để hai thế hệ file không đạp nhau.
+- Thêm hai sổ «Ráp Mã» vào gói mẫu biểu.
