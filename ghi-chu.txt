@@ -15,6 +15,16 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[260923] 22/09/2026
+
+- NHANH HƠN KHI «LẤY DỮ LIỆU FILE CŨ»: trước đây mở file sổ cũ lên rất lâu - đo trên một
+  file sổ khách thật là hơn 20 giây - vì Excel lặng lẽ đi cập nhật toàn bộ liên kết ngoài
+  của file đó (hộp thoại hỏi thì đã tắt, nhưng việc cập nhật vẫn chạy). Nay bỏ hẳn bước
+  cập nhật liên kết khi mở, và mở ở chế độ chỉ đọc để không khoá file nguồn của khách:
+  cả lệnh từ hơn 20 giây xuống còn một nửa, dữ liệu lấy về không đổi một ô nào.
+- Các lệnh khác cũng mở file từ bên ngoài được sửa cùng một kiểu cho đồng bộ: lấy dữ liệu
+  hoá đơn điện tử, kiểm tra hoá đơn trên web, kết xuất phụ lục lương, tải hướng dẫn sử dụng.
+
 [260922] 22/09/2026
 
 - KIỂM TRA DỮ LIỆU - ĐỠ ỒN VÀ DỄ TÌM CHỖ SAI:

@@ -9,10 +9,10 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|260922|U
+VER|260923|U
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|2cdd31740c2bf706906a0f0f9ba55a71469777930700e8cac91f428b6c93e63b|4344832
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/vbaProject.bin|fe926fdde7467ae53b01acfda122fd0bbb69595c3d6019a8087a64a6d60b7df4|4383744
 
 # UI | <url customUI.xml> | <sha256>
 UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|5ebbf543287ec8a6a94d1363e59cdd0c5e3ad8e6be41226961599af2418c586b|20942
@@ -101,10 +101,10 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 #   «Diem moi» hien cho nguoi dung: luc bam Check Update (vai dong dau, Cancel de xem
 #   day du), ngay sau khi cap nhat xong, va bat cu luc nao qua «Thong Tin Phien Ban».
 #   Moi ban la mot muc bat dau bang [yymmdd] o dau dong. Doc boi ModDist.DistGhiChu.
-GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|f276133c9e3e688b079f09ce4970bcd5bbe671b4e1aeb72d48809297e6e114ac|6468
+GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|097153c79bed23c449b57b2c90ce1baaf006163cf342f81597742be3249d24fd|7326
 
 # KHOSHEET | <so schema> | <url KhoSheet.xlsx> | <sha256> | <kich thuoc>
 #   Goi chua BAN TRONG cua MOI sheet trong ban goc. Chi tai ve khi file khach THIEU HAN
 #   mot sheet goc - thay cho duong nang "tao file moi roi Lay DL file cu".
 #   Doc boi ModKhoSheet.LaySheetThieu (Code new 2026-09-21).
-KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|e2677c7e276cdd69f2de5536af41b9fe73c1f695eb5bff709c5608e12e6f0537|1703609
+KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|feeae8740d37bb99d7985366ccb31f63fadf7f75931a45b189ec0abbdcf70504|1703106
