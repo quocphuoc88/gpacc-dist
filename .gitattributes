@@ -1,0 +1,7 @@
+# Kho phat hanh: giu nguyen TUNG BYTE cua moi file.
+#
+# Mac dinh git tren Windows (core.autocrlf=true) doi CRLF -> LF khi luu vao repo.
+# Hau qua: file GitHub phuc vu ra NHO HON file goc tren may, trong khi manifest.txt
+# ghi SHA-256 va kich thuoc tinh tu file goc  =>  may khach tai ve thay lech
+# kich thuoc va TU CHOI file. Dong duoi tat hoan toan viec doi dau dong.
+* -text

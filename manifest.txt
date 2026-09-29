@@ -1,0 +1,110 @@
+﻿# =============================================================================
+#  GPAcc TT99 - MANIFEST PHAT HANH
+#  Doc boi ModDist.bas trong file GPAcc.
+#  Phan cach bang dau |  -  dong bat dau bang # la ghi chu, bi bo qua.
+#  KHONG dung dau | trong noi dung cac truong.
+#
+#  Sua file nay tren GitHub = phat hanh phien ban moi. Khong can sua code.
+#  Chay tools\PhatHanh.ps1 de tu tinh lai SHA256 va cap nhat cac dong duoi.
+# =============================================================================
+
+# VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
+VER|26092903|
+
+# BIN | <url vbaProject.bin> | <sha256>
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26092903/vbaProject.bin|7459689cfe233109dfbc9a634c0c60f620f2bd03bb6d171720f6272266e867e9|3054592
+
+# UI | <url customUI.xml> | <sha256>
+UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|5ebbf543287ec8a6a94d1363e59cdd0c5e3ad8e6be41226961599af2418c586b|20942
+
+# MAUBIEU | <so schema> | <url MauBieu.xlsx> | <sha256>
+#   Tang so schema len 1 moi khi goi mau bieu co them sheet moi.
+#   File GPAcc so sanh voi o N1 tren sheet MAP cua no de biet co can tai khong.
+MAUBIEU|5|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|2cfde274fb00a85b8c8c69e0d885ba3fea2ea19b07732cc778951cabb07c9019|69279
+
+# -----------------------------------------------------------------------------
+# MAU | MauSo | PhienBan | HieuLucTu | HieuLucDen | MocChon | SheetName | UrlXML | Sha256
+#
+#   HieuLucTu / HieuLucDen : yyyy-mm-dd, HieuLucDen bo trong = con hieu luc
+#   MocChon  : DauKy  -> chon mau theo ngay DAU ky tinh thue (khai thang / quy)
+#              CuoiKy -> chon mau theo ngay CUOI ky (quyet toan nam, vi ky
+#                        2026 vat qua moc 01/7/2026 doi mau theo TT89)
+#   SheetName: ten sheet chua mau bieu trong file GPAcc
+#
+#   Khi 2 dong cung thoa ngay ap dung thi dong co HieuLucTu TRE HON thang.
+#   => Them mau moi chi can them 1 dong, khong phai sua dong cu.
+# -----------------------------------------------------------------------------
+
+MAU|01/GTGT|TT80|2022-01-01||DauKy|GTGT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT80.xml|4193555daec9956fed996048b07cf2254341238b7b8067e889c3925a5fde22a3|3198
+MAU|03/TNDN|TT80|2022-01-01||CuoiKy|TNDN03|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT80.xml|109f609fb4e214cc2268d5758da5d45cd68dcc80b3d6c8e5c808e35e92fcc9da|5007
+MAU|03-1A/TNDN|TT80|2022-01-01||CuoiKy|PL_03TNDN||
+
+# CANH BAO - hai mau 05 duoi day CHUA DUNG DUOC.
+# Bang MAP da dung nhung SHEET trong file GPAcc dang lui MOT THE HE so voi
+# mau 05/KK va 05/QTT hien hanh cua HTKK:
+#    05/KK  : khuon co ct15..ct32 + ct25_1 (19 the), sheet chi co [16]..[32] (17)
+#    05/QTT : khuon chia 2 nhom  NVuKhauTruThue ct16-ct34 (19)
+#                                NVuQToanThay   ct35-ct41 (7)
+#             sheet co 21 + 5  ->  form da TAI CO CAU, khong suy ra duoc
+# Phai cap nhat sheet theo mau hien hanh TRUOC, roi moi do lai MAP va viet lenh.
+# Cac dong MAP tuong ung da danh dau "CHUA DUNG DUOC" o cot GhiChu.
+MAU|05/KK-TNCN|TT80|2022-01-01||DauKy|05KK_02KK||
+MAU|05/QTT-TNCN|TT80|2022-01-01||CuoiKy|05KK_02KK||
+
+# BCTC theo Thong Tu 99/2025/TT-BTC - khuon lay tu HTKK 5.7.6 (maTKhai 1281)
+# DA XONG: bang MAP 211 chi tieu x 2 cot, lenh ModBCTC99.KXuat_BCTC_TT99,
+# gan o menu Ket Xuat Bao Cao Tai Chinh -> lua chon 4. Da nap vao HTKK thanh cong.
+# Hai dong BCTC va BCTC-KQKD khong co URL vi ghi chung vao file cua dong LCTT.
+MAU|BCTC|TT99|2026-01-01||CuoiKy|CDKT||
+MAU|BCTC-KQKD|TT99|2026-01-01||CuoiKy|KQKD||
+MAU|BCTC-LCTTTT|TT99|2026-01-01||CuoiKy|LCTT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/BCTC_TT99_LCTTTT.xml|f2dd2a2dd1475595c8859c9a2d27b05ff2ae78520186a6e546d88a474690c830|21494
+MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/BCTC_TT99_LCTTGT.xml|dcaf516ac72e27058546b6b9e2683a05547dc0154a703b15244aba35e15f5cae|22214
+
+# --- BO MAU BIEU THONG TU 89/2026/TT-BTC (hieu luc 01/7/2026) -----------------
+# TRANG THAI 31/08/2026:
+#   DA XONG   : 5 sheet mau bieu trong file GPAcc + 166 dong trong bang MAP
+#               GTGT_89 . TNDN03_89 . PL_03TN89 . 05KK_89 . 05QTT_89
+#               MapKiemTra (mo phong Python): 150/150 chi tieu khop nhan tren sheet
+#   CON THIEU : KHUON XML that. HTKK 5.7.6 CHUA phat hanh mau TT89 cho cac to khai
+#               nay (kho InterfaceTemplates chi co 01_TNS_DK_TT89_307).
+#               The XML trong bang MAP dang dat theo QUY UOC ct<ma chi tieu>,
+#               CHUA doi chieu voi khuon that.
+#
+# KHI HTKK PHAT HANH MAU TT89 :
+#   1. Lay khuon that tu HTKK (InterfaceTemplates/xml/*_xml_*.xml), lam sach bang
+#      scratchpad/lamsach.py roi dat vao thu muc mau-bieu/
+#   2. Chay ModMap.MapDoiChieuXML cho tung mau de bat the XML sai
+#   3. Bo dau # o cac dong duoi day
+#   4. PhatHanh.ps1 -Ver -TangSchema   (co sheet moi => phai tang so schema)
+#
+# MAU|01/GTGT|TT89|2026-07-01||DauKy|GTGT_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/01_GTGT_TT89.xml|
+# MAU|03/TNDN|TT89|2026-07-01||CuoiKy|TNDN03_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/03_TNDN_TT89.xml|
+# MAU|03-2/TNDN|TT89|2026-07-01||CuoiKy|PL_03TN89||
+# MAU|05/KK-TNCN|TT89|2026-07-01||DauKy|05KK_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_KK_TT89.xml|
+# MAU|05/QTT-TNCN|TT89|2026-07-01||CuoiKy|05QTT_89|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/mau-bieu/05_QTT_TT89.xml|
+
+# --- KENH RIENG CUA BAN BIEN THE (gia thanh - san xuat - TKHQ) -----------------
+#  Ban bien the KHONG dung chung dong VER/BIN/UI voi ban goc: ClsUpdate cua no doc
+#  VER_BT / BIN_BT / UI_BT. Khach dung ban goc khong bao gio thay 3 dong nay.
+#  TAT KENH NAY 22/09/2026 (tac gia quyet): da bo 3 dong VER_BT / BIN_BT / UI_BT.
+#  Ly do: thu muc bin_bt CHUA BAO GIO len GitHub, va bin cua ban bien the CHUA KHOA
+#  -> day len la cong khai code noi bo; con de 3 dong ma khong day file thi ban bien
+#  the tai ve se 404. Bo ra = kenh im lang dung nhu truoc 11/09.
+#  MUON BAT LAI: (1) khoa ban noi bo, (2) bo dong 'bin_bt/' trong .gitignore,
+#  (3) chay  PhatHanhTT.ps1 -Channel bienthe -Ver <yymmdd>  (lenh do tu ghi lai 3 dong).
+#  Gia tri cu de lai day cho de doi chieu:
+# VER_BT|260911|U
+# BIN_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/vbaProject.bin|5ef36d1d7be4149ddbc634187d08e1aa7db8b4b9681c64cda94e8f51d1453701|4979712
+# UI_BT|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_bt/customUI.xml|6264001cbc44a0e179762bd82b316b0d5d0e9954bb7bc62254fbfb9d01d862c0|21053
+
+# GHICHU | <so| <url ghi-chu.txt> | <sha256> | <kich thuoc>
+#   «Diem moi» hien cho nguoi dung: luc bam Check Update (vai dong dau, Cancel de xem
+#   day du), ngay sau khi cap nhat xong, va bat cu luc nao qua «Thong Tin Phien Ban».
+#   Moi ban la mot muc bat dau bang [yymmdd] o dau dong. Doc boi ModDist.DistGhiChu.
+GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|2f2a88f1346c231e1f864e3a6ffa602a818bfd683201482b679ad80a2f65898c|14552
+
+# KHOSHEET | <so schema> | <url KhoSheet.xlsx> | <sha256> | <kich thuoc>
+#   Goi chua BAN TRONG cua MOI sheet trong ban goc. Chi tai ve khi file khach THIEU HAN
+#   mot sheet goc - thay cho duong nang "tao file moi roi Lay DL file cu".
+#   Doc boi ModKhoSheet.LaySheetThieu (Code new 2026-09-21).
+KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|3c9721c61fa46aabb4fe99097f0f969af3510bb65e00fe136f2c0f73c63248da|1706114
