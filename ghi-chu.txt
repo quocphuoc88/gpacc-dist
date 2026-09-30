@@ -16,6 +16,13 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26093003] 30/09/2026 - lần 03
+
+- Sửa lỗi hóa đơn mua vào không được khấu trừ (loại DR-KKT hoặc ghi chú KKT): trước đây tiền thuế GTGT của các hóa đơn này vẫn bị trừ vào thuế phải nộp trên sổ, nên bảng cân đối số phát sinh lệch tờ khai. Nay tiền thuế đó được ghi vào chi phí, sổ khớp tờ khai. Bạn chỉ cần kết chuyển lại, không phải sửa định khoản cũ.
+- Định Khoản Tự Động: dòng không được khấu trừ nay tự định khoản tiền thuế vào cùng tài khoản chi phí của dòng.
+- Mở file không còn hiện hộp thoại "File này đang ở BỐ CỤC CŨ". Khi cần, bạn bấm Tiện Ích - GPAcc - Cập Nhật là đủ.
+- Lấy dữ liệu từ file cũ nay giữ nguyên các dòng kinh phí công đoàn trong bảng giá vốn lương.
+
 [26093002] 30/09/2026 - lần 02
 
 - Sửa lỗi bấm Cập Nhật báo xong nhưng phần mẫu biểu và bố cục không vào file (ví dụ công thức mới của thuyết minh BCTC ở bản trước). Nay bấm Cập Nhật một lần là đủ.
