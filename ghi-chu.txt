@@ -16,6 +16,12 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26093001] 30/09/2026 - lần 01
+
+- Thuyết minh BCTC, phần tăng giảm TSCĐ hữu hình: nay tự lấy số Mua trong năm, Hao mòn đầu năm và Khấu hao trong năm, không phải gõ tay.
+- Thuyết minh BCTC, bảng biến động vốn chủ sở hữu: nay tự lấy số năm trước (số dư đầu năm trước, tăng vốn, lãi hoặc lỗ năm trước) từ bảng cân đối phát sinh năm trước.
+- File đã dùng từ trước: bấm Tiện Ích - GPAcc - Cập Nhật là có. Ô nào trước đây bạn gõ tay sẽ được thay bằng công thức.
+
 [26092903] 29/09/2026 - lần 03
 
 - Gọn lại gói mẫu biểu và file mẫu: bỏ dữ liệu thừa còn sót, không ảnh hưởng cách dùng.

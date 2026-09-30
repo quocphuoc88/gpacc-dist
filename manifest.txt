@@ -9,10 +9,10 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|26092903|
+VER|26093001|
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26092903/vbaProject.bin|7459689cfe233109dfbc9a634c0c60f620f2bd03bb6d171720f6272266e867e9|3054592
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26093001/vbaProject.bin|2fba71bd2f7bbe704f7d223b9e50bbab5ac868d7767f3a79e1c059a83853ea17|3085824
 
 # UI | <url customUI.xml> | <sha256>
 UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|5ebbf543287ec8a6a94d1363e59cdd0c5e3ad8e6be41226961599af2418c586b|20942
@@ -20,7 +20,7 @@ UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xm
 # MAUBIEU | <so schema> | <url MauBieu.xlsx> | <sha256>
 #   Tang so schema len 1 moi khi goi mau bieu co them sheet moi.
 #   File GPAcc so sanh voi o N1 tren sheet MAP cua no de biet co can tai khong.
-MAUBIEU|5|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|2cfde274fb00a85b8c8c69e0d885ba3fea2ea19b07732cc778951cabb07c9019|69279
+MAUBIEU|6|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/MauBieu.xlsx|0e5bccb36e0ff57b5a336f56c6bf51b0d0b44bb1f33a63636834b423b9800e6d|85555
 
 # -----------------------------------------------------------------------------
 # MAU | MauSo | PhienBan | HieuLucTu | HieuLucDen | MocChon | SheetName | UrlXML | Sha256
@@ -101,10 +101,10 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 #   «Diem moi» hien cho nguoi dung: luc bam Check Update (vai dong dau, Cancel de xem
 #   day du), ngay sau khi cap nhat xong, va bat cu luc nao qua «Thong Tin Phien Ban».
 #   Moi ban la mot muc bat dau bang [yymmdd] o dau dong. Doc boi ModDist.DistGhiChu.
-GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|2f2a88f1346c231e1f864e3a6ffa602a818bfd683201482b679ad80a2f65898c|14552
+GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|7e65a97782fc7b27fcc44fc54a9e7ab3dca7dd46828a419ba95b29674f72f337|15144
 
 # KHOSHEET | <so schema> | <url KhoSheet.xlsx> | <sha256> | <kich thuoc>
 #   Goi chua BAN TRONG cua MOI sheet trong ban goc. Chi tai ve khi file khach THIEU HAN
 #   mot sheet goc - thay cho duong nang "tao file moi roi Lay DL file cu".
 #   Doc boi ModKhoSheet.LaySheetThieu (Code new 2026-09-21).
-KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|3c9721c61fa46aabb4fe99097f0f969af3510bb65e00fe136f2c0f73c63248da|1706114
+KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|ce7e4a50807505bcba2d16d06ee59ca253c055cfb7917697b436875f7c0e0433|1708541
