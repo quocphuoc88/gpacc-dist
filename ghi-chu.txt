@@ -16,6 +16,11 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26093004] 30/09/2026 - lần 04
+
+- Sheet Bán Ra và Mua Vào: dòng để trống cột Tháng mà chưa định khoản thì không còn bị báo lỗi khi kiểm tra dữ liệu, và không lên sổ khi kết chuyển. Dòng đã định khoản mà quên điền tháng thì vẫn được nhắc như trước.
+- Muốn một dòng không lên sổ: để trống cột Tháng và xóa phần định khoản của dòng đó.
+
 [26093003] 30/09/2026 - lần 03
 
 - Sửa lỗi hóa đơn mua vào không được khấu trừ (loại DR-KKT hoặc ghi chú KKT): trước đây tiền thuế GTGT của các hóa đơn này vẫn bị trừ vào thuế phải nộp trên sổ, nên bảng cân đối số phát sinh lệch tờ khai. Nay tiền thuế đó được ghi vào chi phí, sổ khớp tờ khai. Bạn chỉ cần kết chuyển lại, không phải sửa định khoản cũ.
