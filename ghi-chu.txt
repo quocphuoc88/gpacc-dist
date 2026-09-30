@@ -16,6 +16,12 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26093005] 30/09/2026 - lần 05
+
+- Sửa lỗi hóa đơn mua vào (kể cả thuế GTGT hàng nhập khẩu) có ngày thuộc tháng trước nhưng kê khai ở tháng sau không lên tờ khai GTGT. Nguyên nhân: công tắc "Tự động hóa đơn muộn" ở sheet DC_3738 bị bật sẵn và danh sách chọn của ô này bị lỗi.
+- Nay công tắc được đặt về "Không", hóa đơn kê khai tháng nào lên tờ khai tháng đó. Ô này chọn lại được đúng "Có" hoặc "Không" khi cần.
+- Sau khi cập nhật, bạn kết chuyển lại thuế GTGT của kỳ bị thiếu.
+
 [26093004] 30/09/2026 - lần 04
 
 - Sheet Bán Ra và Mua Vào: dòng để trống cột Tháng mà chưa định khoản thì không còn bị báo lỗi khi kiểm tra dữ liệu, và không lên sổ khi kết chuyển. Dòng đã định khoản mà quên điền tháng thì vẫn được nhắc như trước.
