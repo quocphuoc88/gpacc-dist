@@ -16,6 +16,12 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26093002] 30/09/2026 - lần 02
+
+- Sửa lỗi bấm Cập Nhật báo xong nhưng phần mẫu biểu và bố cục không vào file (ví dụ công thức mới của thuyết minh BCTC ở bản trước). Nay bấm Cập Nhật một lần là đủ.
+- Từ nay, những lần chỉ sửa công thức hoặc bố cục sheet sẽ là cập nhật nhẹ: không tải lại chương trình, không phải đóng mở lại file.
+- Cập nhật chưa xong thì chương trình báo rõ lý do, không im lặng như trước.
+
 [26093001] 30/09/2026 - lần 01
 
 - Thuyết minh BCTC, phần tăng giảm TSCĐ hữu hình: nay tự lấy số Mua trong năm, Hao mòn đầu năm và Khấu hao trong năm, không phải gõ tay.

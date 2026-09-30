@@ -9,10 +9,10 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|26093001|
+VER|26093002|
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26093001/vbaProject.bin|2fba71bd2f7bbe704f7d223b9e50bbab5ac868d7767f3a79e1c059a83853ea17|3085824
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26093002/vbaProject.bin|4068343b470d3153179583ae24e26e05b376fb8de45a535eb4a7307880f3461d|3117568
 
 # UI | <url customUI.xml> | <sha256>
 UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|5ebbf543287ec8a6a94d1363e59cdd0c5e3ad8e6be41226961599af2418c586b|20942
@@ -101,10 +101,10 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 #   «Diem moi» hien cho nguoi dung: luc bam Check Update (vai dong dau, Cancel de xem
 #   day du), ngay sau khi cap nhat xong, va bat cu luc nao qua «Thong Tin Phien Ban».
 #   Moi ban la mot muc bat dau bang [yymmdd] o dau dong. Doc boi ModDist.DistGhiChu.
-GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|7e65a97782fc7b27fcc44fc54a9e7ab3dca7dd46828a419ba95b29674f72f337|15144
+GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|c54b3e10a15273f9223dc80688c6d262fa46e36f36980205508c959692fb4162|15676
 
 # KHOSHEET | <so schema> | <url KhoSheet.xlsx> | <sha256> | <kich thuoc>
 #   Goi chua BAN TRONG cua MOI sheet trong ban goc. Chi tai ve khi file khach THIEU HAN
 #   mot sheet goc - thay cho duong nang "tao file moi roi Lay DL file cu".
 #   Doc boi ModKhoSheet.LaySheetThieu (Code new 2026-09-21).
-KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|ce7e4a50807505bcba2d16d06ee59ca253c055cfb7917697b436875f7c0e0433|1708541
+KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|2caf96b40d11b030787d2c3d6af20d33ae9571528ddc66c481e4365f5091b01b|1708131
