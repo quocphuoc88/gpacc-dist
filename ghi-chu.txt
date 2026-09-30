@@ -16,6 +16,11 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26093006] 30/09/2026 - lần 06
+
+- Tờ khai thuế TNCN quý theo mẫu mới (TT89): thêm ô chọn kiểu khai, chọn quý hoặc tháng và nút Kết Chuyển ngay trên tờ khai, giống tờ khai GTGT. Kết chuyển ở tờ khai mẫu cũ hay mẫu mới đều ra cùng số.
+- Dòng [01] Kỳ tính thuế nay ghi đúng "Tháng" hoặc "Quý" theo kiểu khai.
+
 [26093005] 30/09/2026 - lần 05
 
 - Sửa lỗi hóa đơn mua vào (kể cả thuế GTGT hàng nhập khẩu) có ngày thuộc tháng trước nhưng kê khai ở tháng sau không lên tờ khai GTGT. Nguyên nhân: công tắc "Tự động hóa đơn muộn" ở sheet DC_3738 bị bật sẵn và danh sách chọn của ô này bị lỗi.
