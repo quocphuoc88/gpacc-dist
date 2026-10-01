@@ -16,6 +16,12 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26100101] 01/10/2026 - lần 01
+
+- Hướng Dẫn Sử Dụng mới: tài liệu đầy đủ về bố cục và toàn bộ tính năng của file (26 trang, dạng PDF), viết theo bản phần mềm hiện hành.
+- Bấm Tiện Ích - GPAcc - Hướng Dẫn Sử Dụng là máy tải tài liệu từ kho phát hành và mở ngay bằng chương trình đọc PDF của máy. Bản đã tải được dùng lại trong 7 ngày; không có mạng thì mở bản đã tải lần trước.
+- Nút Hướng Dẫn trên sổ điều chỉnh [37]/[38] nay cũng tải được tài liệu riêng của sổ đó.
+
 [26093006] 30/09/2026 - lần 06
 
 - Tờ khai thuế TNCN quý theo mẫu mới (TT89): thêm ô chọn kiểu khai, chọn quý hoặc tháng và nút Kết Chuyển ngay trên tờ khai, giống tờ khai GTGT. Kết chuyển ở tờ khai mẫu cũ hay mẫu mới đều ra cùng số.

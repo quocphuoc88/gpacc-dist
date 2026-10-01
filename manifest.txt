@@ -9,10 +9,10 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|26093006|
+VER|26100101|
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26093006/vbaProject.bin|2d0a1cc761e01c97872c57ebe48c9493bfacb7079a1de8be8c82b9317018ffa3|3527680
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26100101/vbaProject.bin|e316476e4676afda53e89b4bb7ada04a303eeb99c1d0973ed705ee744e26cb90|3545088
 
 # UI | <url customUI.xml> | <sha256>
 UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/customUI.xml|5ebbf543287ec8a6a94d1363e59cdd0c5e3ad8e6be41226961599af2418c586b|20942
@@ -101,10 +101,10 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 #   «Diem moi» hien cho nguoi dung: luc bam Check Update (vai dong dau, Cancel de xem
 #   day du), ngay sau khi cap nhat xong, va bat cu luc nao qua «Thong Tin Phien Ban».
 #   Moi ban la mot muc bat dau bang [yymmdd] o dau dong. Doc boi ModDist.DistGhiChu.
-GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|c6cad2932f0e1e614b926d63e2e27cab0792cbf4b870375f1e7e49119c132ba6|17992
+GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|09737c1f246cc7f424959ed39fc2eb5d131b315b7c562a46e13313a6ccc9bfe4|18610
 
 # KHOSHEET | <so schema> | <url KhoSheet.xlsx> | <sha256> | <kich thuoc>
 #   Goi chua BAN TRONG cua MOI sheet trong ban goc. Chi tai ve khi file khach THIEU HAN
 #   mot sheet goc - thay cho duong nang "tao file moi roi Lay DL file cu".
 #   Doc boi ModKhoSheet.LaySheetThieu (Code new 2026-09-21).
-KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|70f866ef581cedc0dc5aef2768996626e088f477d42499d5acb95eaeb2dda0dc|1712473
+KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|b272f4fbfe8e1496ffe0e20646dbbfc015e78a884436bb192b619756c7794072|1712487

@@ -1,0 +1,364 @@
+========================================================================
+ HƯỚNG DẪN SỔ THEO DÕI ĐIỀU CHỈNH THUẾ GTGT CÒN ĐƯỢC KHẤU TRỪ
+ Sheet DC_3738  —  Chỉ tiêu [37] / [38] của tờ khai 01/GTGT
+------------------------------------------------------------------------
+ Phần mềm kế toán GPAcc — Trần Quốc Phước — 0907.012.012
+ Cập nhật: 07/09/2026
+========================================================================
+
+Căn cứ ghi trong sổ: TT94/2026/TT-BTC, NĐ252/2026/NĐ-CP, Luật 48/2024 và
+ghi chú 4 mẫu 01/GTGT (TT89). Tài liệu này hướng dẫn CÁCH LÀM TRÊN PHẦN
+MỀM; khi gặp tình huống chưa rõ, vui lòng đối chiếu lại văn bản gốc hoặc
+hỏi cơ quan thuế quản lý.
+
+
+========================================================================
+ 1. SỔ NÀY ĐỂ LÀM GÌ
+========================================================================
+
+[37] và [38] trên tờ khai 01/GTGT là hai chỉ tiêu điều chỉnh số thuế GTGT
+CÒN ĐƯỢC KHẤU TRỪ của kỳ trước:
+
+    [37] = ĐIỀU CHỈNH GIẢM   (giảm số còn được khấu trừ)
+    [38] = ĐIỀU CHỈNH TĂNG   (tăng số còn được khấu trừ)
+
+Trước đây kế toán phải tự tính rồi gõ tay vào tờ khai. Từ nay:
+
+    → Mỗi nghiệp vụ điều chỉnh ghi MỘT DÒNG vào sổ này.
+    → Hai bảng trên sheet GTGT TỰ CỘNG từ sổ này theo THÁNG KÊ KHAI.
+    → KHÔNG gõ tay vào ô [37]/[38] của tờ khai nữa.
+
+Nói ngắn gọn: sổ này là "sổ tay giải trình" cho hai con số [37]/[38] —
+sau này thuế hỏi vì sao có số đó, mở sổ ra là thấy từng dòng.
+
+
+========================================================================
+ 2. VÀO SỔ BẰNG CÁCH NÀO
+========================================================================
+
+Sheet DC_3738 để ẩn (tránh nhầm lẫn khi nhập liệu hằng ngày). Hai đường
+vào:
+
+  Cách 1 — Ribbon:   GPAcc  →  Báo Cáo  →  Thuế GTGT  →  Bảng Đ/C [37]/[38]
+
+  Cách 2 — Bấm chữ đỏ "Mã Đ/C ?" ở dòng tiêu đề sheet Bán Ra (cột S) hoặc
+           Mua Vào (cột T). Máy tự hiện sổ và nhảy tới bảng mã lý do.
+
+
+========================================================================
+ 3. CÁC CỘT TRONG SỔ
+========================================================================
+
+  STT              Tự động
+  Ngày chứng từ    Ngày trên hóa đơn điều chỉnh / chứng từ làm căn cứ
+  Tháng kê khai    Tháng (hoặc quý) mà số điều chỉnh này được đưa lên tờ khai
+                   → ĐÂY LÀ CỘT QUYẾT ĐỊNH số rơi vào kỳ nào
+  Mã lý do         Một trong 11 mã ở mục 4 (gõ đúng mã, viết hoa)
+  Số hóa đơn       Số hóa đơn điều chỉnh (hoặc hóa đơn gốc, tùy tình huống)
+  Điều chỉnh GIẢM [37]   Số tiền thuế GTGT ghi giảm  (số dương)
+  Điều chỉnh TĂNG [38]   Số tiền thuế GTGT ghi tăng  (số dương)
+  Diễn giải        Ghi rõ để sau này đọc lại còn hiểu; máy tự điền cho các
+                   dòng nó sinh ra, có nhãn [TỰ ĐỘNG] ở đầu
+  Trạng thái       Tự động
+
+  LƯU Ý: một dòng chỉ điền MỘT trong hai cột [37] hoặc [38], không điền
+  cả hai. Số tiền là TIỀN THUẾ GTGT, không phải tiền hàng.
+
+
+========================================================================
+ 4. MƯỜI MỘT MÃ LÝ DO — TÌNH HUỐNG VÀ CÁCH GHI
+========================================================================
+
+Toàn bộ sổ này là dành cho BÊN MUA (thuế đầu vào). Nếu mình là bên BÁN thì
+xem mục 5.
+
+------------------------------------------------------------------------
+ TTCH — Mua trả chậm / trả góp chưa có chứng từ thanh toán không dùng
+        tiền mặt (KDTM)
+------------------------------------------------------------------------
+Tình huống: Tháng 3/2026 mua hàng của Công ty A, hóa đơn 22.000.000 đ
+(hàng 20.000.000 + thuế 2.000.000), hợp đồng cho trả chậm 6 tháng. Đến
+hạn kê khai tháng 3 vẫn CHƯA chuyển khoản, chưa có chứng từ KDTM.
+
+Ghi:  Ngày chứng từ   15/03/2026  (ngày hóa đơn)
+      Tháng kê khai   3
+      Mã lý do        TTCH
+      Số hóa đơn      00012345
+      GIẢM [37]       2.000.000
+      Diễn giải       "TTCH: Công ty A, hóa đơn 00012345, tổng HĐ
+                       22.000.000, chưa có chứng từ TT KDTM"
+
+Ý nghĩa: tạm ghi giảm số được khấu trừ, khi nào trả tiền qua ngân hàng thì
+ghi tăng lại bằng mã CTTT.
+
+MÁY LÀM GIÚP: xem mục 6 (bảng ỨNG VIÊN TTCH) — không phải gõ tay.
+
+------------------------------------------------------------------------
+ CTTT — Đã có chứng từ thanh toán KDTM bổ sung cho dòng TTCH
+------------------------------------------------------------------------
+Tình huống: Tháng 7/2026 chuyển khoản trả đủ cho hóa đơn 00012345 nói trên.
+
+Ghi:  Ngày chứng từ   20/07/2026  (ngày chuyển khoản)
+      Tháng kê khai   7
+      Mã lý do        CTTT
+      Số hóa đơn      00012345   ← PHẢI CÙNG SỐ HÓA ĐƠN với dòng TTCH
+      TĂNG [38]       2.000.000
+      Diễn giải       "CTTT: đã thanh toán qua NH ngày 20/07/2026"
+
+Ý nghĩa: lấy lại phần thuế đã tạm giảm ở dòng TTCH.
+
+MÁY LÀM GIÚP: khi ngân hàng đã trả đủ (khớp theo thứ tự FIFO của tài khoản
+331), máy tự sinh dòng CTTT.
+
+------------------------------------------------------------------------
+ SS — Sai sót / bỏ sót thuế đầu vào, phát hiện ở kỳ sau
+------------------------------------------------------------------------
+Điều kiện dùng mã này: sai sót đó CHỈ ảnh hưởng số còn được khấu trừ
+chuyển kỳ sau, KHÔNG làm thay đổi số thuế phải nộp của kỳ gốc.
+
+Tình huống: Tháng 8/2026 phát hiện hóa đơn mua vào tháng 5/2026 có thuế
+1.500.000 đ đã bỏ quên chưa kê. Kỳ 5 vốn còn được khấu trừ chuyển sang,
+kê thêm hóa đơn này cũng chỉ làm tăng số chuyển kỳ sau.
+
+Ghi:  Ngày chứng từ   ngày hóa đơn bỏ sót
+      Tháng kê khai   8   (kỳ PHÁT HIỆN)
+      Mã lý do        SS
+      TĂNG [38]       1.500.000
+      Diễn giải       "Bỏ sót HĐ 000456 kỳ 5/2026, phát hiện tháng 8"
+
+Ngược lại, nếu phát hiện đã kê KHỐNG một hóa đơn không hợp lệ thì ghi vào
+GIẢM [37].
+
+MÁY LÀM GIÚP: xem mục 6 (hóa đơn muộn) — máy tự tính và tự ghi.
+
+------------------------------------------------------------------------
+ HDDC — Nhận hóa đơn điều chỉnh / thay thế do SAI SÓT của người bán
+------------------------------------------------------------------------
+Tình huống: Tháng 4/2026 nhận hóa đơn 30.000.000 + thuế 3.000.000. Tháng
+6/2026 người bán phát hiện ghi sai đơn giá, lập hóa đơn điều chỉnh giảm
+còn 28.000.000 + thuế 2.800.000 (chênh lệch thuế 200.000).
+
+Ghi:  Ngày chứng từ   ngày hóa đơn điều chỉnh
+      Tháng kê khai   6   (kỳ nhận hóa đơn điều chỉnh)
+      Mã lý do        HDDC
+      Số hóa đơn      số hóa đơn ĐIỀU CHỈNH
+      GIẢM [37]       200.000
+      Diễn giải       "HĐ điều chỉnh giảm cho HĐ gốc 000789 (T4/2026)"
+
+Nếu hóa đơn điều chỉnh làm TĂNG thuế thì ghi vào TĂNG [38].
+
+------------------------------------------------------------------------
+ TLHH — Trả lại hàng (mình là bên MUA)
+------------------------------------------------------------------------
+Tình huống: Tháng 5/2026 mua lô hàng 50.000.000 + thuế 5.000.000. Tháng
+6/2026 trả lại 1/5 lô hàng do không đạt chất lượng; người bán lập hóa đơn
+điều chỉnh giảm 10.000.000 + thuế 1.000.000 (hoặc hai bên thỏa thuận mình
+lập hóa đơn trả lại hàng).
+
+Ghi:  Ngày chứng từ   ngày hóa đơn điều chỉnh / hóa đơn trả lại
+      Tháng kê khai   6   (kỳ nhận hóa đơn, hoặc kỳ mình lập)
+      Mã lý do        TLHH
+      GIẢM [37]       1.000.000
+      Diễn giải       "Trả lại hàng theo BB số ..., HĐ gốc 000321"
+
+------------------------------------------------------------------------
+ CKTM — Chiết khấu thương mại được hưởng
+------------------------------------------------------------------------
+Tình huống: Mua đủ doanh số quý 2, được nhà cung cấp chiết khấu 2% trên
+100.000.000 đ tiền hàng = 2.000.000 đ, thuế tương ứng 200.000 đ. Tháng
+7/2026 nhận hóa đơn điều chỉnh chiết khấu.
+
+Ghi:  Tháng kê khai   7
+      Mã lý do        CKTM
+      GIẢM [37]       200.000
+      Diễn giải       "Chiết khấu thương mại quý 2/2026 theo HĐ số ..."
+
+------------------------------------------------------------------------
+ QTGG — Giá trị thay đổi do quyết toán, thanh toán thực tế
+------------------------------------------------------------------------
+Thường gặp ở xây lắp, dịch vụ dài hạn: tạm ứng theo hợp đồng, quyết toán
+mới ra số cuối cùng.
+
+Tình huống: Đã nhận hóa đơn tạm 500.000.000 + thuế 50.000.000. Tháng
+9/2026 quyết toán còn 480.000.000 + thuế 48.000.000, nhà thầu lập hóa đơn
+điều chỉnh giảm chênh lệch 2.000.000 tiền thuế.
+
+Ghi:  Tháng kê khai   9   (kỳ nhận hóa đơn mới / hóa đơn điều chỉnh)
+      Mã lý do        QTGG
+      GIẢM [37]       2.000.000    (nếu quyết toán tăng thì ghi TĂNG [38])
+      Diễn giải       "Quyết toán công trình ..., chênh lệch so với HĐ tạm"
+
+------------------------------------------------------------------------
+ HPHI — Hoàn phí, giảm phí, giảm hoa hồng
+------------------------------------------------------------------------
+Hay gặp với bảo hiểm, môi giới, dịch vụ.
+
+Tình huống: Mua bảo hiểm xe cả năm, phí 20.000.000 + thuế 2.000.000. Tháng
+8/2026 hủy xe, công ty bảo hiểm hoàn lại 1/2 phí, lập hóa đơn điều chỉnh
+giảm 10.000.000 + thuế 1.000.000.
+
+Ghi:  Tháng kê khai   8
+      Mã lý do        HPHI
+      GIẢM [37]       1.000.000
+      Diễn giải       "Hoàn phí bảo hiểm HĐ số ..., hoàn 1/2 phí"
+
+------------------------------------------------------------------------
+ HUYGD — Hủy / chấm dứt giao dịch đã lập hóa đơn thu tiền trước
+------------------------------------------------------------------------
+Tình huống: Tháng 3/2026 đặt cọc thuê mặt bằng, bên cho thuê xuất hóa đơn
+thu tiền trước 100.000.000 + thuế 10.000.000. Tháng 5/2026 hai bên hủy hợp
+đồng, bên cho thuê lập hóa đơn điều chỉnh hủy toàn bộ.
+
+Ghi:  Tháng kê khai   5   (kỳ nhận hóa đơn điều chỉnh)
+      Mã lý do        HUYGD
+      GIẢM [37]       10.000.000
+      Diễn giải       "Hủy hợp đồng thuê ..., HĐ gốc 000555"
+
+------------------------------------------------------------------------
+ CDPP — Chuyển đổi phương pháp tính thuế
+------------------------------------------------------------------------
+Dùng khi doanh nghiệp chuyển từ phương pháp khấu trừ sang trực tiếp hoặc
+ngược lại, dẫn tới phải xử lý số thuế còn được khấu trừ tại thời điểm
+chuyển đổi.
+
+Ghi:  Tháng kê khai   kỳ có quyết định / thời điểm chuyển đổi
+      Mã lý do        CDPP
+      GIẢM [37] hoặc TĂNG [38] tùy chiều xử lý
+      Diễn giải       ghi rõ căn cứ chuyển đổi
+
+Trường hợp này ít gặp và ảnh hưởng lớn — nên hỏi lại cơ quan thuế trước
+khi ghi.
+
+------------------------------------------------------------------------
+ KHAC — Trường hợp khác
+------------------------------------------------------------------------
+Các trường hợp khác theo Điều 12 NĐ252/2026 và pháp luật quản lý thuế.
+Bắt buộc ghi diễn giải thật rõ: căn cứ nào, chứng từ nào, vì sao điều chỉnh.
+
+
+========================================================================
+ 5. BA TRƯỜNG HỢP KHÔNG ĐƯỢC GHI VÀO SỔ NÀY
+========================================================================
+
+Ghi vào đây là SAI KỲ. Cụ thể:
+
+ (1) Sai sót / bỏ sót ĐẦU VÀO làm TĂNG số thuế phải nộp hoặc GIẢM số được
+     hoàn của kỳ gốc
+     → Khai BỔ SUNG (KHBS) tại KỲ GỐC, không đưa vào [37]/[38].
+
+ (2) Sai sót / bỏ sót hóa đơn ĐẦU RA (doanh thu, thuế đầu ra)
+     → Khai bổ sung KỲ GỐC. [37]/[38] chỉ dành cho thuế ĐẦU VÀO.
+
+ (3) Mình là người BÁN, có sự kiện sau giao dịch (khách trả lại hàng, mình
+     cho chiết khấu, quyết toán giảm giá...)
+     → Kê ở BÁN RA của KỲ LẬP hóa đơn điều chỉnh, không ghi vào sổ này.
+
+Cách phân biệt nhanh:
+     Mình là bên MUA, ảnh hưởng số còn được khấu trừ  → sổ này.
+     Mình là bên BÁN, hoặc đổi số thuế phải nộp kỳ gốc → chỗ khác.
+
+
+========================================================================
+ 6. NHỮNG VIỆC MÁY LÀM GIÚP — ĐỠ PHẢI GÕ TAY
+========================================================================
+
+ A. HÓA ĐƠN MUỘN (kê khai trễ kỳ)
+ ---------------------------------
+ Hóa đơn có ngày thuộc kỳ trước nhưng cột "Tg kê khai" (Mua Vào cột Q /
+ Bán Ra cột Q) ghi kỳ sau → máy coi là hóa đơn muộn.
+
+ Bật công tắc ở ô L2 của sổ ("Có") rồi đứng tại sheet DC_3738 bấm nút
+ "1. Kết chuyển". Máy sẽ:
+   - Bỏ hóa đơn muộn khỏi chỉ tiêu [23]-[35] của kỳ hiện tại;
+   - Tự tính phần ảnh hưởng và ghi dòng [37]/[38] vào sổ, nhãn [TỰ ĐỘNG];
+   - Ghi bảng giải trình KHBS kỳ gốc ở cột N:R (kỳ gốc, chỉ tiêu, đã kê,
+     điều chỉnh, chênh lệch) để đối chiếu khi làm tờ khai bổ sung.
+
+ Nếu để L2 = "Không" thì phần mềm kê như cũ, không đụng tới [37]/[38].
+
+ B. HÓA ĐƠN ĐIỀU CHỈNH NHẬN TỪ NGƯỜI BÁN
+ ----------------------------------------
+ Không cần vào sổ gõ tay. Cứ nhập hóa đơn điều chỉnh vào Mua Vào như bình
+ thường, rồi ghi MÃ vào cột T "Mã Đ/C": TLHH / CKTM / QTGG / HPHI / HUYGD
+ / HDDC. Bấm "1. Kết chuyển", máy tự ghi dòng tương ứng vào sổ:
+
+   - TLHH, CKTM, HPHI, HUYGD  → [37] = trị tuyệt đối của tiền thuế
+   - QTGG, HDDC               → thuế âm vào [37], thuế dương vào [38]
+   - Hóa đơn gốc thì ghi ở cột Ghi chú
+   - Hóa đơn HDTT / KKT / thuế = 0 → máy bỏ qua
+
+ C. BẢNG ỨNG VIÊN TTCH (cột T:AE của sổ)
+ ----------------------------------------
+ Máy tự lọc ra những hóa đơn NGHI là mua trả chậm cần theo dõi:
+   định khoản Có 331-xx, tổng hóa đơn ≥ ngưỡng thanh toán không dùng tiền
+   mặt (khai trong THAMSO), thuế GTGT khấu trừ > 0.
+
+ Máy KHÔNG biết hạn thanh toán trên hợp đồng, nên phần này cần bạn:
+   1. Xem bảng ứng viên, hóa đơn nào đến hạn kê khai mà CHƯA có chứng từ
+      thanh toán KDTM thì đánh chữ "x" vào cột AE.
+   2. Bấm lại "1. Kết chuyển" → máy ghi dòng TTCH vào sổ.
+   3. Khi ngân hàng đã trả đủ cho hóa đơn đó (máy khớp theo thứ tự FIFO
+      của tài khoản 331), dòng CTTT được sinh tự động ở tháng thanh toán.
+
+ Cột "TT qua NH" trong bảng cho biết hóa đơn đã được thanh toán ngày nào,
+ hoặc "chưa TT NH".
+
+ D. DÒNG [TỰ ĐỘNG] VÀ DÒNG GÕ TAY
+ ---------------------------------
+ Mỗi lần bấm "1. Kết chuyển", máy XÓA các dòng có nhãn [TỰ ĐỘNG] cũ rồi
+ ghi lại từ đầu. Dòng bạn tự gõ KHÔNG bị xóa.
+ → Đừng sửa nội dung dòng [TỰ ĐỘNG]; muốn ghi khác thì tự thêm dòng mới.
+
+
+========================================================================
+ 7. LÀM THEO THỨ TỰ NÀO
+========================================================================
+
+ 1. Nhập Bán Ra / Mua Vào như thường lệ.
+ 2. Hóa đơn điều chỉnh nhận từ người bán: ghi mã vào cột T "Mã Đ/C" của
+    Mua Vào.
+ 3. Mở sổ DC_3738 (ribbon hoặc bấm "Mã Đ/C ?").
+ 4. Xem bảng ỨNG VIÊN TTCH ở cột T:AE, đánh "x" cột AE cho hóa đơn trả
+    chậm chưa có chứng từ thanh toán.
+ 5. Bấm "1. Kết chuyển".
+ 6. Nghiệp vụ nào máy không tự biết (SS, CDPP, KHAC, hoặc thỏa thuận riêng)
+    thì tự thêm một dòng, nhớ điền đúng THÁNG KÊ KHAI.
+ 7. Mở tờ khai 01/GTGT kiểm tra [37]/[38] đã khớp với tổng của sổ.
+ 8. Nếu có KHBS kỳ gốc: xem bảng giải trình cột N:R để làm tờ khai bổ sung.
+
+
+========================================================================
+ 8. HỎI NHANH — ĐÁP NHANH
+========================================================================
+
+ Hỏi: Điền số âm vào [37] được không?
+ Đáp: Không. Cả hai cột đều điền số dương; chọn đúng cột GIẢM hay TĂNG.
+
+ Hỏi: Một hóa đơn vừa giảm vừa tăng thì sao?
+ Đáp: Ghi hai dòng, mỗi dòng một chiều, cùng số hóa đơn.
+
+ Hỏi: Điền tiền hàng hay tiền thuế?
+ Đáp: TIỀN THUẾ GTGT. Tiền hàng chỉ ghi trong diễn giải cho dễ đối chiếu.
+
+ Hỏi: Tháng kê khai điền tháng nào?
+ Đáp: Tháng (hoặc quý) của TỜ KHAI sẽ mang số điều chỉnh này — thường là
+      kỳ nhận hóa đơn điều chỉnh / kỳ phát hiện sai sót, không phải kỳ của
+      hóa đơn gốc.
+
+ Hỏi: Khai theo quý thì ghi thế nào?
+ Đáp: Ghi tháng cuối của quý đó (quý 1 → 3, quý 2 → 6, quý 3 → 9,
+      quý 4 → 12) để bảng trên sheet GTGT cộng đúng kỳ.
+
+ Hỏi: Lỡ ghi sai một dòng?
+ Đáp: Xóa nguyên dòng đó (dòng gõ tay) rồi ghi lại. Dòng [TỰ ĐỘNG] thì
+      sửa dữ liệu nguồn (cột "Mã Đ/C" ở Mua Vào, hoặc cột AE) rồi bấm
+      "1. Kết chuyển" lại.
+
+ Hỏi: Sổ đầy chưa?
+ Đáp: Sổ chứa tối đa 500 dòng (dòng 6 đến 505).
+
+
+========================================================================
+ Có tình huống chưa nằm trong tài liệu này, liên hệ:
+ Trần Quốc Phước — 0907.012.012 — quocphuoc_pl@outlook.com
+========================================================================
