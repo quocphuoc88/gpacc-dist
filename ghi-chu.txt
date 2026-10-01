@@ -16,6 +16,12 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26100102] 01/10/2026 - lần 02
+
+- Tải hóa đơn từ Cổng thuế: có lúc Cổng không trả dữ liệu mà trả về một trang web (hết phiên đăng nhập, hoặc Cổng đang bảo trì). Trước đây mỗi tháng, mỗi loại hóa đơn báo một dòng "phản hồi không đúng định dạng" rồi bỏ qua.
+- Nay chương trình tự thử lại vài lần như khi Cổng quá tải. Nếu nhận ra trang đăng nhập thì dừng ngay và nhắc bạn đăng nhập lại; dữ liệu đã tải được vẫn giữ nguyên.
+- Khung Nhật ký ghi rõ Cổng trả về trang gì, để bạn biết nên đăng nhập lại hay chờ Cổng.
+
 [26100101] 01/10/2026 - lần 01
 
 - Hướng Dẫn Sử Dụng mới: tài liệu đầy đủ về bố cục và toàn bộ tính năng của file (26 trang, dạng PDF), viết theo bản phần mềm hiện hành.
