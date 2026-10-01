@@ -16,6 +16,10 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26100103] 01/10/2026 - lần 03
+
+- Tải hóa đơn từ Cổng thuế: chương trình nay chỉ xin Cổng trả về dữ liệu, không còn kèm lời xin trang web như trước. Nhờ vậy Cổng ít khi trả nhầm một trang web thay cho danh sách hóa đơn.
+
 [26100102] 01/10/2026 - lần 02
 
 - Tải hóa đơn từ Cổng thuế: có lúc Cổng không trả dữ liệu mà trả về một trang web (hết phiên đăng nhập, hoặc Cổng đang bảo trì). Trước đây mỗi tháng, mỗi loại hóa đơn báo một dòng "phản hồi không đúng định dạng" rồi bỏ qua.
