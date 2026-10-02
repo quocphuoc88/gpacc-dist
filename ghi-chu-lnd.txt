@@ -1,0 +1,16 @@
+# =============================================================================
+#  GHI CHU CAC BAN CAP NHAT  -  GPAcc TT99 LECH NIEN DO
+#
+#  Kenh rieng cua ban lech nien do (dong VER_LND trong manifest.txt). File nay
+#  do ban lech nien do DOC de hien "Diem moi" - ban thuong doc ghi-chu.txt.
+#  Quy uoc giong ghi-chu.txt: moi ban mot muc [yymmddNN] o DAU DONG, moi y mot
+#  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
+# =============================================================================
+
+[26100201] 02/10/2026 - lần 01
+
+- Phiên bản dành cho doanh nghiệp có niên độ kế toán khác năm dương lịch (bắt đầu ngày 01/04, 01/07 hoặc 01/10).
+- Cách dùng: vào TT Doanh Nghiệp, đánh dấu ô "Lệch niên độ kế toán" rồi nhập Từ ngày - Đến ngày. Chứng từ vẫn nhập tháng dương lịch như thường; khi kết chuyển, in sổ, lên báo cáo chương trình tự xếp theo niên độ.
+- Tờ khai thuế GTGT và tạm tính TNCN vẫn theo tháng, quý dương lịch. Quyết toán TNDN theo niên độ.
+- Quyết toán TNCN theo năm dương lịch: các tháng nằm ở niên độ trước, chương trình hỏi chọn file niên độ trước để lấy thêm bảng lương.
+- Phiên bản này nhận bản cập nhật riêng, không lẫn với bản thường.
