@@ -8,6 +8,10 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26100302] 03/10/2026 - lần 02
+
+- Sửa lỗi các hộp thông báo của phần sổ TT58 (Lập Toàn Bộ Sổ, Áp Dụng Trường Hợp, Kết Xuất, Hạch Toán Thuế %...) hiện dấu "?" thay cho chữ tiếng Việt có dấu.
+
 [26100301] 03/10/2026 - lần 01
 
 - Phiên bản dành cho doanh nghiệp siêu nhỏ áp dụng chế độ kế toán theo Thông tư 58/2026/TT-BTC (hiệu lực từ ngày 01/7/2026).
