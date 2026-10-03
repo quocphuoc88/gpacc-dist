@@ -1,0 +1,19 @@
+# =============================================================================
+#  GHI CHU CAC BAN CAP NHAT  -  GPAcc TT58 (DOANH NGHIEP SIEU NHO)
+#
+#  Kenh rieng cua ban TT58 (dong VER_TT58 trong manifest.txt). File nay do ban
+#  TT58 DOC de hien "Diem moi" - ban thuong doc ghi-chu.txt, ban lech nien do
+#  doc ghi-chu-lnd.txt.
+#  Quy uoc giong ghi-chu.txt: moi ban mot muc [yymmddNN] o DAU DONG, moi y mot
+#  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
+# =============================================================================
+
+[26100301] 03/10/2026 - lần 01
+
+- Phiên bản dành cho doanh nghiệp siêu nhỏ áp dụng chế độ kế toán theo Thông tư 58/2026/TT-BTC (hiệu lực từ ngày 01/7/2026).
+- Vào sheet Thiết Lập TT58 chọn phương pháp tính thuế GTGT và TNDN; chương trình tự xác định trường hợp áp dụng (Điều 5, 6, 7 hoặc 8) và hiện đúng bộ sổ phải mở.
+- Nhập liệu như cũ (Bán Ra, Mua Vào, Ngân Hàng, Linh Tinh...), kết chuyển Nhật ký chung, rồi bấm Lập Toàn Bộ Sổ.
+- Sổ theo mẫu mới: sổ doanh thu, sổ chi tiết doanh thu chi phí, sổ vật liệu hàng hóa, sổ tiền, sổ nghĩa vụ thuế GTGT, sổ công nợ, sổ tài sản cố định, sổ thuế khác, sổ vốn chủ sở hữu.
+- Báo cáo tài chính theo mẫu B01-DNSN và B02-DNSN. Phiếu thu, phiếu chi, phiếu nhập kho, phiếu xuất kho theo mẫu kèm Thông tư 58.
+- Tờ khai thuế GTGT, TNDN, TNCN giữ nguyên như bản thường.
+- Phiên bản này nhận bản cập nhật riêng, không lẫn với bản thường.
