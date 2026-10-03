@@ -16,6 +16,13 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26100301] 03/10/2026 - lần 01
+
+- Kết nối với file Ngân hàng (GPAcc Ngân Hàng Tỷ Giá, bán riêng): nếu bạn làm sổ ngân hàng, công nợ ngoại tệ và chênh lệch tỷ giá bằng file Ngân hàng, lệnh Kéo dữ liệu nay lấy phần Ngân hàng thẳng từ file đó, không còn phải chép tay qua lại.
+- Chỉ chọn phần Ngân hàng thì không cần mở phần mềm PM. Lần đầu chương trình hỏi chọn file Ngân hàng, các lần sau tự nhớ.
+- Bút toán chênh lệch tỷ giá và đánh giá lại cuối kỳ cũng được đưa vào sheet LT; các bút toán LT bạn tự nhập không bị đụng tới.
+- Tính năng này chỉ bật khi được hướng dẫn. Nếu bạn không dùng file Ngân hàng thì mọi thứ vẫn như cũ.
+
 [26100103] 01/10/2026 - lần 03
 
 - Tải hóa đơn từ Cổng thuế: chương trình nay chỉ xin Cổng trả về dữ liệu, không còn kèm lời xin trang web như trước. Nhờ vậy Cổng ít khi trả nhầm một trang web thay cho danh sách hóa đơn.
