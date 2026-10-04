@@ -1,0 +1,21 @@
+# =============================================================================
+#  GHI CHU CAC BAN CAP NHAT  -  GPAcc SO HO KINH DOANH (TT152/2025/TT-BTC)
+#
+#  Kenh rieng cua so ho (dong VER_HKD trong manifest.txt). File nay do so ho
+#  DOC de hien "Diem moi".
+#  Quy uoc giong ghi-chu.txt: moi ban mot muc [yymmddNN] o DAU DONG, moi y mot
+#  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
+#  BAN NHAP 04/10/2026 - TAC GIA DUYET truoc khi chep vao kho gpacc-dist.
+# =============================================================================
+
+[26100401] 04/10/2026 - lần 01
+
+- Giao diện mới đồng bộ với GPAcc TT99: màu sắc, nút bấm, trang bìa, thông tin hộ kinh doanh.
+- Tải hóa đơn điện tử thẳng từ Cổng thuế (thẻ Hóa Đơn): đăng nhập, tải bảng kê và chi tiết, đối chiếu với sổ, chuyển vào Bán Ra, Mua Vào và Nhật Ký. Hóa đơn bán ra vào đúng cột doanh thu, tiền thuế GTGT và TNCN tự tính theo tỷ lệ phần trăm bạn chọn.
+- Đọc file XML hóa đơn có sẵn trên máy (Lấy HĐĐT File XML).
+- Nút Kiểm Tra Dữ Liệu: quét ngày sai, số đang là chữ, tỷ lệ thuế gõ sai, tài khoản không có trong hệ thống, tháng không hợp lệ; bấm vào ô báo lỗi để nhảy tới chỗ sai. Các lệnh kết chuyển sổ tự kiểm trước khi chạy.
+- Ô Pass vào hóa đơn trên sheet Thông Tin Hộ Kinh Doanh để đăng nhập Cổng hóa đơn.
+- Lấy Dữ Liệu File Cũ nhận mọi bản sổ hộ năm nay, giữ nguyên công thức tiền thuế GTGT và TNCN, lấy cả doanh thu được trừ trên tờ khai mẫu 01/CNKD.
+- Sửa lỗi nút Lấy SDĐK Năm Trước báo lỗi biên dịch.
+- Bản quyền mới cấp theo máy: vào Tiện Ích, chọn Bản Quyền, điền tên và số điện thoại rồi bấm Gửi Yêu Cầu. Khi được duyệt, file tự kích hoạt lúc mở lại; cài lại Windows không phải xin lại. Bản dùng thử được 15 ngày.
+- Tự kiểm tra bản mới và cập nhật ngay trong file (Tiện Ích, chọn Cập Nhật); dữ liệu giữ nguyên.

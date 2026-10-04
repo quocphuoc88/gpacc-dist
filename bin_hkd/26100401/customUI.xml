@@ -1,0 +1,304 @@
+<customUI onLoad="GPAccRibOnLoad" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<!-- Thêm the? mo´i va`o Ribbon -->
+<ribbon>
+	<tabs>
+		<tab id="GIAPHUC" label="GPAcc" insertBeforeMso="TabHome">
+			<!-- Nhom He Thong Phan Mem -->
+			<group id="customGroup1" label="H&#7879; Th&#7889;ng">
+				
+				<splitButton id="mySplitButton1" size="large">
+					<button 
+						id="TTDN" 
+						label="TT H&#7897; Kinh Doanh"  
+						onAction="LinkSHB" 
+						imageMso="BlogHomePage" />
+					<menu id="splitMenu1" itemSize="large">
+						<button 
+							id="LuuY" 
+							imageMso="CreateStoredProcedure" 
+							label="L&#432;u &#221;" 
+							onAction="LinkSHB" 
+							screentip="N&#417;i t&#7853;p h&#7907;p t&#7845;t c&#7843; c&#225;c th&#244;ng tin l&#432;u &#253; v&#7873; Doanh Nghi&#7879;p" />
+					</menu>
+				</splitButton>
+				<separator id="MySeparator1" />
+				<menu id="MyDropdownMenu1" label="Ti&#7879;n &#205;ch" size="large"  imageMso="ControlsGallery"  >
+					<button id="BanQuyen" label="B&#7843;n Quy&#7873;n" onAction="UI_BanQuyen" image="lock" screentip="K&#237;ch ho&#7841;t b&#7843;n quy&#7873;n theo m&#225;y, xem m&#227; m&#225;y, g&#7917;i y&#234;u c&#7847;u c&#7845;p ph&#233;p" />
+					<button id="CapNhat" label="C&#7853;p Nh&#7853;t" onAction="UI_CapNhat" image="update_version" screentip="T&#7843;i v&#224; c&#224;i b&#7843;n m&#7899;i c&#7911;a s&#7893; h&#7897; (gi&#7919; nguy&#234;n d&#7919; li&#7879;u)" />
+					<button id="DiemMoi" label="&#272;i&#7875;m M&#7899;i" onAction="UI_DiemMoi" image="ligthbulb_on" />
+					<button id="PhienBan" label="Th&#244;ng Tin Phi&#234;n B&#7843;n" onAction="UI_PhienBan" image="history" />
+					<menuSeparator id="MySepBQ" />
+					<button 
+						id="CmdKPG" 
+						label="Kh&#244;i Ph&#7909;c G&#7889;c"  
+						onAction="KPhuc_Goc" 
+						imageMso="InkDeleteAllInk" 
+						screentip="Kh&#244;i ph&#7909;c l&#7841;i tr&#7841;ng th&#225;i ban &#273;&#7847;u" />
+					<button 
+						id="SaveAsFile" 
+						label="Back Up File" 
+						onAction="BackUpFile" 		
+						imageMso="MoveToFolder" 	
+						screentip="L&#432;u tr&#7919; file hi&#7879;n h&#224;nh." />
+					<button 
+						id="TIch" 
+						label="Ti&#7879;n &#205;ch Kh&#225;c" 
+						onAction="TienIchUI"
+						imageMso="ShowTimeZones"  />
+					<menuSeparator id="MyMenuSeparator1" />
+					<menu id="MyDropdownMenu2" label="Gi&#7899;i Thi&#7879;u"  imageMso="ModuleInsert" >
+						<button 
+							id="customButton4" 
+							label="Ph&#7847;n M&#7873;m K&#7871; To&#225;n Thu&#7871; - GPAcc" 
+							imageMso="NewAlert" />
+          				<button 
+							id="customButton5" 
+							label="T&#225;c Gi&#7843;: Tr&#7847;n Qu&#7889;c Ph&#432;&#7899;c" 
+							imageMso="NewAlert" />
+          				<button 
+							id="customButton6" 
+							label="Li&#234;n H&#7879;: 0907.012.012" 
+							imageMso="NewAlert" />
+						<button 
+							id="BntEmail" 
+							label="Email: quocphuoc_pl@outlook.com" 
+							imageMso="NewAlert" />
+					</menu>
+				</menu>
+				<separator  id="PCach1" />
+					<button 
+						id="AnSheet"
+						imageMso="Lock"
+						label="Hide"
+						screentip="&#7848;n sheet hi&#7879;n h&#224;nh - &apos;Ctrl + Shift + H&apos;"
+						size="large"
+						onAction="AnSheetUI"/>
+			</group>
+			
+			<!-- Nhom Nhap Lieu Chung Tu -->
+			<group id="Grp_HDON" label="H&#243;a &#272;&#417;n">
+				<button id="HOADON" label="H&#243;a &#272;&#417;n" onAction="LinkSHB" image="invoice" size="large" screentip="T&#7843;i h&#243;a &#273;&#417;n &#273;i&#7879;n t&#7917; t&#7915; C&#7893;ng thu&#7871;, &#273;&#7889;i chi&#7871;u, chuy&#7875;n v&#224;o s&#7893;" />
+				<button id="LayHDXML" label="L&#7845;y H&#272;&#272;T File XML" onAction="LinkSHB" image="xml" size="large" screentip="&#272;&#7885;c file XML h&#243;a &#273;&#417;n tr&#234;n m&#225;y" />
+				<separator id="MySepHD" />
+				<button id="KiemTra_TatCa" label="Ki&#7875;m Tra D&#7919; Li&#7879;u" onAction="UI_KiemTra" imageMso="DataValidation" size="large" screentip="Qu&#233;t l&#7895;i nh&#7853;p li&#7879;u &#7903; c&#225;c sheet nh&#7853;p li&#7879;u" />
+				<button id="BAO_LOI" label="B&#225;o L&#7895;i" onAction="LinkSHB" imageMso="FindDialog" size="large" screentip="Danh s&#225;ch l&#7895;i c&#7911;a l&#7847;n ki&#7875;m tra g&#7847;n nh&#7845;t" />
+			</group>
+			<group id="Grp_NLieu" label="Nh&#7853;p Li&#7879;u">
+				<button 
+					id="BR" 
+					imageMso="FunctionsLogicalInsertGallery" 
+					label="B&#225;n Ra" 
+					onAction="LinkSHB" 
+					size="large" />
+				<button 
+					id="NK_Ban" 
+					imageMso="FunctionsInformationInsertGallery" 
+					label="Nh&#7853;t K&#253; B&#225;n" 
+					onAction="LinkSHB" 
+					size="large" />
+				<separator id="MySeparator2" />
+				<button 
+					id="MV" 
+					imageMso="FunctionsLookupReferenceInsertGallery" 
+					label="Mua V&#224;o" 
+					onAction="LinkSHB" 
+					size="large" />
+				<button 
+					id="NK_Mua" 
+					imageMso="FunctionsMathTrigInsertGallery" 
+					label="Nh&#7853;t K&#253; Mua" 
+					onAction="LinkSHB" 
+					size="large" />
+				<separator id="MySeparator3" />
+				<button 
+					id="NH" 
+					label="Ng&#226;n H&#224;ng" 
+					size="large" 
+					onAction="LinkSHB" 
+					image="bank" />
+				<button 
+					id="LT" 
+					label="Linh Tinh" 
+					size="large" 
+					onAction="LinkSHB" 
+					imageMso="FunctionsDateTimeInsertGallery" />
+			</group>
+			
+			<!-- Nhom Quan Ly -->
+			<group id="Grp_QLy" label="Qu&#7843;n L&#253;">
+				<menu id="MyDropdownMenu3" label="C&#244;ng N&#7907;" size="large" imageMso="AddressBook" >
+					<button 
+						id="MaKH" 
+						label="M&#227; Kh&#225;ch H&#224;ng" 
+						onAction="LinkSHB" 
+						imageMso="Head" />
+					<menuSeparator id="MyMenuSeparator10" />
+					<button 
+						id="SDDK_CN" 
+						label="S&#7889; D&#432; &#272;&#7847;u K&#7923; C&#244;ng N&#7907;" 
+						onAction="LinkSHB" 
+						imageMso="AdpDiagramRecalculatePageBreaks" />
+					<button 
+						id="CN_TH" 
+						label="B&#7843;ng T&#7893;ng H&#7907;p" 
+						onAction="LinkSHB" 
+						imageMso="SymbolInsert" />
+					<button 
+						id="CN_CTiet" 
+						label="B&#7843;ng Chi Ti&#7871;t" 
+						onAction="LinkSHB" 
+						imageMso="AccountMenu" />
+				</menu>
+
+				<menu id="MyDropdownMenu5" label="Ph&#226;n B&#7893; - Kh&#7845;u Hao" size="large" image="spreadsheet" >
+					<button id="PBKH" label="B&#7843;ng T&#7893;ng H&#7907;p PH-KH" onAction="LinkSHB" imageMso="PrintPreviewShrinkOnePage" screentip="B&#7843;ng t&#7853;p h&#7907;p t&#7845;t c&#7843; t&#224;i s&#7843;n ph&#226;n b&#7893; v&#224; kh&#7845;u hao" />
+					<button id="Bang_PBo" label="B&#7843;ng Ph&#226;n B&#7893;" onAction="LinkSHB" imageMso="GroupListNew" />
+					<button id="Bang_TSCD" label="B&#7843;ng Kh&#7845;u Hao" onAction="LinkSHB" imageMso="GroupListEdit" />
+					<menuSeparator id="MyMenuSeparator5" />
+					<button id="customButton7" label="Khung Th&#7901;i Gian Tr&#237;ch Kh&#7845;u Hao TSC&#272;" onAction="Khung_PBKH" imageMso="GroupListSummaryNew" />
+				</menu>
+				<menu id="MyDropdownMenu6" label="NXT - Gi&#225; V&#7889;n" size="large" imageMso="AccessListCustomDatasheet" >
+					<button 
+						id="DK_HHDV" 
+						label="S&#7889; D&#432; &#272;&#7847;u K&#7923; HH-DV" 
+						onAction="LinkSHB" 
+						imageMso="ChartTypeOtherInsertGallery" />
+					<button 
+						id="NXT" 
+						label="B&#7843;ng Nh&#7853;p Xu&#7845;t T&#7891;n" 
+						onAction="LinkSHB" 
+						imageMso="RmsImportanceCheck" />
+					<menuSeparator id="MyMenuSeparator18" />
+					<button 
+						id="GV" 
+						imageMso="AsianLayoutCharactersEnclose" 
+						label="Gi&#225; V&#7889;n" 
+						onAction="LinkSHB" 
+						screentip="N&#417;i theo d&#245;i c&#225;c t&#224;i kho&#7843;n k&#7871;t chuy&#7875;n gi&#225; v&#7889;n cu&#7889;i k&#7923;" />
+				</menu>
+				<menu id="mySplitluong" label="L&#432;&#417;ng"  size="large" image="salary">
+					<button 
+						id="TTNV"
+						image="group"
+						label="Th&#244;ng Tin Nh&#226;n Vi&#234;n" 
+						onAction="LinkSHB"/>
+					<button 
+						id="HDLD"
+						image="contract"
+						label="H&#7907;p &#272;&#7891;ng Lao &#272;&#7897;ng" 
+						onAction="LinkSHB"/>
+					<menuSeparator id="MyMn_Lg" />
+					<button 
+						id="BangLuong" 
+						imageMso="AccountMenu" 
+						label="B&#7843;ng L&#432;&#417;ng - In" 
+						onAction="LinkSHB" />
+					<button 
+						id="TinhLuong" 
+						imageMso="ContactPictureMenu" 
+						label="B&#7843;ng L&#432;&#417;ng - D&#7919; Li&#7879;u" 
+						onAction="LinkSHB" />
+				</menu>
+
+			</group>
+			
+			<!-- Nhom Quyet Toan -->
+			<group id="Grp_QToan" label="Quy&#7871;t To&#225;n">
+				<menu id="MyDropdownMenu7" label="B&#7843;ng C&#272;SPS" size="large" image="balance" >
+					<button 
+						id="CDSPS" 
+						imageMso="StarRatedEmpty" 
+						label="B&#7843;ng C&#272;SPS N&#259;m Nay" 
+						onAction="LinkSHB"/>
+					<button 
+						id="CDSPS_NT" 
+						imageMso="StopAnimation" 
+						label="B&#7843;ng C&#272;SPS N&#259;m Tr&#432;&#7899;c" 
+						onAction="LinkSHB" 
+						screentip="B&#7843;ng c&#226;n &#273;&#7889;i s&#7889; ph&#225;t sinh n&#259;m tr&#432;&#7899;c" />
+				</menu>
+				<menu id="MyDropdownMenu8" label="Nh&#7853;t K&#253; Chung" size="large" imageMso="TrustCenter" >
+					<button 
+						id="NKC" 
+						imageMso="Heart" 
+						label="NKC - Ho&#224;n Ch&#7881;nh" 
+						screentip="Nh&#7853;t k&#253; chung ho&#224;n ch&#7881;nh." 
+						onAction="LinkSHB"  />
+					<menuSeparator id="NCach_NKC" />
+					<button 
+						id="HTTK" imageMso="ReadingViewAllowTyping" label="H&#7879; Th&#7889;ng T&#224;i Kho&#7843;n" onAction="LinkSHB"  />
+					<button 
+						id="Giai_Trinh" imageMso="ReadingViewAllowTyping" label="Gi&#7843;i Tr&#236;nh L&#7879;ch" onAction="LinkSHB"  />
+				</menu>	
+			</group>
+			
+			<!-- Nhom Bao Cao -->
+			<group id="customGroup5" label="T&#7901; Khai Thu&#7871;" >
+				<button 
+					id="TK01CNKD" 
+					label="T&#7901; Khai 01/CNKD"  
+					onAction="LinkSHB" 
+					imageMso="WatchWindow" 
+					size="large"/>
+					
+			</group>
+			
+			<!-- thêm nhom so sach va in so sach -->
+			<group id="Grp_SS" label="S&#7893; S&#225;ch v&#224; In">
+				<button 
+					id="Thu_Chi" 
+					image="bank_transaction" 
+					size="large"					
+					label="Phi&#7871;u Thu - Chi" 
+					onAction="LinkSHB"/>
+				<button 
+					id="Phieu_NX" 
+					label="Phi&#7871;u Nh&#7853;p - Xu&#7845;t" 
+					size="large" 
+					onAction="LinkSHB" 
+					imageMso="FormulaMoreFunctionsMenu" />
+				<separator id="MySeparator4" />
+				<menu id="MyDropdownMenu14" label="S&#7893; S&#225;ch" size="large" imageMso="CreateReport" >
+					<button 
+						id="Bia" 
+						label="B&#236;a S&#7893;" 
+						onAction="Bia_KT" 
+						imageMso="HappyFace" />
+					<menuSeparator id="MyMenuSeparator9" />
+					<button 
+						id="So_DoanhThu" 
+						label="1. S&#7893; Doanh Thu (S2b)" 
+						onAction="LinkSHB" 
+						imageMso="AdpDiagramArrangeSelection" />
+					<menuSeparator id="MyMenuSeparator17" />
+					<button 
+						id="So_DTCP" 
+						label="2. S&#7893; Chi Ti&#7871;t  Doanh Thu - Chi Ph&#237; (S2c)" 
+						onAction="LinkSHB" 
+						imageMso="ExchangeFolder" />
+					<button 
+						id="So_ChiTiet" 
+						label="3. S&#7893; Chi Ti&#7871;t HH-DV (S2d)" 
+						onAction="LinkSHB" 
+						imageMso="BuildingBlocksOrganizer" />						
+						
+					<menuSeparator id="MyMenuSeparator15" />
+					<button 
+						id="So_Quy" 
+						label="4. S&#7893; Qu&#7929; TM (S2e)" 
+						onAction="LinkSHB" 
+						imageMso="EventOnLoad" />
+					<button 
+						id="So_TGNH" 
+						label="4. S&#7893; TGNH (S2e)" 
+						onAction="LinkSHB" 
+						imageMso="EventOnBeforeChange" />
+					
+				</menu>
+				
+			</group>
+			
+		</tab>
+	</tabs>
+</ribbon>
+</customUI>
