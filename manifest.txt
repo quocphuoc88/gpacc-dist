@@ -109,12 +109,6 @@ GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.t
 #   Doc boi ModKhoSheet.LaySheetThieu (Code new 2026-09-21).
 KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|ed3842a6c08bca8349887139e63f21991e7fc0f0087ef89819721d6e328fcecb|1713824
 
-# --- KENH RIENG CUA BAN LECH NIEN DO (nien do ke toan khac 01/01-31/12) ----------
-#  Ban lech nien do KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_LND, ghi chu ghi-chu-lnd.txt).
-#  VER_LND / BIN_LND / UI_LND - tao boi PhatHanhTT.ps1 -Channel lnd (giao_khach_lnd.py).
-VER_LND|26100201|
-BIN_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26100201/vbaProject.bin|a8f87eb3d3a1bd3af7f3d059df88ccaee4da0823af604608182bec51d7ed4b12|3084800
-UI_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26100201/customUI.xml|5ebbf543287ec8a6a94d1363e59cdd0c5e3ad8e6be41226961599af2418c586b|20942
 
 
 # --- KENH RIENG CUA SO HO KINH DOANH (TT152/2025/TT-BTC) -------------------------------------
@@ -130,3 +124,10 @@ UI_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/261
 VER_TT58|26100501|U
 BIN_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26100501/vbaProject.bin|98fb0b3d623105412f2d1d897fbe268856f76d035bab0dc1601abd8c2e509fd7|4011520
 UI_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26100501/customUI.xml|c5fc07accd65470c9a00c5cb7dd2f8d0e3c7d261ca4a424513ba389af8eb35ce|19182
+
+# --- KENH RIENG CUA BAN LECH NIEN DO (nien do ke toan khac 01/01-31/12) ----------
+#  Ban lech nien do KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_LND, ghi chu ghi-chu-lnd.txt).
+#  VER_LND / BIN_LND / UI_LND - tao boi PhatHanhTT.ps1 -Channel lnd (giao_khach_lnd.py).
+VER_LND|26100501|U
+BIN_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26100501/vbaProject.bin|5a041445d4cf291c960be526914cfcb7df70e14353bb1d6d6bf7bb02ff3dff4c|3429888
+UI_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26100501/customUI.xml|53a5c8dbf4daee098fbc92116c04fdb56971455a3ca79074ed29240043299bc5|21217
