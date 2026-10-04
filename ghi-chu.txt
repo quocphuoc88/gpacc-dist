@@ -22,7 +22,7 @@
 - Máy đang dùng key hiện nay vẫn dùng bình thường, không phải làm gì thêm.
 - Cài lại Windows không còn phải xin kích hoạt lại: mã máy nay lấy theo phần cứng nên giữ nguyên. Chỉ khi thay máy hoặc thay bo mạch chủ mới cần gửi yêu cầu.
 - Máy chưa kích hoạt không còn bị đóng file ngay: được dùng thử 15 ngày. Hết hạn vẫn nhập liệu và xem số bình thường, chỉ các lệnh kết chuyển, tổng hợp và kết xuất cần kích hoạt; khi bấm các lệnh đó, hộp Bản Quyền tự mở.
-- Sửa lỗi cập nhật: lâu nay khi cập nhật, thanh công cụ (Ribbon) không được thay theo bản mới. Lần cập nhật này vẫn giữ thanh công cụ cũ; từ lần cập nhật sau, thanh công cụ sẽ đổi đúng theo bản mới (kèm nút Tiện Ích - Bản Quyền).
+- Lần cập nhật này có thể mất vài phút. Nếu Windows hiện hộp «Copy File» hỏi về tệp customUI.xml, bạn chọn «Replace the file in the destination» để nhận thanh công cụ mới (có thêm nút Tiện Ích - Bản Quyền). Từ lần cập nhật sau hộp này không hiện nữa.
 
 [26100301] 03/10/2026 - lần 01
 
