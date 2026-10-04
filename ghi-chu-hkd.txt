@@ -8,6 +8,11 @@
 #  BAN NHAP 04/10/2026 - TAC GIA DUYET truoc khi chep vao kho gpacc-dist.
 # =============================================================================
 
+[26100402] 04/10/2026 - lần 02
+
+- Sửa lỗi báo «Compile error: Variable not defined» khi mở danh mục hàng hóa - dịch vụ. Nút Xóa trong danh mục hàng hóa nay xóa đúng dòng.
+- Bỏ mục «Tiện Ích Khác» trên thanh công cụ vì mục này không chạy được trên Excel bản mới.
+
 [26100401] 04/10/2026 - lần 01
 
 - Giao diện mới đồng bộ với GPAcc TT99: màu sắc, nút bấm, trang bìa, thông tin hộ kinh doanh.

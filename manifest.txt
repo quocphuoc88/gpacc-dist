@@ -126,6 +126,6 @@ UI_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/2
 # --- KENH RIENG CUA SO HO KINH DOANH (TT152/2025/TT-BTC) -------------------------------------
 #  So ho KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_HKD, ghi chu ghi-chu-hkd.txt).
 #  VER_HKD / BIN_HKD / UI_HKD - tao boi TT152_Ho Kinh Doanh\_Cong_Cu\phat_hanh_hkd.py.
-VER_HKD|26100401|U
-BIN_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/26100401/vbaProject.bin|c3962bd21875da6d9ad7611c8bac3a2d97f17c57150b449fb5cfd9ff0f74edef|2440704
-UI_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/26100401/customUI.xml|823baa016d1613786ace6ed582c468092dab91643b0ab6d2dcc8d68b8cc43e14|11554
+VER_HKD|26100402|U
+BIN_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/26100402/vbaProject.bin|5f698e63999c88f1119103c52f0e23ff647314fdccc7b49501ab1fffe339a973|2399232
+UI_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/26100402/customUI.xml|337a585a0a7dad554ac5cb642965d6cf509c87fd07f194a95929d7a545e7abea|11416
