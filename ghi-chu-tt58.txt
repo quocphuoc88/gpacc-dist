@@ -8,6 +8,14 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26100501] 05/10/2026 - lần 01
+
+- Bản quyền theo cách mới: kích hoạt ngay trong hộp «Bản Quyền» của file. Bạn bấm Gửi Yêu Cầu, bên bán duyệt xong thì file tự kích hoạt ở lần mở sau, không còn phải nhắn mã máy hay nạp tệp key.
+- Bản TT58 nay có khóa bản quyền riêng nên key dùng trước đây không còn dùng cho bản này. Sau khi cập nhật, máy được dùng thử 15 ngày; trong thời gian đó bạn mở hộp Bản Quyền và bấm Gửi Yêu Cầu một lần để được kích hoạt lại.
+- Cài lại Windows không còn phải xin kích hoạt lại: mã máy nay lấy theo phần cứng nên giữ nguyên. Chỉ khi thay máy hoặc thay bo mạch chủ mới cần gửi yêu cầu.
+- Máy chưa kích hoạt không còn bị đóng file ngay: được dùng thử 15 ngày. Hết hạn vẫn nhập liệu và xem số bình thường, chỉ các lệnh kết chuyển, tổng hợp và kết xuất cần kích hoạt; khi bấm các lệnh đó, hộp Bản Quyền tự mở.
+- Lần cập nhật này có thể mất vài phút. Nếu Windows hiện hộp «Copy File» hỏi về tệp customUI.xml, bạn chọn «Replace the file in the destination» để nhận thanh công cụ mới (có thêm nút Tiện Ích - Bản Quyền). Từ lần cập nhật sau hộp này không hiện nữa.
+
 [26100302] 03/10/2026 - lần 02
 
 - Sửa lỗi các hộp thông báo của phần sổ TT58 (Lập Toàn Bộ Sổ, Áp Dụng Trường Hợp, Kết Xuất, Hạch Toán Thuế %...) hiện dấu "?" thay cho chữ tiếng Việt có dấu.
