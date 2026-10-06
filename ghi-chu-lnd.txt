@@ -7,6 +7,14 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26100601] 06/10/2026 - lần 01
+
+- Nâng cấp kết nối với file tính giá thành sản xuất - dịch vụ: giá thành tính xong được ghi thẳng về sổ sách, không còn phải chép tay qua lại. Tính năng này chỉ bật khi được hướng dẫn.
+- Tờ khai GTGT: hóa đơn đã ghi vào sổ điều chỉnh [37]/[38] không còn bị cộng thêm vào chỉ tiêu [23], [24], [25]. Trước đây hóa đơn kê khai trễ vừa ghi sổ điều chỉnh vừa nằm ở Mua Vào nên bị tính hai lần. Sau khi cập nhật, bạn kết chuyển lại thuế GTGT của kỳ đó.
+- Ô «Tự động hóa đơn muộn» trên sổ điều chỉnh [37]/[38] nay chọn được Có hoặc Không. Trước đây ô này chỉ hiện một lựa chọn «Có;Không». Các ô chọn khác bị lỗi tương tự cũng được sửa luôn.
+- Sheet Ngân Hàng và Linh Tinh: dòng chưa định khoản (ví dụ đã hạch toán bên Mua Vào) được để trống cột Tháng, kiểm tra dữ liệu không còn báo lỗi. Dòng đã định khoản mà quên điền tháng thì vẫn được nhắc như trước.
+- Khai thuế GTGT theo quý: nếu niên độ kế toán không bắt đầu từ đầu quý (tháng 01, 04, 07, 10) thì chương trình báo rõ và hướng dẫn chọn khai theo tháng, không còn dừng giữa chừng khi kết chuyển.
+
 [26100501] 05/10/2026 - lần 01
 
 - Sửa lỗi tờ khai GTGT: chỉ tiêu [37], [38] (điều chỉnh tăng, giảm thuế của kỳ trước) lấy nhầm kỳ khi niên độ không bắt đầu từ tháng 01. Nay lấy đúng tháng, quý dương lịch của kỳ khai.
