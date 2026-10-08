@@ -29,6 +29,8 @@
 				</splitButton>
 				<separator id="MySeparator1" />
 				<menu id="MyDropdownMenu1" image="wizard" label="Ti&#7879;n &#205;ch" size="large"  >
+					<button id="BanQuyenBQ" label="B&#7843;n Quy&#7873;n" onAction="BQ_RibbonMo" image="lock" screentip="K&#237;ch ho&#7841;t b&#7843;n quy&#7873;n theo m&#225;y, xem m&#227; m&#225;y, g&#7917;i y&#234;u c&#7847;u c&#7845;p ph&#233;p" />
+					<menuSeparator id="MySepBQ" />
 					<button 
 						id="CmdKPG" image="rotate" 
 						label="Kh&#244;i Ph&#7909;c G&#7889;c"  

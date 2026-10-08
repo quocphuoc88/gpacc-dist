@@ -8,6 +8,13 @@
 #  BAN NHAP 04/10/2026 - TAC GIA DUYET truoc khi chep vao kho gpacc-dist.
 # =============================================================================
 
+[26100801] 08/10/2026 - lần 01
+
+- Tải hóa đơn điện tử: hóa đơn liên quan (thay thế, điều chỉnh, hủy) nay là tùy chọn, mặc định không lấy cho tải nhanh và ít lỗi. Cần thì chọn «Lấy kèm khi tải» ở ô dưới nút Thực hiện. Đã tải xong rồi mới cần thì chọn «Chỉ quét bổ sung»: chương trình chỉ điền thêm cột hóa đơn liên quan, không tải lại và không xóa dữ liệu.
+- Nếu Cổng không trả thông tin hóa đơn liên quan, chương trình vẫn tải tiếp chi tiết hóa đơn, không dừng giữa chừng như trước.
+- Sửa lỗi thỉnh thoảng hiện hộp «Project is unviewable» khi đang tải. Trong lúc tải, các ô chọn thời gian, loại hóa đơn và thư mục lưu tạm khóa lại; muốn dừng, bấm nút Dừng.
+- Sửa lỗi cửa sổ Tải hóa đơn điện tử không mở được.
+
 [26100402] 04/10/2026 - lần 02
 
 - Sửa lỗi báo «Compile error: Variable not defined» khi mở danh mục hàng hóa - dịch vụ. Nút Xóa trong danh mục hàng hóa nay xóa đúng dòng.

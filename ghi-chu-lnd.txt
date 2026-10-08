@@ -7,6 +7,12 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26100801] 08/10/2026 - lần 01
+
+- Tải hóa đơn điện tử: hóa đơn liên quan (thay thế, điều chỉnh, hủy) nay là tùy chọn, mặc định không lấy cho tải nhanh và ít lỗi. Cần thì chọn «Lấy kèm khi tải» ở ô dưới nút Thực hiện. Đã tải xong rồi mới cần thì chọn «Chỉ quét bổ sung»: chương trình chỉ điền thêm cột hóa đơn liên quan, không tải lại và không xóa dữ liệu.
+- Nếu Cổng không trả thông tin hóa đơn liên quan, chương trình vẫn tải tiếp chi tiết hóa đơn, không dừng giữa chừng như trước.
+- Sửa lỗi thỉnh thoảng hiện hộp «Project is unviewable» khi đang tải. Trong lúc tải, các ô chọn thời gian, loại hóa đơn và thư mục lưu tạm khóa lại; muốn dừng, bấm nút Dừng.
+
 [26100601] 06/10/2026 - lần 01
 
 - Nâng cấp kết nối với file tính giá thành sản xuất - dịch vụ: giá thành tính xong được ghi thẳng về sổ sách, không còn phải chép tay qua lại. Tính năng này chỉ bật khi được hướng dẫn.
