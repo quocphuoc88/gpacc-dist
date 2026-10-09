@@ -19,7 +19,7 @@
 [26100901] 09/10/2026 - lần 01
 
 - Lấy dữ liệu từ file cũ: sửa lỗi mất số dư đầu kỳ thuế GTGT được khấu trừ (TK 133), làm kết chuyển thiếu phần thuế đầu vào chuyển từ năm trước. Lỗi gặp ở file cũ ghi số dư thẳng vào TK 133, chưa tách TK 1331; nay chương trình tự chuyển số dư đó xuống TK 1331.
-- Nếu bạn đã lấy dữ liệu từ file cũ trước bản này, hãy xem bảng cân đối số phát sinh năm trước: dòng TK 1331 trống trong khi TK 133 có số dư thì bạn liên hệ bên bán để được chỉnh giúp, không cần nhập lại dữ liệu.
+- Nếu bạn đã lấy dữ liệu từ file cũ trước bản này, hãy kiểm tra lại bảng cân đối số phát sinh; nếu bảng chạy lệch, bạn liên hệ 0907.012.012 để được xử lý.
 
 [26100801] 08/10/2026 - lần 01
 
