@@ -8,6 +8,11 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26101101] 11/10/2026 - lần 01
+
+- Fix lấy dữ liệu File cũ
+- Kiểm tra dữ liệu bảng lương: sửa lỗi báo sai cột «Tháng tính PC» ở các file có thêm hoặc bớt cột phụ cấp. Nay chương trình kiểm đúng từng cặp tiền phụ cấp và tháng tính, dù bạn thêm bao nhiêu loại phụ cấp hay ngày lễ.
+
 [26100901] 09/10/2026 - lần 01
 
 - Lấy dữ liệu từ file cũ: sửa lỗi mất số dư đầu kỳ thuế GTGT được khấu trừ (TK 133), làm kết chuyển thiếu phần thuế đầu vào chuyển từ năm trước. Lỗi gặp ở file cũ ghi số dư thẳng vào TK 133, chưa tách TK 1331; nay chương trình tự chuyển số dư đó xuống TK 1331.
