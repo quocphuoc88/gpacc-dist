@@ -7,6 +7,11 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26101201] 12/10/2026 - lần 01
+
+- Cập nhật hóa đơn vào sổ: sửa lỗi ghi đè mất các dòng bạn tự nhập thêm ở Mua Vào và Nhật Ký Mua (ví dụ biên lai phí, lệ phí không có trên Cổng thuế) khi dòng đó để trống số hóa đơn. Nay hóa đơn mới luôn được ghi nối phía dưới, không đụng dòng đã có.
+- Sửa lỗi "Path not found" (lỗi 76) khi để file trong thư mục OneDrive: tự kiểm bản mới, cập nhật, xuất PDF nay chạy bình thường.
+
 [26101101] 11/10/2026 - lần 01
 
 - Fix lấy dữ liệu File cũ

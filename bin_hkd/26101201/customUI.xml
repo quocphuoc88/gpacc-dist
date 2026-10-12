@@ -40,11 +40,6 @@
 						onAction="BackUpFile" 		
 						imageMso="MoveToFolder" 	
 						screentip="L&#432;u tr&#7919; file hi&#7879;n h&#224;nh." />
-					<button 
-						id="TIch" 
-						label="Ti&#7879;n &#205;ch Kh&#225;c" 
-						onAction="TienIchUI"
-						imageMso="ShowTimeZones"  />
 					<menuSeparator id="MyMenuSeparator1" />
 					<menu id="MyDropdownMenu2" label="Gi&#7899;i Thi&#7879;u"  imageMso="ModuleInsert" >
 						<button 

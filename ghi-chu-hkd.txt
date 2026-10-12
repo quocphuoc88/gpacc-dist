@@ -8,6 +8,11 @@
 #  BAN NHAP 04/10/2026 - TAC GIA DUYET truoc khi chep vao kho gpacc-dist.
 # =============================================================================
 
+[26101201] 12/10/2026 - lần 01
+
+- Cập nhật hóa đơn vào sổ: sửa lỗi ghi đè mất các dòng bạn tự nhập thêm ở Mua Vào và Nhật Ký Mua (ví dụ biên lai phí, lệ phí không có trên Cổng thuế) khi dòng đó để trống số hóa đơn. Nay hóa đơn mới luôn được ghi nối phía dưới, không đụng dòng đã có.
+- Sửa lỗi "Path not found" (lỗi 76) khi để file trong thư mục OneDrive: tự kiểm bản mới, cập nhật, xuất PDF nay chạy bình thường.
+
 [26100801] 08/10/2026 - lần 01
 
 - Tải hóa đơn điện tử: hóa đơn liên quan (thay thế, điều chỉnh, hủy) nay là tùy chọn, mặc định không lấy cho tải nhanh và ít lỗi. Cần thì chọn «Lấy kèm khi tải» ở ô dưới nút Thực hiện. Đã tải xong rồi mới cần thì chọn «Chỉ quét bổ sung»: chương trình chỉ điền thêm cột hóa đơn liên quan, không tải lại và không xóa dữ liệu.
