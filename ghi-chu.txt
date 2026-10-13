@@ -16,6 +16,10 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26101302] 13/10/2026 - lần 02
+
+- Kết chuyển sổ: sửa lỗi số dư đầu kỳ thuế GTGT được khấu trừ (TK 133) bằng 0 ở những file đã lấy dữ liệu năm trước bằng bản cũ. Nay bấm kết chuyển là chương trình tự nhận đúng dòng 1331 trên bảng cân đối số phát sinh năm trước, bạn không phải sửa tay.
+
 [26101301] 13/10/2026 - lần 01
 
 - Tờ khai GTGT: hóa đơn mua vào được xét theo cột Tháng ghi sổ. Ghi sổ và kê khai cùng tháng thì luôn vào chỉ tiêu [23]/[24] của tháng đó, dù ngày lập hóa đơn ở tháng trước (ví dụ hóa đơn lập tháng 8, ký tháng 9).
