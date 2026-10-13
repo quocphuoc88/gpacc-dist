@@ -16,6 +16,11 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26101301] 13/10/2026 - lần 01
+
+- Tờ khai GTGT: hóa đơn mua vào được xét theo cột Tháng ghi sổ. Ghi sổ và kê khai cùng tháng thì luôn vào chỉ tiêu [23]/[24] của tháng đó, dù ngày lập hóa đơn ở tháng trước (ví dụ hóa đơn lập tháng 8, ký tháng 9).
+- Khi bật «Tự động hóa đơn muộn» trên sổ [37]/[38]: bấm Kết chuyển tờ khai là máy tự đưa hóa đơn ghi sổ kỳ trước sang chỉ tiêu [38] (hoặc lập giải trình khai bổ sung kỳ gốc). Sổ [37]/[38] có thêm nút «Kết Chuyển» để chạy lại khi cần.
+
 [26101201] 12/10/2026 - lần 01
 
 - Cập nhật hóa đơn vào sổ: sửa lỗi ghi đè mất các dòng bạn tự nhập thêm ở Mua Vào và Nhật Ký Mua (ví dụ biên lai phí, lệ phí không có trên Cổng thuế) khi dòng đó để trống số hóa đơn. Nay hóa đơn mới luôn được ghi nối phía dưới, không đụng dòng đã có.
