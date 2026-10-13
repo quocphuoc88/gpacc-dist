@@ -16,6 +16,10 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26101303] 13/10/2026 - lần 03
+
+- Lấy dữ liệu File cũ: sửa lỗi Mua Vào không chép cột tiền hàng khi file cũ đặt tên cột là «Doanh số mua chưa có thuế».
+
 [26101302] 13/10/2026 - lần 02
 
 - Kết chuyển sổ: sửa lỗi số dư đầu kỳ thuế GTGT được khấu trừ (TK 133) bằng 0 ở những file đã lấy dữ liệu năm trước bằng bản cũ. Nay bấm kết chuyển là chương trình tự nhận đúng dòng 1331 trên bảng cân đối số phát sinh năm trước, bạn không phải sửa tay.
