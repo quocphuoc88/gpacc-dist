@@ -7,6 +7,12 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26101304] 14/10/2026 - lần 04
+
+- Kết xuất công nợ, sổ chi tiết: khi chưa chọn được nơi lưu, phần mềm hỏi lưu vào thư mục của File sổ chứ không bỏ file kết xuất nữa; thanh trạng thái báo đang kết xuất tới tài khoản nào, máy không còn đứng (Not Responding) khi kết xuất nhiều tài khoản.
+
+- Lấy số dư năm trước: sửa lỗi bảng CDSPS_NT ra số dư cuối kỳ cả hai bên Nợ và Có ở một số mã công nợ khi danh sách công nợ đánh số từ 100 trở lên (ví dụ 131-12 và 131-120). Nếu đã lấy số dư năm trước, bạn bấm lấy lại một lần sau khi cập nhật.
+
 [26101303] 13/10/2026 - lần 03
 
 - Lấy dữ liệu File cũ: sửa lỗi Mua Vào không chép cột tiền hàng khi file cũ đặt tên cột là «Doanh số mua chưa có thuế».
