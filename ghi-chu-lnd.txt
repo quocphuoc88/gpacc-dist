@@ -7,6 +7,10 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26101501] 15/10/2026 - lần 01
+
+- Tờ khai GTGT: sửa lỗi chỉ tiêu [23], [24] bị thiếu hóa đơn khi sổ điều chỉnh [37]/[38] (sheet DC_3738) có dòng trùng số hóa đơn. Trước đây hóa đơn của người bán khác chỉ trùng số cũng bị loại khỏi tờ khai; nay chỉ loại đúng hóa đơn đã ghi vào sổ (cùng số hóa đơn, cùng người bán, số tiền thuế khớp với dòng sổ).
+
 [26101304] 14/10/2026 - lần 04
 
 - Kết xuất công nợ, sổ chi tiết: khi chưa chọn được nơi lưu, phần mềm hỏi lưu vào thư mục của File sổ chứ không bỏ file kết xuất nữa; thanh trạng thái báo đang kết xuất tới tài khoản nào, máy không còn đứng (Not Responding) khi kết xuất nhiều tài khoản.
