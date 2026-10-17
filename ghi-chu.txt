@@ -16,6 +16,18 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26101701] 17/10/2026 - lần 01
+
+- Kéo dữ liệu từ phần mềm: nay kéo được cả từ GPAcc PRO, bên cạnh GPAcc Thuế. Nếu máy đang mở cùng lúc nhiều phần mềm, chương trình sẽ hỏi bạn muốn kéo từ phần mềm nào.
+
+- Khi kéo từ GPAcc Thuế hoặc GPAcc PRO: chương trình lấy Bán ra, Mua vào, NK bán, NK mua, Ngân hàng và Bảng kê hóa đơn; tài khoản Nợ/Có để trống để bạn tự định khoản. Dòng ngân hàng nào đã gắn đối tượng trong phần mềm thì mang theo tên và mã số thuế của đối tượng.
+
+- Tờ khai quyết toán thuế TNCN (05/QTT-TNCN): sửa các chỉ tiêu cá nhân cư trú và không cư trú. Cá nhân cư trú không ký hợp đồng lao động (khấu trừ 10%) nay được tính vào nhóm cư trú. Khi phụ lục 05-2 không phát sinh, tổng số lao động không còn bị cộng thêm một người. Chỉ tiêu [21] nay là số cá nhân được giảm trừ gia cảnh.
+
+- Tờ khai TNCN (05/QTT-TNCN và 05/KK-TNCN): một người vừa có hợp đồng lao động vừa làm cộng tác viên nay chỉ tính là một lao động.
+
+- Sau khi cập nhật, bạn bấm kết chuyển lại phụ lục 05-1, 05-2 và tờ khai TNCN để số liệu được tính lại.
+
 [26101601] 16/10/2026 - lần 01
 
 - Kết chuyển Nhật ký chung: sửa lỗi thuế GTGT đầu vào bị khấu trừ hai lần (TK 1331 dư Có) ở các hóa đơn có tháng ghi sổ khác tháng kê khai. Nay thuế của các hóa đơn này được treo ở TK 13881 từ tháng ghi sổ và tự chuyển sang 1331 đúng tháng kê khai; bạn vẫn định khoản thuế vào 1331 như bình thường.
