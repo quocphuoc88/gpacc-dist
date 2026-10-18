@@ -7,6 +7,14 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26101802] 18/10/2026 - lần 02
+
+- Kéo dữ liệu từ phần mềm: các dòng mới kéo về nay giữ đúng định dạng của bảng (đường kẻ, số hóa đơn, số tiền) và luôn chừa sẵn 20 dòng trống đã kẻ bên dưới để bạn nhập thêm.
+
+- Hóa đơn chưa có chi tiết hàng hóa trên phần mềm (chưa tải XML) sẽ được báo số lượng sau khi kéo; bạn vào GPAcc Thuế hoặc GPAcc PRO, màn Hóa đơn bấm «Đồng bộ phần còn thiếu», rồi kéo lại để chương trình điền bổ sung Nội dung.
+
+- Kéo lại sau khi bạn đã định khoản, ráp mã hàng hoặc tách một hóa đơn thành nhiều dòng theo tài khoản: chương trình nhận ra hóa đơn đã có, không thêm trùng; chỉ báo khi số tiền trên phần mềm khác tổng các dòng trong sổ.
+
 [26101801] 18/10/2026 - lần 01
 
 - Kéo dữ liệu từ phần mềm: cột Nội dung của Bán ra, Mua vào nay được điền theo mặt hàng có giá trị lớn nhất trên hóa đơn. Các dòng đã kéo trước đây còn trống Nội dung sẽ được điền bổ sung ở lần kéo tiếp theo.
