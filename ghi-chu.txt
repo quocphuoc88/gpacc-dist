@@ -16,6 +16,12 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26101801] 18/10/2026 - lần 01
+
+- Kéo dữ liệu từ phần mềm: cột Nội dung của Bán ra, Mua vào nay được điền theo mặt hàng có giá trị lớn nhất trên hóa đơn. Các dòng đã kéo trước đây còn trống Nội dung sẽ được điền bổ sung ở lần kéo tiếp theo.
+
+- Khi chưa mở phần mềm, chương trình chỉ nhắc bạn mở phần mềm lên rồi bấm Thử lại.
+
 [26101701] 17/10/2026 - lần 01
 
 - Kéo dữ liệu từ phần mềm: nay kéo được cả từ GPAcc PRO, bên cạnh GPAcc Thuế. Nếu máy đang mở cùng lúc nhiều phần mềm, chương trình sẽ hỏi bạn muốn kéo từ phần mềm nào.
