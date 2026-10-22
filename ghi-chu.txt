@@ -16,6 +16,12 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26102202] 22/10/2026 - lần 02
+
+- Kéo dữ liệu từ phần mềm GPAcc bản đầy đủ: NK bán / NK mua nay đi theo Bán ra / Mua vào - chỉ thêm dòng hàng của hóa đơn vừa được thêm mới; hóa đơn đã có thì không thêm lại dù bạn đã ráp mã, sửa tên hàng hay xóa bớt dòng. Kéo từ GPAcc Thuế / GPAcc PRO giữ nguyên như cũ.
+
+- Kéo dữ liệu từ phần mềm GPAcc bản đầy đủ: dòng phần mềm đã loại (hóa đơn từ chối kê khai, nhà cung cấp không theo dõi NK mua) mà sổ còn giữ từ lần kéo trước sẽ được liệt kê trong một hộp hỏi; bạn đồng ý thì chương trình xóa đúng các dòng đó, dòng bạn đã sửa tay vẫn giữ nguyên.
+
 [26102201] 22/10/2026 - lần 01
 
 - Kết chuyển Nhật ký chung: sửa lỗi bỏ sót bút toán khi bạn thêm dòng vào bảng Giá vốn (sheet GV) mà dòng cuối bị nằm ngoài vùng định khoản. Nay phần mềm tự nhận các dòng có đủ tài khoản Nợ, Có ngay dưới bảng, ghi đủ vào Nhật ký chung và nhắc bạn lưu file.

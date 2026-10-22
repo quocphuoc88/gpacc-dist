@@ -9,10 +9,10 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|26102201|
+VER|26102202|
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26102201/vbaProject.bin|7c966826c49b702ebe08542520eb20c6595b82749224076736f25abc7e7781b0|5131264
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26102202/vbaProject.bin|b8d48cd165be9963b382d31e9c3ac75e3b184b9f0ed637f5889cb0bbc5417bd1|5212672
 
 # UI | <url customUI.xml> | <sha256>
 UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26100601/customUI.xml|be46f507161cfddf7d74e8c9e8c7da8b5c3b71936436301090b322531dee8fc7|21788
@@ -101,13 +101,13 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 #   «Diem moi» hien cho nguoi dung: luc bam Check Update (vai dong dau, Cancel de xem
 #   day du), ngay sau khi cap nhat xong, va bat cu luc nao qua «Thong Tin Phien Ban».
 #   Moi ban la mot muc bat dau bang [yymmdd] o dau dong. Doc boi ModDist.DistGhiChu.
-GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|634717b130d31c87b702e27cbd1b5a80d9a8c24479def311b3bf1a77e4e59df9|32033
+GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|73e7f67a01718f64be8d30ab66ec6cef0b5230cea5c86d084900259a57b7df0f|32804
 
 # KHOSHEET | <so schema> | <url KhoSheet.xlsx> | <sha256> | <kich thuoc>
 #   Goi chua BAN TRONG cua MOI sheet trong ban goc. Chi tai ve khi file khach THIEU HAN
 #   mot sheet goc - thay cho duong nang "tao file moi roi Lay DL file cu".
 #   Doc boi ModKhoSheet.LaySheetThieu (Code new 2026-09-21).
-KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|024fc50a993ee408b5d5fb32ec398fe7fd5e1f267482f415302a1207cd19d0f6|1717163
+KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|f9b9b21d2c15d9eb00f24079c0897e634409c5b2dc01307a026b47ee3ab8c180|1717596
 
 
 
