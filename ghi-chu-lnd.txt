@@ -7,6 +7,16 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26102201] 22/10/2026 - lần 01
+
+- Kết chuyển Nhật ký chung: sửa lỗi bỏ sót bút toán khi bạn thêm dòng vào bảng Giá vốn (sheet GV) mà dòng cuối bị nằm ngoài vùng định khoản. Nay phần mềm tự nhận các dòng có đủ tài khoản Nợ, Có ngay dưới bảng, ghi đủ vào Nhật ký chung và nhắc bạn lưu file.
+
+- Kiểm tra dữ liệu: báo trước dòng nào trong bảng Giá vốn đang nằm ngoài vùng định khoản, để bạn biết trước khi kết chuyển.
+
+- Lấy dữ liệu File cũ: sửa lỗi bảng Giá vốn ở File mới bị mất dòng cuối, hoặc hiện #N/A, khi bảng ở File cũ có số dòng khác bản mẫu.
+
+- Nếu bảng Giá vốn của bạn có thêm dòng, sau khi cập nhật hãy bấm Kết chuyển Nhật ký chung lại một lần.
+
 [26101802] 18/10/2026 - lần 02
 
 - Kéo dữ liệu từ phần mềm: các dòng mới kéo về nay giữ đúng định dạng của bảng (đường kẻ, số hóa đơn, số tiền) và luôn chừa sẵn 20 dòng trống đã kẻ bên dưới để bạn nhập thêm.
