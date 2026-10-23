@@ -1,0 +1,30 @@
+# =============================================================================
+#  GHI CHU CAC BAN CAP NHAT  -  GPAcc TT99 NHIEU CHI NHANH
+#
+#  Kenh rieng cua ban nhieu chi nhanh (dong VER_CN trong manifest.txt). File nay
+#  do ban nhieu chi nhanh DOC de hien "Diem moi" - ban thuong doc ghi-chu.txt.
+#  Quy uoc giong ghi-chu.txt: moi ban mot muc [yymmddNN] o DAU DONG, moi y mot
+#  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
+# =============================================================================
+
+[26102301] 23/10/2026 - lần 01
+
+- Bản GPAcc TT99 dành cho doanh nghiệp có nhiều chi nhánh theo dõi chung trên một file sổ. Bản này đã gồm đầy đủ các cập nhật của GPAcc TT99 đến ngày 22/10/2026.
+
+- Khai báo chi nhánh: trên thanh GPAcc vào Báo Cáo Tài Chính > Báo Cáo Theo Chi Nhánh > Danh Mục Chi Nhánh. Bấm Tạo Tài Khoản Chi Nhánh để phần mềm tự mở tài khoản chi tiết cho từng chi nhánh (ví dụ 1111-CN1, 5111-CN1, 911-CN1), rồi bấm Kiểm Tra Khai Báo để xem còn thiếu tài khoản nào. Tài khoản 911, 4211, 4212 cần mở theo chi nhánh để tách được lãi lỗ.
+
+- Kết chuyển Nhật ký chung như thường lệ: doanh thu, chi phí, lãi lỗ năm nay và năm trước, thuế TNDN, thuế GTGT đều được kết chuyển riêng cho từng chi nhánh. Tổng số thuế GTGT kết chuyển không đổi nên tờ khai thuế không bị ảnh hưởng.
+
+- Hóa đơn mua vào ghi sổ tháng này nhưng kê khai tháng khác: thuế GTGT được treo vào tài khoản 13881 của đúng chi nhánh, đến tháng kê khai thì chuyển về 1331 của chi nhánh đó.
+
+- Khấu hao tài sản và phân bổ chi phí trả trước ghi Có đúng tài khoản hao mòn, chi phí trả trước của chi nhánh có chi phí. Bảng khấu hao, phân bổ nay nhận được nhiều dòng hơn, đủ cho nhiều chi nhánh.
+
+- Bấm Kết Chuyển BCTC Chi Nhánh để xem Kết quả kinh doanh, Tình hình tài chính và Lưu chuyển tiền tệ của các chi nhánh đặt cạnh nhau, kèm cột Toàn công ty và cột Chưa phân bổ (phát sinh trên tài khoản chưa gắn mã chi nhánh). Báo cáo tài chính chung của công ty không bị thay đổi.
+
+- Bấm Kết Xuất BCTC Chi Nhánh để xuất mỗi chi nhánh đã đánh dấu một file báo cáo riêng, kèm một file hợp nhất toàn công ty.
+
+- Chi phí ghi âm (giảm chi phí) nay được cộng đúng trên Bảng cân đối số phát sinh và báo cáo.
+
+- Lấy dữ liệu File cũ: mang theo cả danh mục chi nhánh đã khai báo.
+
+- Bấm Cập Nhật: bản nhiều chi nhánh chỉ nhận bản cập nhật dành riêng cho bản nhiều chi nhánh, không bị thay bằng bản thường.
