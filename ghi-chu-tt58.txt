@@ -8,6 +8,16 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26102601] 26/10/2026 - lần 01
+
+- Đăng nhập Cổng hóa đơn điện tử: sửa lỗi vừa bấm Đăng nhập đã báo «Cổng trả về dữ liệu không đọc được (mã lỗi 429)». Cổng vừa siết số lần gọi tới cửa đăng nhập; chương trình nay không gửi thừa yêu cầu nữa, và nếu Cổng bảo chờ thì tự chờ vài giây rồi đăng nhập lại.
+
+- Tải hóa đơn điện tử: Cổng thuế vừa đổi cách tra cứu hóa đơn khởi tạo từ máy tính tiền - mỗi lần tìm phải kèm một mã xác thực (captcha) mới. Chương trình nay tự lấy và tự đọc mã cho từng lần tìm, bạn không phải gõ thêm gì. Trước bản này phần hóa đơn máy tính tiền báo lỗi và không tải về được.
+
+- Tải hóa đơn điện tử: Cổng chỉ cho tìm hóa đơn máy tính tiền mỗi lần tối đa 10 ngày, nên chương trình tự chia mỗi tháng thành các khúc ngày 1 - 10, 11 - 20, 21 - cuối tháng và tự nghỉ vài giây giữa các lần tìm để Cổng không chặn. Phần hóa đơn máy tính tiền vì vậy tải lâu hơn trước một chút (khoảng 15 - 20 giây mỗi tháng); hóa đơn điện tử thường không đổi.
+
+- Nếu Cổng không nhận mã xác thực, chương trình tự lấy mã khác và thử lại; vẫn không được thì ghi lỗi vào danh sách cuối đợt rồi tải tiếp phần còn lại, không dừng cả đợt.
+
 [26102201] 22/10/2026 - lần 01
 
 - Kết chuyển Nhật ký chung: sửa lỗi bỏ sót bút toán khi bạn thêm dòng vào bảng Giá vốn (sheet GV) mà dòng cuối bị nằm ngoài vùng định khoản. Nay phần mềm tự nhận các dòng có đủ tài khoản Nợ, Có ngay dưới bảng, ghi đủ vào Nhật ký chung và nhắc bạn lưu file.

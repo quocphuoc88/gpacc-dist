@@ -9,10 +9,10 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|26102202|
+VER|26102601|
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26102202/vbaProject.bin|b8d48cd165be9963b382d31e9c3ac75e3b184b9f0ed637f5889cb0bbc5417bd1|5212672
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26102601/vbaProject.bin|6c4af399412cb27de36220b41823cb67f2d321bb469c54a2d2d1d60d5096e6a8|5270016
 
 # UI | <url customUI.xml> | <sha256>
 UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26100601/customUI.xml|be46f507161cfddf7d74e8c9e8c7da8b5c3b71936436301090b322531dee8fc7|21788
@@ -101,13 +101,13 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 #   «Diem moi» hien cho nguoi dung: luc bam Check Update (vai dong dau, Cancel de xem
 #   day du), ngay sau khi cap nhat xong, va bat cu luc nao qua «Thong Tin Phien Ban».
 #   Moi ban la mot muc bat dau bang [yymmdd] o dau dong. Doc boi ModDist.DistGhiChu.
-GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|73e7f67a01718f64be8d30ab66ec6cef0b5230cea5c86d084900259a57b7df0f|32804
+GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|b6f9304947b45ce17a17dc24808be8856f7e4e0138d0de76c7f5e89724af20a4|34329
 
 # KHOSHEET | <so schema> | <url KhoSheet.xlsx> | <sha256> | <kich thuoc>
 #   Goi chua BAN TRONG cua MOI sheet trong ban goc. Chi tai ve khi file khach THIEU HAN
 #   mot sheet goc - thay cho duong nang "tao file moi roi Lay DL file cu".
 #   Doc boi ModKhoSheet.LaySheetThieu (Code new 2026-09-21).
-KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|f9b9b21d2c15d9eb00f24079c0897e634409c5b2dc01307a026b47ee3ab8c180|1717596
+KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|d5970de635207a9949501165b0bd544d30ba8cb8b8f32e77aa9c8024755f15ff|1717575
 
 
 
@@ -124,12 +124,9 @@ KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoShee
 
 
 
-# --- KENH RIENG CUA SO HO KINH DOANH (TT152/2025/TT-BTC) -------------------------------------
-#  So ho KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_HKD, ghi chu ghi-chu-hkd.txt).
-#  VER_HKD / BIN_HKD / UI_HKD - tao boi TT152_Ho Kinh Doanh\_Cong_Cu\phat_hanh_hkd.py.
-VER_HKD|26101201|
-BIN_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/26101201/vbaProject.bin|671355257f4a917738c9770f1723be12fd7e2635ca97ee2c743663c506e446ed|2572800
-UI_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/26101201/customUI.xml|337a585a0a7dad554ac5cb642965d6cf509c87fd07f194a95929d7a545e7abea|11416
+
+
+
 
 
 
@@ -152,20 +149,27 @@ UI_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/261
 # --- KENH RIENG CUA BAN LECH NIEN DO (nien do ke toan khac 01/01-31/12) ----------
 #  Ban lech nien do KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_LND, ghi chu ghi-chu-lnd.txt).
 #  VER_LND / BIN_LND / UI_LND - tao boi PhatHanhTT.ps1 -Channel lnd (giao_khach_lnd.py).
-VER_LND|26102201|
-BIN_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26102201/vbaProject.bin|d69763a8e5314cd2c0267e07333dac76f94a7ef7f2c891a999ba99ddce0ea729|3711488
-UI_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26102201/customUI.xml|be46f507161cfddf7d74e8c9e8c7da8b5c3b71936436301090b322531dee8fc7|21788
+VER_LND|26102601|
+BIN_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26102601/vbaProject.bin|2f5d4386b87ab43b3809a90a72048affcfd7ae7fdea85b041f825933dff6d463|3790336
+UI_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26102601/customUI.xml|be46f507161cfddf7d74e8c9e8c7da8b5c3b71936436301090b322531dee8fc7|21788
 
 # --- KENH RIENG CUA BAN TT58 (che do ke toan doanh nghiep sieu nho - TT58/2026/TT-BTC) ----------
 #  Ban TT58 KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_TT58, ghi chu ghi-chu-tt58.txt).
 #  VER_TT58 / BIN_TT58 / UI_TT58 - tao boi PhatHanhTT.ps1 -Channel tt58 (giao_khach_tt58.py).
-VER_TT58|26102201|
-BIN_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26102201/vbaProject.bin|0837e47a01bfa919198a6a56ad6223f733b362b6ea3dd1ea686f06b33feb254c|4864512
-UI_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26102201/customUI.xml|c5fc07accd65470c9a00c5cb7dd2f8d0e3c7d261ca4a424513ba389af8eb35ce|19182
+VER_TT58|26102601|
+BIN_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26102601/vbaProject.bin|985b03f787770be071c712ebb43e4040095be2f300c32736ca84b6c2d0fb52db|4883456
+UI_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26102601/customUI.xml|c5fc07accd65470c9a00c5cb7dd2f8d0e3c7d261ca4a424513ba389af8eb35ce|19182
 
 # --- KENH RIENG CUA BAN NHIEU CHI NHANH (TT99 + BCTC theo chi nhanh) ----------
 #  Ban CN KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_CN, ghi chu ghi-chu-cn.txt).
 #  VER_CN / BIN_CN / UI_CN - tao boi PhatHanhTT.ps1 -Channel cn (giao_khach_cn.py).
-VER_CN|26102301|U
-BIN_CN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_cn/26102301/vbaProject.bin|77e33a890ce612d3bde0e8c559e7dd52c2bab08f4b3b1215c858754649c1b7a8|5385728
-UI_CN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_cn/26102301/customUI.xml|7fb24b93e27ce48cee4756aa40259d371d26941aa25e8841ba463378b137ad8e|23197
+VER_CN|26102601|
+BIN_CN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_cn/26102601/vbaProject.bin|fb404767abdd411316886e494ce81445bb0fe2234d8cb22894cda6e3f76f758c|5413888
+UI_CN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_cn/26102601/customUI.xml|7fb24b93e27ce48cee4756aa40259d371d26941aa25e8841ba463378b137ad8e|23197
+
+# --- KENH RIENG CUA SO HO KINH DOANH (TT152/2025/TT-BTC) -------------------------------------
+#  So ho KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_HKD, ghi chu ghi-chu-hkd.txt).
+#  VER_HKD / BIN_HKD / UI_HKD - tao boi TT152_Ho Kinh Doanh\_Cong_Cu\phat_hanh_hkd.py.
+VER_HKD|26102601|
+BIN_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/26102601/vbaProject.bin|45188324e1f6572c64069845e8ae23da9880218a2899f111fbfa2d72b8f27830|2626560
+UI_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/26102601/customUI.xml|337a585a0a7dad554ac5cb642965d6cf509c87fd07f194a95929d7a545e7abea|11416
