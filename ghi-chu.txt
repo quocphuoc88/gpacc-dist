@@ -16,6 +16,14 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26102901] 29/10/2026 - lần 01
+
+- Bảng phân bổ công cụ dụng cụ: sửa lỗi tháng ghi giảm (thanh lý, hỏng, mất). Trước đây công cụ đã ghi giảm vẫn còn hiện giá trị còn lại và vẫn tính đủ phân bổ cả tháng, nên tổng «Còn lại» lớn hơn số dư tài khoản 242 trên Cân đối số phát sinh và tổng «Kỳ này» lớn hơn bút toán phân bổ. Nay tháng ghi giảm chỉ tính phân bổ tới ngày ghi giảm, «Còn lại» về 0, cột Ghi chú ghi rõ ngày ghi giảm và giá trị còn lại đã ghi giảm. Bút toán phân bổ trên sổ vốn đã đúng, không đổi.
+
+- Nếu bạn đã ghi giảm công cụ dụng cụ trong năm, sau khi cập nhật hãy chạy lại Bảng phân bổ cho tháng ghi giảm để số trên bảng khớp số dư 242.
+
+- Tính lương: người có loại hợp đồng CT-KHDLD và CT-KHDLD-2 (thu nhập vãng lai) nay xét ngưỡng và khấu trừ 10% trên tổng thu nhập trừ phần miễn thuế, không trừ bảo hiểm, giảm trừ bản thân và người phụ thuộc. Trước đây nếu lỡ điền giảm trừ cho người vãng lai thì số thuế khấu trừ bị thấp hơn hoặc lọt ngưỡng. Lương thực lãnh vẫn trừ bảo hiểm như cũ.
+
 [26102601] 26/10/2026 - lần 01
 
 - Đăng nhập Cổng hóa đơn điện tử: sửa lỗi vừa bấm Đăng nhập đã báo «Cổng trả về dữ liệu không đọc được (mã lỗi 429)». Cổng vừa siết số lần gọi tới cửa đăng nhập; chương trình nay không gửi thừa yêu cầu nữa, và nếu Cổng bảo chờ thì tự chờ vài giây rồi đăng nhập lại.
