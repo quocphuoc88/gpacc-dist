@@ -1,3 +1,10 @@
+[26110103]
+- Add-in nay mở được thêm sổ Hộ kinh doanh (TT152) và sổ các năm trước theo TT200, TT133. Mở sổ nào, thẻ GPAcc hiện đúng các nút của loại sổ đó; mở nhiều loại sổ cùng lúc không bị lẫn lệnh sang nhau.
+- Sổ TT200, TT133 giữ nguyên cách tính như bản file bạn đang dùng — để làm lại, đối chiếu sổ các năm trước. Máy đã kích hoạt bản TT200 / TT133 trước đây vẫn giữ nguyên kích hoạt.
+- Chuyển sổ hộ, sổ TT200 / TT133 sang add-in như sổ TT99: mở sổ, vào GPAcc → Tiện ích → «Chuyển Sổ Sang Add-in». Bản cũ được sao lưu nguyên vẹn trong thư mục GPAcc_SaoLuu cạnh sổ.
+- «Tạo Sổ Mới» có thêm sổ Hộ kinh doanh (TT152).
+- Mở sổ bằng add-in: tiêu đề cửa sổ, ngày dương lịch / âm lịch và trang chính hiện như bản file cũ.
+
 [26110102]
 - Bản quyền: máy kiểm chữ ký số của mã kích hoạt nhận từ nơi bán trước khi kích hoạt — an toàn hơn, bạn không phải làm gì thêm.
 
