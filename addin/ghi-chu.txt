@@ -1,3 +1,10 @@
+[26110104]
+- Add-in nay mở được thêm File Ngân hàng - Tỷ giá. Mở file ngân hàng, thẻ GPAcc hiện đúng các nút của file (danh sách sổ ngân hàng VNĐ / ngoại tệ, Thêm ngân hàng, Khoá Công Thức…); mở cùng sổ TT99 không bị lẫn lệnh sang nhau.
+- Máy đã kích hoạt File Ngân hàng trước đây vẫn giữ nguyên kích hoạt.
+- Chuyển file ngân hàng sang add-in: mở file, vào GPAcc → Thông Tin (mũi tên bên dưới) → «Chuyển Sổ Sang Add-in». Bản cũ được sao lưu nguyên vẹn trong thư mục GPAcc_SaoLuu cạnh file.
+- Sổ TT99 lấy số từ file ngân hàng vẫn chạy như trước, kể cả khi file ngân hàng đã chuyển sang add-in.
+- «Tạo Sổ Mới» có thêm File Ngân hàng.
+
 [26110103]
 - Add-in nay mở được thêm sổ Hộ kinh doanh (TT152) và sổ các năm trước theo TT200, TT133. Mở sổ nào, thẻ GPAcc hiện đúng các nút của loại sổ đó; mở nhiều loại sổ cùng lúc không bị lẫn lệnh sang nhau.
 - Sổ TT200, TT133 giữ nguyên cách tính như bản file bạn đang dùng — để làm lại, đối chiếu sổ các năm trước. Máy đã kích hoạt bản TT200 / TT133 trước đây vẫn giữ nguyên kích hoạt.
