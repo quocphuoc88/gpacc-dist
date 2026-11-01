@@ -1,3 +1,6 @@
+[26110102]
+- Bản quyền: máy kiểm chữ ký số của mã kích hoạt nhận từ nơi bán trước khi kích hoạt — an toàn hơn, bạn không phải làm gì thêm.
+
 [26110101]
 - GPAcc Add-in bản đầu tiên: một bộ cài dùng chung cho mọi chế độ sổ (TT99, Doanh nghiệp lớn, Nhiều chi nhánh, Lệch niên độ, TT58). Mở sổ nào, thẻ GPAcc tự hiện đúng các nút của chế độ sổ đó.
 - Sổ đang dùng bản file cũ vẫn chạy bình thường. Muốn chuyển sang add-in: mở sổ, vào GPAcc → Tiện ích → «Chuyển Sổ Sang Add-in». Bản cũ được sao lưu nguyên vẹn trong thư mục GPAcc_SaoLuu cạnh sổ.
