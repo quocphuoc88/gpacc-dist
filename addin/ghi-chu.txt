@@ -1,3 +1,9 @@
+[26110105]
+- Tải hóa đơn điện tử nay mở thành một thanh bên ngay cạnh sổ, thay cho hai cửa sổ Đăng nhập và Tải hóa đơn: đăng nhập (ảnh mã xác nhận hiện ngay trên thanh, mã được điền sẵn), chọn kỳ, Thực hiện / Tải XML / Cập nhật vào sổ, xem tiến độ và nhật ký, Tạm dừng / Dừng. Cách tải và ghi vào sổ không đổi.
+- Muốn dùng cửa sổ cũ: bấm «Dùng màn cũ» ở cuối thanh bên.
+- Sửa lỗi: đang chạy một lệnh dài (như tải hóa đơn) mà mở thêm sổ khác, phần còn lại của lệnh có thể ghi sang sổ vừa mở. Nay lệnh luôn ghi đúng sổ đang làm.
+- Áp dụng cho sổ TT99 (cả bản Doanh nghiệp lớn, Nhiều chi nhánh, Lệch niên độ, TT58) và sổ hộ kinh doanh TT152.
+
 [26110104]
 - Add-in nay mở được thêm File Ngân hàng - Tỷ giá. Mở file ngân hàng, thẻ GPAcc hiện đúng các nút của file (danh sách sổ ngân hàng VNĐ / ngoại tệ, Thêm ngân hàng, Khoá Công Thức…); mở cùng sổ TT99 không bị lẫn lệnh sang nhau.
 - Máy đã kích hoạt File Ngân hàng trước đây vẫn giữ nguyên kích hoạt.
