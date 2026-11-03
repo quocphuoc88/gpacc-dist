@@ -1,3 +1,7 @@
+[26110301]
+- Tải hoá đơn điện tử (nút "Thực hiện" trên thanh bên) nay chạy ngầm: bấm xong là làm việc khác trên sổ ngay được (gõ số liệu, mở sheet khác, lưu file...), không phải đợi tải xong mới dùng được Excel. Thanh bên vẫn hiện tiến độ, nhật ký, nút Tạm dừng / Dừng như trước; cách tải và ghi vào sổ không đổi.
+- Áp dụng cho sổ TT99 (cả bản Doanh nghiệp lớn, Nhiều chi nhánh, Lệch niên độ, TT58) và sổ hộ kinh doanh TT152.
+
 [26110106]
 - Phần tải hoá đơn điện tử của sổ TT99 (cả bản Doanh nghiệp lớn, Nhiều chi nhánh, Lệch niên độ, TT58) nay chạy trong add-in đã biên dịch, kín hơn mã macro cũ. Cách tải và kết quả không đổi, các nút và cửa sổ dùng như trước.
 - Nếu gặp thông báo lỗi lạ khi tải hoá đơn sau khi cập nhật, xin chụp màn hình gửi GPAcc.
