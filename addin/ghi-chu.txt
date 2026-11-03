@@ -1,3 +1,7 @@
+[26110106]
+- Phần tải hoá đơn điện tử của sổ TT99 (cả bản Doanh nghiệp lớn, Nhiều chi nhánh, Lệch niên độ, TT58) nay chạy trong add-in đã biên dịch, kín hơn mã macro cũ. Cách tải và kết quả không đổi, các nút và cửa sổ dùng như trước.
+- Nếu gặp thông báo lỗi lạ khi tải hoá đơn sau khi cập nhật, xin chụp màn hình gửi GPAcc.
+
 [26110105]
 - Tải hóa đơn điện tử nay mở thành một thanh bên ngay cạnh sổ, thay cho hai cửa sổ Đăng nhập và Tải hóa đơn: đăng nhập (ảnh mã xác nhận hiện ngay trên thanh, mã được điền sẵn), chọn kỳ, Thực hiện / Tải XML / Cập nhật vào sổ, xem tiến độ và nhật ký, Tạm dừng / Dừng. Cách tải và ghi vào sổ không đổi.
 - Muốn dùng cửa sổ cũ: bấm «Dùng màn cũ» ở cuối thanh bên.
