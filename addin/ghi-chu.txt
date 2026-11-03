@@ -1,3 +1,7 @@
+[26110302]
+- Bộ cài chắc chắn hơn: nếu lúc cài, phần mềm diệt virus đang giữ tạm file mới (hay gặp ngay sau khi tải về), bước đăng ký với Excel trước đây có thể báo lỗi "Object required" — nay bộ cài tự thử lại vài lần trước khi báo lỗi thật.
+- Không có gì khác đổi so với bản 26110301.
+
 [26110301]
 - Tải hoá đơn điện tử (nút "Thực hiện" trên thanh bên) nay chạy ngầm: bấm xong là làm việc khác trên sổ ngay được (gõ số liệu, mở sheet khác, lưu file...), không phải đợi tải xong mới dùng được Excel. Thanh bên vẫn hiện tiến độ, nhật ký, nút Tạm dừng / Dừng như trước; cách tải và ghi vào sổ không đổi.
 - Áp dụng cho sổ TT99 (cả bản Doanh nghiệp lớn, Nhiều chi nhánh, Lệch niên độ, TT58) và sổ hộ kinh doanh TT152.
