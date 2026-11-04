@@ -1,3 +1,11 @@
+[26110401]
+- Thẻ GPAcc khi đang ở một file Excel thường (chưa mở sổ GPAcc) nay có đủ các nút dùng chung: Tạo sổ mới, Sổ gần đây (mở nhanh các sổ GPAcc bạn dùng gần đây), Bản Quyền, Kiểm Tra Cập Nhật, Hướng Dẫn Sử Dụng, Góp Ý / Báo Lỗi, Giới Thiệu (xem phiên bản và điểm mới).
+- Mới: Góp Ý / Báo Lỗi — gửi góp ý, báo lỗi hoặc đề nghị nâng cấp thẳng tới GPAcc ngay trong Excel, có thể kèm ảnh màn hình để được xử lý nhanh hơn. Có ở mọi loại sổ: GPAcc → Tiện ích → Góp Ý / Báo Lỗi.
+- Sửa lỗi cửa sổ Kết Chuyển (sổ TT99 và sổ hộ kinh doanh TT152) hiện thiếu phần dưới, không thấy ô «Chỉ kết xuất bảng tổng hợp». Nay hiện đủ.
+- Sửa lỗi hộp Bản quyền ở máy để chữ to (125–150%): dòng ghi chú che mất nửa trên các nút Gửi yêu cầu / Kiểm tra & kích hoạt / Nhập mã kích hoạt.
+- Cách tính sổ của mọi loại sổ không đổi.
+# 26110401 (chỉ tác giả đọc): combo tháng Kết Chuyển (sửa tay 03/11) đã mất khi dịch lại lõi 04/11 00:09 — chưa có trong bản này.
+
 [26110302]
 - Bộ cài chắc chắn hơn: nếu lúc cài, phần mềm diệt virus đang giữ tạm file mới (hay gặp ngay sau khi tải về), bước đăng ký với Excel trước đây có thể báo lỗi "Object required" — nay bộ cài tự thử lại vài lần trước khi báo lỗi thật.
 - Không có gì khác đổi so với bản 26110301.
