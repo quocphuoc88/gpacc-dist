@@ -1,3 +1,7 @@
+[26110402]
+- Các ô chọn kỳ «Từ tháng» / «Đến tháng» nay có sẵn danh sách tháng 1–12 để chọn, không phải gõ tay: cửa sổ Kết Chuyển (sổ TT99 và sổ hộ kinh doanh TT152), In Sổ, Kết chuyển sổ theo tài khoản; File Ngân hàng: Công nợ, Copy dữ liệu.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110401]
 - Thẻ GPAcc khi đang ở một file Excel thường (chưa mở sổ GPAcc) nay có đủ các nút dùng chung: Tạo sổ mới, Sổ gần đây (mở nhanh các sổ GPAcc bạn dùng gần đây), Bản Quyền, Kiểm Tra Cập Nhật, Hướng Dẫn Sử Dụng, Góp Ý / Báo Lỗi, Giới Thiệu (xem phiên bản và điểm mới).
 - Mới: Góp Ý / Báo Lỗi — gửi góp ý, báo lỗi hoặc đề nghị nâng cấp thẳng tới GPAcc ngay trong Excel, có thể kèm ảnh màn hình để được xử lý nhanh hơn. Có ở mọi loại sổ: GPAcc → Tiện ích → Góp Ý / Báo Lỗi.
