@@ -1,3 +1,8 @@
+[26110404]
+- Danh sách Khách hàng / Công nợ, Hàng hoá - dịch vụ (sổ TT99 và sổ hộ kinh doanh TT152) và Chọn mã hàng của Sổ kho nay mở thành thanh bên cạnh sổ thay cho cửa sổ nổi: vừa xem sổ vừa tìm, chọn. Chọn mã hàng xong thanh bên vẫn mở để chọn mã khác. Muốn dùng cửa sổ như cũ: bấm «Cửa sổ rời» trên thanh bên.
+- Sửa lỗi: danh sách trong các cửa sổ của add-in chỉ hiện cột đầu (ví dụ chỉ có mã khách hàng). Nay hiện đủ các cột: mã, tên, mã số thuế / đơn vị tính, tài khoản…
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110403]
 - Mở sổ bản file cũ (chưa chuyển sang add-in) nay chỉ còn một thẻ GPAcc của chính sổ đó, không còn hai thẻ GPAcc trùng tên. GPAcc vẫn mời «Chuyển sổ sang add-in»; để sau thì lần mở sổ sau sẽ hỏi lại.
 - «Tạo Sổ Mới» có thêm sổ TT200 và TT133 (sổ các năm trước).
