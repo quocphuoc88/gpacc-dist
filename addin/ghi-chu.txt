@@ -1,3 +1,14 @@
+[26110405]
+- Sửa lỗi: Kéo dữ liệu từ PM báo "Public member 'Value' on type 'Boolean' not found" khi bấm Thực hiện.
+- Sửa lỗi: bấm Dừng (hoặc lúc tải xong) ở thanh bên Hoá đơn điện tử có khi làm Excel như bị treo vì hộp thông báo nằm khuất sau cửa sổ; nay hộp thông báo luôn hiện trước mặt. Tải xong, thanh bên tự mở lại các ô chọn kỳ / tuỳ chọn để tải tiếp, không phải đóng mở lại.
+- Sửa lỗi: hộp nhập số (ví dụ chọn hình thức «Xử lý Công nợ») báo «không đúng quy định» dù gõ đúng.
+- Sửa lỗi: hoá đơn mua vào chỉ có thuế ở tài khoản 1332 bị coi là thuế không được khấu trừ. Riêng bản Nhiều chi nhánh: số dư đầu kỳ của tài khoản con bị cộng lặp vào tài khoản cha trên bảng cân đối số phát sinh.
+- Ô «Từ ngày / Đến ngày» ở Kéo dữ liệu từ PM và thanh bên Hoá đơn điện tử có thêm nút ▼ mở lịch để bấm chọn ngày (hoặc phím F4); vẫn gõ tay được như cũ.
+- Các cửa sổ (Kết chuyển, Thêm công nợ, In sổ…) hiện ra mượt hơn: nút lệnh có dạng nút rõ ràng, ô chọn không tự bật danh sách lúc vừa mở cửa sổ.
+- Thanh bên Khách hàng / Hàng hoá: cột Tên rộng hơn, các cột thẳng hàng với tiêu đề. Nút Đăng nhập trên thanh bên Hoá đơn điện tử to, có màu, dễ thấy hơn.
+- Mới: «Chuyển Về Bản File» (GPAcc → Tiện ích) — sổ đã chuyển sang add-in có thể quay lại bản file như trước (code + ribbon riêng của sổ), số liệu giữ nguyên; bản add-in được sao lưu trong thư mục GPAcc_SaoLuu cạnh sổ.
+- Cách tính sổ chỉ đổi ở hai chỗ sửa lỗi thuế 1332 / số dư đầu kỳ tài khoản con nêu trên.
+
 [26110404]
 - Danh sách Khách hàng / Công nợ, Hàng hoá - dịch vụ (sổ TT99 và sổ hộ kinh doanh TT152) và Chọn mã hàng của Sổ kho nay mở thành thanh bên cạnh sổ thay cho cửa sổ nổi: vừa xem sổ vừa tìm, chọn. Chọn mã hàng xong thanh bên vẫn mở để chọn mã khác. Muốn dùng cửa sổ như cũ: bấm «Cửa sổ rời» trên thanh bên.
 - Sửa lỗi: danh sách trong các cửa sổ của add-in chỉ hiện cột đầu (ví dụ chỉ có mã khách hàng). Nay hiện đủ các cột: mã, tên, mã số thuế / đơn vị tính, tài khoản…
