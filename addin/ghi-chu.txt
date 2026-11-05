@@ -1,3 +1,10 @@
+[26110409]
+- Sửa lỗi: tải hoá đơn điện tử có tích «Lấy chi tiết» nhưng cột «Nội dung» trên sheet HOADON vẫn trống và sheet NK_HDXML không có dòng hàng hoá. Nay chi tiết hàng hoá ghi đủ và cột Nội dung được điền.
+- Sửa lỗi: mã số thuế bắt đầu bằng số 0 (ví dụ 0310188418) bị mất số 0 đầu khi tải nhiều hoá đơn (từ khoảng hoá đơn thứ 300 trở đi). Nay cột Mã số thuế luôn giữ nguyên dạng chữ.
+- Sửa lỗi: Kết xuất sổ tiền gửi ngân hàng — ô chọn Từ / Đến tài khoản không có danh sách tài khoản.
+- Thanh bên Hoá đơn điện tử: khung nhật ký tiến trình giãn hết chiều cao còn trống, dễ đọc hơn; ba nút Thực hiện / Tải XML / Vào sổ gọn trên một hàng; các ô tích đổi tên rõ nghĩa («Giữ HĐ đã tải» / «Xoá HĐ đã tải» — chỉ nói về hoá đơn đã tải trên sheet, không phải sổ kế toán) và có giải thích khi rê chuột.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110408]
 - Sửa lỗi: cửa sổ «In sổ sách - báo cáo» trống trơn (không thấy các ô chọn In Tháng / Quý / Năm, tháng và danh sách sổ in). Nay hiện đủ như bản file.
 - Kết chuyển sổ theo tài khoản (Sổ cái, Sổ chi tiết, công nợ…): danh sách «Ký hiệu TK» hiện cả mã và TÊN (ví dụ 331-07 | Công ty …). Gõ một phần mã hoặc tên — có dấu hay không dấu đều được — danh sách chỉ còn các dòng khớp để chọn nhanh.
