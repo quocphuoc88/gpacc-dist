@@ -1,3 +1,7 @@
+[26110407]
+- Nhanh hơn ở các lệnh làm với nhiều dòng: Kết chuyển thuế GTGT, In / Kết xuất Sổ kho nhiều mã hàng, Tự động định khoản, Lưu chuyển tiền tệ (trực tiếp và gián tiếp); Kiểm tra dữ liệu khi sheet đang lọc nhanh hơn khoảng 2,5 lần.
+- Cách tính sổ của mọi loại sổ không đổi (đã so từng ô trước / sau trên sổ thật).
+
 [26110406]
 - Sửa lỗi: Excel có thể tự tắt khi bấm «Dùng màn cũ» hoặc đóng thanh bên Hoá đơn điện tử trong lúc ảnh mã xác nhận đang tải.
 - Sửa lỗi: mở một file Excel KHÔNG phải sổ GPAcc nhưng có cấu trúc giống (ví dụ có sheet TTDN) bị báo «Run-time error 9». Nay add-in chỉ nhận đúng sổ GPAcc, không đụng tới file khác.
