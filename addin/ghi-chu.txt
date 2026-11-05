@@ -1,3 +1,14 @@
+[26110410]
+- Sửa lỗi: một số sổ TT99 cũ bị nhận nhầm là sổ «Lệch niên độ» (do sổ còn sót một tên vùng hỏng từ mẫu cũ) - chuyển sang add-in xong báo «Run-time error 1004: Unable to get the CheckBoxes property» khi rời sheet TTDN, Kiểm tra dữ liệu báo nâng cấp còn thiếu bước. Nay mở sổ là tự nhận lại đúng loại sổ; nếu đã làm việc trên sổ trong thời gian bị nhận nhầm, nên chạy lại Kết chuyển các tháng đã làm.
+- Giao diện mới cho các cửa sổ lệnh (Kết chuyển, Thêm công nợ, Kết chuyển sổ theo tài khoản, In sổ sách, Kết xuất, Kéo dữ liệu từ PM; sổ hộ: Kiểm tra hoá đơn trùng; Ngân hàng: Báo cáo, Công nợ, Copy dữ liệu, Chênh lệch tỷ giá): nút lệnh gom xuống dải chân phía dưới, nút chính xanh đậm, nút Thoát đỏ ở góc phải, bỏ các khung viền thừa, cửa sổ gọn vừa nội dung. Cách dùng không đổi. Muốn giữ bố cục cũ: liên hệ để tắt.
+- Thanh bên Hoá đơn điện tử: dải tiêu đề xanh, các phần Đăng nhập / Tải hoá đơn / Tiến trình gọn gàng không viền hộp, nút Dừng nổi rõ.
+- Mới: phím tắt khi đang mở sổ — Ctrl+Alt+K Kiểm tra dữ liệu · Ctrl+Alt+I In sổ sách · Ctrl+Alt+H Hoá đơn điện tử · Ctrl+Alt+U Cập nhật · Ctrl+Alt+F1 Trợ giúp.
+- Mới: nút «?» trên dải tiêu đề mỗi cửa sổ lệnh — xem bảng phím tắt và mở Hướng dẫn sử dụng đúng phần của cửa sổ đó.
+- Cửa sổ Kết chuyển sổ theo tài khoản và In sổ sách tự điền sẵn tháng (và tài khoản) đã chọn lần trước, riêng cho từng sổ.
+- Khi có bản vá lỗi khẩn, GPAcc hỏi cập nhật ngay lần mở Excel kế tiếp (không chờ hết 7 ngày «để sau»).
+- Bấm Cập Nhật mà không hỏi được máy chủ: thông báo nói rõ là máy chưa có Internet hay mạng / tường lửa đang chặn GitHub, kèm cách xử lý.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110409]
 - Sửa lỗi: tải hoá đơn điện tử có tích «Lấy chi tiết» nhưng cột «Nội dung» trên sheet HOADON vẫn trống và sheet NK_HDXML không có dòng hàng hoá. Nay chi tiết hàng hoá ghi đủ và cột Nội dung được điền.
 - Sửa lỗi: mã số thuế bắt đầu bằng số 0 (ví dụ 0310188418) bị mất số 0 đầu khi tải nhiều hoá đơn (từ khoảng hoá đơn thứ 300 trở đi). Nay cột Mã số thuế luôn giữ nguyên dạng chữ.
