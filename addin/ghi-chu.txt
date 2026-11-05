@@ -1,3 +1,7 @@
+[26110411]
+- Mở Excel nhanh và nhẹ hơn: GPAcc chỉ nạp phần dùng cho sổ TT99 khi mở Excel; phần của sổ hộ kinh doanh, sổ đời cũ (TT200 / TT133) và file Ngân hàng chỉ nạp khi bạn mở đúng loại sổ đó. Khách chỉ dùng sổ TT99 không còn nạp các phần không dùng tới.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110410]
 - Sửa lỗi: một số sổ TT99 cũ bị nhận nhầm là sổ «Lệch niên độ» (do sổ còn sót một tên vùng hỏng từ mẫu cũ) - chuyển sang add-in xong báo «Run-time error 1004: Unable to get the CheckBoxes property» khi rời sheet TTDN, Kiểm tra dữ liệu báo nâng cấp còn thiếu bước. Nay mở sổ là tự nhận lại đúng loại sổ; nếu đã làm việc trên sổ trong thời gian bị nhận nhầm, nên chạy lại Kết chuyển các tháng đã làm.
 - Giao diện mới cho các cửa sổ lệnh (Kết chuyển, Thêm công nợ, Kết chuyển sổ theo tài khoản, In sổ sách, Kết xuất, Kéo dữ liệu từ PM; sổ hộ: Kiểm tra hoá đơn trùng; Ngân hàng: Báo cáo, Công nợ, Copy dữ liệu, Chênh lệch tỷ giá): nút lệnh gom xuống dải chân phía dưới, nút chính xanh đậm, nút Thoát đỏ ở góc phải, bỏ các khung viền thừa, cửa sổ gọn vừa nội dung. Cách dùng không đổi. Muốn giữ bố cục cũ: liên hệ để tắt.
