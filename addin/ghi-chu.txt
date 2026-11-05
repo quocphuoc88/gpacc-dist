@@ -1,3 +1,13 @@
+[26110406]
+- Sửa lỗi: Excel có thể tự tắt khi bấm «Dùng màn cũ» hoặc đóng thanh bên Hoá đơn điện tử trong lúc ảnh mã xác nhận đang tải.
+- Sửa lỗi: mở một file Excel KHÔNG phải sổ GPAcc nhưng có cấu trúc giống (ví dụ có sheet TTDN) bị báo «Run-time error 9». Nay add-in chỉ nhận đúng sổ GPAcc, không đụng tới file khác.
+- Các cửa sổ lệnh mở nhanh hơn rõ, nhất là lần đầu sau khi mở Excel (ví dụ Kết chuyển tổng hợp công nợ); rê chuột trên cửa sổ không còn giật.
+- Giao diện mới cho mọi cửa sổ: phông chữ thống nhất, dải tiêu đề xanh đậm, nút lệnh chính màu xanh, nút Thoát / Đóng màu đỏ, nút Xoá chữ đỏ, nút đang tắt nhạt rõ ràng; tiêu đề cửa sổ có dấu tiếng Việt (vd «GPAcc — Kết chuyển tổng hợp công nợ»). Cách dùng các cửa sổ không đổi.
+- Hộp Bản quyền: gói đã kích hoạt không còn ô tích (không cần kích hoạt lại); chỉ tích được các gói chưa kích hoạt.
+- Cửa sổ Kết chuyển: ô «Chỉ kết xuất bảng tổng hợp» chỉ hiện ở Kết xuất công nợ như bản file; số tháng trong ô Từ / Đến tháng canh giữa.
+- Thanh bên Hàng hoá - dịch vụ: chọn nhóm hàng (Nguyên vật liệu / Dở dang / Thành phẩm / Hàng hoá) bằng một ô xổ xuống; cột Mã hàng và Tên rộng ra lấp hết thanh bên.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110405]
 - Sửa lỗi: Kéo dữ liệu từ PM báo "Public member 'Value' on type 'Boolean' not found" khi bấm Thực hiện.
 - Sửa lỗi: bấm Dừng (hoặc lúc tải xong) ở thanh bên Hoá đơn điện tử có khi làm Excel như bị treo vì hộp thông báo nằm khuất sau cửa sổ; nay hộp thông báo luôn hiện trước mặt. Tải xong, thanh bên tự mở lại các ô chọn kỳ / tuỳ chọn để tải tiếp, không phải đóng mở lại.
