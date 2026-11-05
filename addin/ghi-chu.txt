@@ -1,3 +1,9 @@
+[26110408]
+- Sửa lỗi: cửa sổ «In sổ sách - báo cáo» trống trơn (không thấy các ô chọn In Tháng / Quý / Năm, tháng và danh sách sổ in). Nay hiện đủ như bản file.
+- Kết chuyển sổ theo tài khoản (Sổ cái, Sổ chi tiết, công nợ…): danh sách «Ký hiệu TK» hiện cả mã và TÊN (ví dụ 331-07 | Công ty …). Gõ một phần mã hoặc tên — có dấu hay không dấu đều được — danh sách chỉ còn các dòng khớp để chọn nhanh.
+- Thanh bên Khách hàng / Công nợ và Hàng hoá - dịch vụ: các ô sửa / thêm ở dưới có nhãn rõ ràng; ô Tên khách hàng, Tên hàng hoá và Mã số thuế rộng hết thanh bên, đọc được trọn tên dài.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110407]
 - Nhanh hơn ở các lệnh làm với nhiều dòng: Kết chuyển thuế GTGT, In / Kết xuất Sổ kho nhiều mã hàng, Tự động định khoản, Lưu chuyển tiền tệ (trực tiếp và gián tiếp); Kiểm tra dữ liệu khi sheet đang lọc nhanh hơn khoảng 2,5 lần.
 - Cách tính sổ của mọi loại sổ không đổi (đã so từng ô trước / sau trên sổ thật).
