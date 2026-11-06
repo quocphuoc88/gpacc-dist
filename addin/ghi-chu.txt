@@ -1,3 +1,8 @@
+[26110412]
+- Gọn và an toàn hơn: phần kiểm bản quyền kiểu cũ (key tệp .lic của TT99) nay do phần chính của add-in làm; bỏ khoảng 1.000 dòng mã VBA cũ khỏi add-in (loại mã phần mềm diệt virus hay nghi nhầm). Máy đã kích hoạt bằng key cũ vẫn dùng bình thường như trước.
+- Sổ Lệch niên độ: các lệnh kết chuyển chạy nhanh hơn (đọc tháng bắt đầu niên độ một lần cho mỗi lệnh).
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110411]
 - Mở Excel nhanh và nhẹ hơn: GPAcc chỉ nạp phần dùng cho sổ TT99 khi mở Excel; phần của sổ hộ kinh doanh, sổ đời cũ (TT200 / TT133) và file Ngân hàng chỉ nạp khi bạn mở đúng loại sổ đó. Khách chỉ dùng sổ TT99 không còn nạp các phần không dùng tới.
 - Cách tính sổ của mọi loại sổ không đổi.
