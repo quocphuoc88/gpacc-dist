@@ -1,3 +1,8 @@
+[26110417]
+- Sửa lỗi: trên bản add-in, các lệnh Kết xuất sổ sách / Kết xuất BCTC (bước chọn Excel hay PDF), Kết chuyển công nợ có tích «Tổng hợp» và Lương (chọn tháng Từ / Đến) có thể dừng giữa chừng với thông báo lỗi «Conversion from type …». Nay chạy đúng như bản file.
+- Bên trong: hai cửa sổ Hoá đơn điện tử (đăng nhập Cổng, tải hoá đơn) nay thuộc phần chính của add-in — phần Hoá đơn điện tử không còn mã VBA cũ. Thanh bên Hoá đơn điện tử và «Dùng màn cũ» dùng như trước.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110416]
 - Mới: nếu các phần của GPAcc trên máy bị lệch bản nhau (cài đặt / cập nhật dở dang), GPAcc hiện thông báo rõ ngay khi mở Excel kèm cách sửa (bấm Cập Nhật hoặc cài lại) — trước đây có thể nhận nhầm file hoặc báo lỗi khó hiểu.
 - Bên trong: nút bấm trên sheet, thao tác trên sheet và các ô chọn trên sheet nay chạy qua phần chính của add-in (tiếp tục bỏ dần mã VBA cũ). Cách dùng không đổi.
