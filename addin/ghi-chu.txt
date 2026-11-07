@@ -1,3 +1,9 @@
+[26110414]
+- Ổn định hơn: khi bạn mở, chuyển qua lại, lưu hay đóng các file Excel KHÁC (không phải sổ GPAcc), GPAcc không còn chạy mã VBA trên các file đó — tránh hẳn bảng lỗi hiện lên trên file không liên quan.
+- Sổ hộ kinh doanh, file Ngân hàng, sổ TT200 / TT133: hộp chọn trên sheet (ví dụ ô chọn kho trên Sổ kho) và phím tắt của sổ hoạt động ngay từ lần mở sổ đầu tiên sau khi bật Excel.
+- Bên trong: phần nghe thao tác trên sổ chuyển vào phần chính của add-in (tiếp tục bỏ dần mã VBA cũ). Cách dùng không đổi.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110413]
 - Sửa lỗi: một số file Excel KHÔNG phải sổ GPAcc (file có sheet trùng tên với sổ hộ kinh doanh) bị nhận nhầm là sổ hộ kinh doanh — GPAcc tự nạp phần sổ hộ, hỏi những câu không liên quan hoặc hiện bảng lỗi. Nay GPAcc kiểm thêm dấu hiệu riêng của sổ trước khi nhận, file khác không bị đụng tới.
 - Bên trong: phần theo dõi «sổ đang làm việc» chuyển vào phần chính của add-in (tiếp tục bỏ dần mã VBA cũ). Cách dùng không đổi.
