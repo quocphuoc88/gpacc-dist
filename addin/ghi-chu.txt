@@ -1,3 +1,8 @@
+[26110416]
+- Mới: nếu các phần của GPAcc trên máy bị lệch bản nhau (cài đặt / cập nhật dở dang), GPAcc hiện thông báo rõ ngay khi mở Excel kèm cách sửa (bấm Cập Nhật hoặc cài lại) — trước đây có thể nhận nhầm file hoặc báo lỗi khó hiểu.
+- Bên trong: nút bấm trên sheet, thao tác trên sheet và các ô chọn trên sheet nay chạy qua phần chính của add-in (tiếp tục bỏ dần mã VBA cũ). Cách dùng không đổi.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110415]
 - Bên trong: bấm nút trên dải GPAcc (sổ TT99, sổ hộ kinh doanh, file Ngân hàng) nay chạy thẳng phần chính của add-in, không còn đi vòng qua mã VBA cũ (tiếp tục bỏ dần mã VBA). Cách dùng không đổi.
 - Cách tính sổ của mọi loại sổ không đổi.
