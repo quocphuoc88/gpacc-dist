@@ -1,3 +1,8 @@
+[26110413]
+- Sửa lỗi: một số file Excel KHÔNG phải sổ GPAcc (file có sheet trùng tên với sổ hộ kinh doanh) bị nhận nhầm là sổ hộ kinh doanh — GPAcc tự nạp phần sổ hộ, hỏi những câu không liên quan hoặc hiện bảng lỗi. Nay GPAcc kiểm thêm dấu hiệu riêng của sổ trước khi nhận, file khác không bị đụng tới.
+- Bên trong: phần theo dõi «sổ đang làm việc» chuyển vào phần chính của add-in (tiếp tục bỏ dần mã VBA cũ). Cách dùng không đổi.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110412]
 - Gọn và an toàn hơn: phần kiểm bản quyền kiểu cũ (key tệp .lic của TT99) nay do phần chính của add-in làm; bỏ khoảng 1.000 dòng mã VBA cũ khỏi add-in (loại mã phần mềm diệt virus hay nghi nhầm). Máy đã kích hoạt bằng key cũ vẫn dùng bình thường như trước.
 - Sổ Lệch niên độ: các lệnh kết chuyển chạy nhanh hơn (đọc tháng bắt đầu niên độ một lần cho mỗi lệnh).
