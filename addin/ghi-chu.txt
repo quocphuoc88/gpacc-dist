@@ -1,3 +1,7 @@
+[26110415]
+- Bên trong: bấm nút trên dải GPAcc (sổ TT99, sổ hộ kinh doanh, file Ngân hàng) nay chạy thẳng phần chính của add-in, không còn đi vòng qua mã VBA cũ (tiếp tục bỏ dần mã VBA). Cách dùng không đổi.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110414]
 - Ổn định hơn: khi bạn mở, chuyển qua lại, lưu hay đóng các file Excel KHÁC (không phải sổ GPAcc), GPAcc không còn chạy mã VBA trên các file đó — tránh hẳn bảng lỗi hiện lên trên file không liên quan.
 - Sổ hộ kinh doanh, file Ngân hàng, sổ TT200 / TT133: hộp chọn trên sheet (ví dụ ô chọn kho trên Sổ kho) và phím tắt của sổ hoạt động ngay từ lần mở sổ đầu tiên sau khi bật Excel.
