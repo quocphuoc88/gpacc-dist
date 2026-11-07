@@ -1,3 +1,11 @@
+[26110419]
+- Sổ hộ kinh doanh: Kiểm tra dữ liệu và Hợp đồng lao động nay dùng bản mới như sổ TT99 —
+  · Lập hợp đồng lao động: kiểm dữ liệu nhân viên trước khi lập (ví dụ mức lương phải là số, nếu sai sẽ báo ở sheet BAO_LOI); thời hạn hợp đồng kéo sang năm sau nay tính đúng số tháng (trước đây có thể ra «0 tháng»).
+  · Kiểm tra dữ liệu: có thêm các phép kiểm như sổ TT99.
+- Sửa lỗi: sổ hộ kinh doanh — cửa sổ tải hoá đơn điện tử có thể báo lỗi khi đổi Mua / Bán. Nay chạy đúng.
+- Bên trong: sổ hộ kinh doanh và sổ TT99 dùng chung một bộ mã cho phần tải hoá đơn, ghi hoá đơn vào sổ, cửa sổ Khách hàng / Hàng hoá — sửa một nơi, hai loại sổ cùng có. Cách dùng không đổi.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110418]
 - Bên trong: sổ hộ kinh doanh và sổ TT99 nay dùng CHUNG một bộ mã cho phần tải hoá đơn điện tử (đăng nhập Cổng, tải theo đợt, đọc XML, ô nhập ngày) — sửa lỗi / cải tiến phần này ở một nơi là cả hai loại sổ cùng có. Cách dùng không đổi.
 - Cách tính sổ của mọi loại sổ không đổi.
