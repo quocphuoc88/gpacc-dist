@@ -1,3 +1,10 @@
+[26110421]
+- Nút bấm trên các sheet nay gắn thẳng với add-in, không còn phụ thuộc chỗ cài tệp — sổ mang sang máy khác hay cài lại add-in ở chỗ khác, nút vẫn bấm được. Sổ đang dùng tự đổi khi mở, không cần làm gì.
+- Lệnh chạy từ nút trên sheet gặp lỗi: nay chỉ báo «Lệnh … dừng vì lỗi» rồi dừng, không còn hộp lỗi «End / Debug». Thẻ GPAcc trên thanh công cụ không bị mất sau lỗi, làm tiếp được ngay, không phải đóng mở lại sổ.
+- Sổ dùng chung nhiều máy (Dropbox, OneDrive, Google Drive, ổ mạng): khi «Chuyển sổ sang add-in», GPAcc nhắc rõ phải cài add-in trên MỌI máy dùng sổ trước khi chuyển, và không tự hỏi chuyển mỗi lần mở các sổ này nữa.
+- Sổ đã chuyển sang add-in khi mở ở máy CHƯA cài add-in: có khung nhắc ngay trên trang đang mở, ghi cách tải bộ cài và liên hệ — người dùng biết vì sao chưa có thẻ GPAcc. Máy đã cài add-in không thấy khung này.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110420]
 - Sửa lỗi: tải hoá đơn điện tử lại một kỳ đã tải (chế độ «Thêm») làm sheet HOADON có thêm dòng TRÙNG hoá đơn cũ. Nay hoá đơn đã có trên sheet được bỏ qua (nhật ký ghi «Bỏ qua N hóa đơn đã có sẵn»), hoá đơn đã có chi tiết không tải lại chi tiết — quét lại nhanh hơn. Áp dụng cho sổ TT99 và sổ hộ kinh doanh.
 - Cửa sổ «Tạo sổ mới»: rộng hơn, hiện đủ chữ trạng thái của từng gói (đã kích hoạt / dùng thử / chưa kích hoạt — có màu, căn phải); trước đây chữ trạng thái bị cắt.
