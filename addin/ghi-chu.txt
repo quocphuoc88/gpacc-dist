@@ -1,3 +1,8 @@
+[26110423]
+- Add-in gọn nhẹ hơn: sổ Thông tư 99 (cả các dạng Doanh nghiệp lớn, Nhiều chi nhánh, Lệch niên độ, Thông tư 58), sổ hộ kinh doanh (Thông tư 152) và sổ Ngân hàng — Tỷ giá nay chạy hoàn toàn bằng phần lõi mới, không còn nạp các tệp mã VBA cũ (GPAcc.xlam, GPAcc152.xlam, GPAccNH.xlam). Bản cập nhật tải về nhẹ hơn.
+- Hộp thông báo của GPAcc (kể cả hộp tự tắt sau vài giây, như «Đã khoá ô công thức…») nay luôn nằm trên cửa sổ sổ đang làm; đóng hộp xong Excel quay về đúng sổ đó. Trước đây khi mở nhiều sổ cùng lúc, đóng hộp có thể làm một sổ khác bị chọn.
+- Cách dùng, nút bấm, phím tắt và cách tính sổ không đổi. Sổ Thông tư 200 / 133 (đời cũ) chạy như trước.
+
 [26110422]
 - Cửa sổ «Tạo sổ mới» làm lại gọn hơn: tiêu đề «Chọn loại sổ», danh sách chia nhóm — Doanh nghiệp (Thông tư 99 và các dạng, 200, 133) / Hộ kinh doanh, Doanh nghiệp siêu nhỏ (Thông tư 152, 58) / File hỗ trợ (Ngân hàng — Tỷ giá); tên đầy đủ, trạng thái gói có màu; bấm đúp để chọn. Hiển thị đúng ở màn hình độ phân giải cao.
 - Menu «Giới Thiệu»: mỗi dòng có biểu tượng riêng (phần mềm, tác giả, điện thoại, email).
