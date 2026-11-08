@@ -1,3 +1,7 @@
+[26110425]
+- Sửa lỗi tải hóa đơn bán ra: hóa đơn xuất cho khách lẻ (cá nhân) nay ghi đủ tên người mua và số CCCD vào cột Tên / MST trên sheet HOADON (trước để trống). Sổ đã tải trước đây: tải lại kỳ đó ở chế độ «Thêm», GPAcc tự bổ sung các ô còn trống, không đổi ô bạn đã gõ.
+- Thanh bên Tải hóa đơn: nút «Kết thúc» (màu đỏ, góc trên) kết thúc phiên đăng nhập và đóng thanh bên; nút «Đổi tài khoản» để đăng nhập mã số thuế khác. Tên sổ hiện gọn trên một dòng.
+
 [26110424]
 - Giới Thiệu: bấm dòng Liên Hệ để mở Zalo chat với tác giả, bấm dòng Email để mở thư mới gửi tác giả.
 - Tải hóa đơn: thanh bên có nút «Thoát» và «Đăng xuất». Đóng thanh bên là kết thúc phiên đăng nhập cổng hóa đơn, lần sau mở phải đăng nhập lại.
