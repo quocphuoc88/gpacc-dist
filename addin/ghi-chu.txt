@@ -1,3 +1,9 @@
+[26110420]
+- Sửa lỗi: tải hoá đơn điện tử lại một kỳ đã tải (chế độ «Thêm») làm sheet HOADON có thêm dòng TRÙNG hoá đơn cũ. Nay hoá đơn đã có trên sheet được bỏ qua (nhật ký ghi «Bỏ qua N hóa đơn đã có sẵn»), hoá đơn đã có chi tiết không tải lại chi tiết — quét lại nhanh hơn. Áp dụng cho sổ TT99 và sổ hộ kinh doanh.
+- Cửa sổ «Tạo sổ mới»: rộng hơn, hiện đủ chữ trạng thái của từng gói (đã kích hoạt / dùng thử / chưa kích hoạt — có màu, căn phải); trước đây chữ trạng thái bị cắt.
+- Bên trong: phần lõi của add-in tự làm các việc trước đây còn nhờ phần VBA (kiểm bản quyền từng lệnh, âm lịch trên trang Main, nhận ra sổ GPAcc, gắn lệnh cho nút trên sheet) — bớt một lượt chuyển qua lại ở mỗi lệnh; bỏ phần mã thừa của cửa sổ VBA cũ. Cách dùng không đổi.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110419]
 - Sổ hộ kinh doanh: Kiểm tra dữ liệu và Hợp đồng lao động nay dùng bản mới như sổ TT99 —
   · Lập hợp đồng lao động: kiểm dữ liệu nhân viên trước khi lập (ví dụ mức lương phải là số, nếu sai sẽ báo ở sheet BAO_LOI); thời hạn hợp đồng kéo sang năm sau nay tính đúng số tháng (trước đây có thể ra «0 tháng»).
