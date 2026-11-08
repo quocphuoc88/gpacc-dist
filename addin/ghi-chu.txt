@@ -1,3 +1,10 @@
+[26110422]
+- Cửa sổ «Tạo sổ mới» làm lại gọn hơn: tiêu đề «Chọn loại sổ», danh sách chia nhóm — Doanh nghiệp (Thông tư 99 và các dạng, 200, 133) / Hộ kinh doanh, Doanh nghiệp siêu nhỏ (Thông tư 152, 58) / File hỗ trợ (Ngân hàng — Tỷ giá); tên đầy đủ, trạng thái gói có màu; bấm đúp để chọn. Hiển thị đúng ở màn hình độ phân giải cao.
+- Menu «Giới Thiệu»: mỗi dòng có biểu tượng riêng (phần mềm, tác giả, điện thoại, email).
+- Hộp chọn nhiều cột trong các cửa sổ (chọn tài khoản khi kết chuyển, khách hàng, hàng hoá…): khi xổ danh sách, cột tự nới vừa nội dung — thấy trọn tên khách hàng, không còn bị cắt «…».
+- Bên trong: với sổ TT99, sổ hộ kinh doanh và sổ Ngân hàng, add-in nay chạy hoàn toàn bằng phần lõi mới (phím tắt, hộp chọn trên sheet, thanh công cụ, các sự kiện của sổ) — chuẩn bị bỏ hẳn phần mã VBA cũ. Cách dùng không đổi.
+- Cách tính sổ của mọi loại sổ không đổi.
+
 [26110421]
 - Nút bấm trên các sheet nay gắn thẳng với add-in, không còn phụ thuộc chỗ cài tệp — sổ mang sang máy khác hay cài lại add-in ở chỗ khác, nút vẫn bấm được. Sổ đang dùng tự đổi khi mở, không cần làm gì.
 - Lệnh chạy từ nút trên sheet gặp lỗi: nay chỉ báo «Lệnh … dừng vì lỗi» rồi dừng, không còn hộp lỗi «End / Debug». Thẻ GPAcc trên thanh công cụ không bị mất sau lỗi, làm tiếp được ngay, không phải đóng mở lại sổ.
