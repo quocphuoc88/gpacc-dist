@@ -1,3 +1,14 @@
+[26110424]
+- Giới Thiệu: bấm dòng Liên Hệ để mở Zalo chat với tác giả, bấm dòng Email để mở thư mới gửi tác giả.
+- Tải hóa đơn: thanh bên có nút «Thoát» và «Đăng xuất». Đóng thanh bên là kết thúc phiên đăng nhập cổng hóa đơn, lần sau mở phải đăng nhập lại.
+- Mở sổ nhanh hơn: máy đã cài GPAcc Add-in không còn thấy khung «SỔ NÀY CẦN GPAcc ADD-IN…» khi mở sổ.
+- Khung nhắc (chỉ hiện ở máy chưa cài add-in) có nút «Tải bộ cài GPAcc Add-in».
+- Chế độ tối: cửa sổ GPAcc tự chuyển nền tối khi Office đặt chủ đề Đen hoặc Xám đậm, hoặc theo chế độ tối của Windows.
+- Sao lưu tự động: trước Kết chuyển, Kết xuất và Xoá dữ liệu, GPAcc tự chép sổ vào thư mục GPAcc_SaoLuu cạnh sổ, giữ 10 bản gần nhất.
+- Báo lỗi và Góp ý gửi kèm thống kê thời gian chạy các lệnh, không kèm số liệu sổ.
+- Chuyển bản quyền sang máy mới: mỗi năm tự chuyển được 1 lần, không phải chờ duyệt.
+- Khi một lệnh dừng vì lỗi, GPAcc hỏi bạn có muốn gửi thông tin lỗi cho tác giả không. Ảnh màn hình chỉ gửi khi bạn chọn.
+
 [26110423]
 - Add-in gọn nhẹ hơn: sổ Thông tư 99 (cả các dạng Doanh nghiệp lớn, Nhiều chi nhánh, Lệch niên độ, Thông tư 58), sổ hộ kinh doanh (Thông tư 152) và sổ Ngân hàng — Tỷ giá nay chạy hoàn toàn bằng phần lõi mới, không còn nạp các tệp mã VBA cũ (GPAcc.xlam, GPAcc152.xlam, GPAccNH.xlam). Bản cập nhật tải về nhẹ hơn.
 - Hộp thông báo của GPAcc (kể cả hộp tự tắt sau vài giây, như «Đã khoá ô công thức…») nay luôn nằm trên cửa sổ sổ đang làm; đóng hộp xong Excel quay về đúng sổ đó. Trước đây khi mở nhiều sổ cùng lúc, đóng hộp có thể làm một sổ khác bị chọn.
