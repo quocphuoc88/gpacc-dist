@@ -1,3 +1,11 @@
+[26110426]
+- Hộp «Kết xuất» mới: bấm thẳng «Xuất Excel» hoặc «Xuất PDF» (Enter = Excel, Esc = Huỷ, phím E / P); hộp ghi rõ tên báo cáo đang xuất và nơi lưu tệp PDF; Sổ cái / Sổ chi tiết chọn Từ – Đến tài khoản ngay trên hộp. Sửa lỗi một mảnh cửa sổ nháy lên khi đóng các hộp của GPAcc bằng dấu X.
+- Bảng tổng quan bên phải khi mở sổ: phải thu, phải trả, tiền, doanh thu / chi phí tháng, kèm cảnh báo bất thường (số dư tiền hoặc hàng tồn kho bị âm, doanh thu / chi phí tháng tăng giảm đột biến, hóa đơn có thể bị trùng).
+- Tìm nhanh lệnh và sheet: Ctrl+Alt+T.
+- So sánh công nợ một khách hàng giữa 2 kỳ (cùng sổ hoặc sổ năm khác): Ctrl+Alt+S.
+- Nhật ký thao tác (mở / lưu / đóng sổ, lệnh đã chạy, sửa dữ liệu hàng loạt): Ctrl+Alt+N.
+- Công nợ liên năm: sửa lỗi thêm chính sổ đang mở vào danh sách thì sổ bị đóng, mất phần chưa lưu.
+
 [26110425]
 - Sửa lỗi tải hóa đơn bán ra: hóa đơn xuất cho khách lẻ (cá nhân) nay ghi đủ tên người mua và số CCCD vào cột Tên / MST trên sheet HOADON (trước để trống). Sổ đã tải trước đây: tải lại kỳ đó ở chế độ «Thêm», GPAcc tự bổ sung các ô còn trống, không đổi ô bạn đã gõ.
 - Thanh bên Tải hóa đơn: nút «Kết thúc» (màu đỏ, góc trên) kết thúc phiên đăng nhập và đóng thanh bên; nút «Đổi tài khoản» để đăng nhập mã số thuế khác. Tên sổ hiện gọn trên một dòng.
