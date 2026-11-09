@@ -1,3 +1,15 @@
+[26110903]
+- Mới: Xuất bộ báo cáo tài chính ra MỘT tệp PDF (Ctrl+Alt+P) — chọn báo cáo cần in, có trang bìa (logo, tên doanh nghiệp, mã số thuế, kỳ, mục lục có số trang), khổ A4, đánh số trang liên tục. Sổ của bạn không bị sửa.
+- Mới: Kiểm tra trước khi nộp (Ctrl+Alt+B) — thanh bên đối chiếu báo cáo tài chính (cân đối kế toán, kết quả kinh doanh, lưu chuyển tiền tệ, cân đối số phát sinh) và tờ khai GTGT với sổ; dòng đỏ / vàng kèm số chênh và gợi ý nguyên nhân, bấm vào dòng để nhảy tới ô.
+- Mới: Hỏi số liệu (Ctrl+Alt+Q) — gõ câu hỏi tiếng Việt (công nợ một khách, doanh thu tháng, tồn kho, tiền mặt, thuế GTGT...), trả lời ngay từ sổ đang mở kèm dòng nguồn bấm để xem. Không gửi dữ liệu ra ngoài.
+- Mới: Bản tin định kỳ qua email (tìm «Bản tin» trong Ctrl+Alt+T) — gửi tóm tắt số liệu của sổ cho tối đa 3 người nhận mỗi doanh nghiệp, sáng thứ Hai 7:00 (bản tuần) và sáng ngày 1 (bản tháng). Người nhận phải bấm link xác nhận mới nhận thư, mỗi thư có nút «Ngừng nhận».
+- Cảnh báo bất thường thông minh hơn: so với xu hướng các tháng trước thay vì một ngưỡng cố định - doanh thu tăng đều hay theo mùa không còn bị báo nhầm, doanh thu giảm dần / chi phí tăng dần nhiều tháng liền thì được nhắc.
+- Công nợ xuyên nhiều năm (Ctrl+Alt+Y): thanh bên co giãn theo bề rộng như thanh bên hóa đơn điện tử, cột không còn bị cắt chữ.
+- Sổ hộ kinh doanh: lệnh thu chi, nhập xuất tồn, phiếu nhập xuất, lương dùng chung bộ lệnh với bản doanh nghiệp - lệnh gặp lỗi nay báo rõ «Lệnh ... dừng vì lỗi» thay vì dừng im lặng; In nhập xuất tồn / phiếu nhập xuất / Kết chuyển phiếu thu chi kiểm tra dữ liệu trước khi chạy.
+- Tạo sổ mới: hộp «Đã tạo sổ mới» ghi đúng sheet cần khai báo của từng loại sổ (sổ Ngân hàng: Thong_Tin; Giá thành sản xuất: ThongTin).
+- Hộp nhắc dùng thử / hết hạn / kích hoạt nay có tiêu đề «GPAcc - Bản quyền» cho dễ nhận biết.
+- Sổ TT58: Nâng cấp bố cục không còn đổi dòng tiêu đề TT58 thành ô công tắc xám.
+
 [26110902]
 - Sửa lỗi một số lệnh (Kết chuyển NKC, báo cáo tài chính, công nợ, kho, lương…) gặp lỗi thì dừng mà KHÔNG báo gì: nay hiện thông báo lỗi để biết và xử lý.
 - Kết chuyển NKC: sửa lỗi dừng khi bảng cân đối năm trước có ô trống dạng chữ (dán giá trị từ bảng có công thức).
