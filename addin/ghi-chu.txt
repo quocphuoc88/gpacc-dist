@@ -1,3 +1,9 @@
+[26110901]
+- Bảng tổng quan: không còn tự mở mỗi khi mở sổ — muốn tự mở thì tích ô «Tự mở khi mở sổ» trên bảng; mở tay bằng Ctrl+Alt+T «Bảng tổng quan». Công nợ tính theo từng khách hàng / nhà cung cấp (tách riêng khách trả trước, không còn số âm), ghi rõ kỳ của Bảng CĐSPS; doanh thu / chi phí theo tháng gần nhất có số liệu.
+- Bảng tổng quan thêm: 5 khách nợ / 5 nhà cung cấp phải trả nhiều nhất; hóa đơn chưa vào sổ, hóa đơn bị điều chỉnh / thay thế / huỷ; hàng tồn kho âm; nhắc tháng chưa kết chuyển, chưa khấu hao; lãi lỗ so cùng kỳ năm trước; thuế GTGT tạm tính và hạn nộp tờ khai. Bấm vào một dòng để nhảy tới đúng sheet.
+- Tạo sổ mới: thêm sổ Giá thành sản xuất và Giá thành xây dựng; sổ Ngân hàng / Giá thành hỏi liên kết ngay với sổ TT99 đi cặp.
+- Công nợ xuyên nhiều năm: bố cục gọn hơn.
+
 [26110427]
 - Sửa lỗi sổ mất các thẻ lệnh GPAcc (chỉ còn thẻ chung) sau khi Kết xuất báo cáo ra Excel rồi đóng file xuất: nay lệnh chạy xong là sổ hiện lại đúng thẻ lệnh.
 - Thanh bên Tải hóa đơn: bỏ nút «Kết thúc» ở góc trên (đóng thanh bên bằng dấu X của khung); sau khi đăng nhập, nút «Kết thúc» màu đỏ để đăng xuất và đăng nhập mã số thuế khác ngay. Chuyển màn và lúc đang tải mượt hơn.
