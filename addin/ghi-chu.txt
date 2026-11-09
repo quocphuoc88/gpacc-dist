@@ -1,3 +1,9 @@
+[26110427]
+- Sửa lỗi sổ mất các thẻ lệnh GPAcc (chỉ còn thẻ chung) sau khi Kết xuất báo cáo ra Excel rồi đóng file xuất: nay lệnh chạy xong là sổ hiện lại đúng thẻ lệnh.
+- Thanh bên Tải hóa đơn: bỏ nút «Kết thúc» ở góc trên (đóng thanh bên bằng dấu X của khung); sau khi đăng nhập, nút «Kết thúc» màu đỏ để đăng xuất và đăng nhập mã số thuế khác ngay. Chuyển màn và lúc đang tải mượt hơn.
+- Công nợ xuyên nhiều năm: mở bằng Ctrl+Alt+Y hoặc tìm trong Tìm kiếm (Ctrl+Alt+T).
+- Tải hóa đơn có «Lấy chi tiết»: sửa lỗi cột Nội dung trên HOADON để trống với hóa đơn đã có chi tiết từ lần tải trước — tải lại kỳ đó, GPAcc tự bù ô còn trống.
+
 [26110426]
 - Hộp «Kết xuất» mới: bấm thẳng «Xuất Excel» hoặc «Xuất PDF» (Enter = Excel, Esc = Huỷ, phím E / P); hộp ghi rõ tên báo cáo đang xuất và nơi lưu tệp PDF; Sổ cái / Sổ chi tiết chọn Từ – Đến tài khoản ngay trên hộp. Sửa lỗi một mảnh cửa sổ nháy lên khi đóng các hộp của GPAcc bằng dấu X.
 - Bảng tổng quan bên phải khi mở sổ: phải thu, phải trả, tiền, doanh thu / chi phí tháng, kèm cảnh báo bất thường (số dư tiền hoặc hàng tồn kho bị âm, doanh thu / chi phí tháng tăng giảm đột biến, hóa đơn có thể bị trùng).
