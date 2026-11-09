@@ -8,6 +8,10 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26110905] 09/11/2026 - lần 05
+
+- Nâng cấp bố cục: dòng tiêu đề «TT58/2026/TT-BTC» ở sheet TTDN không còn bị đổi thành chữ xám nhỏ. Nếu dòng tiêu đề của bạn đã bị xám sau lần cập nhật mẫu biểu trước, chọn ô đó rồi chỉnh lại chữ đậm màu đỏ.
+
 [26110903] 09/11/2026
 
 - Lệnh gặp lỗi giữa chừng nay báo rõ: trước đây nhiều lệnh (Kết chuyển NKC, báo cáo tài chính, công nợ, kho, lương, tải hóa đơn...) gặp lỗi thì dừng im lặng, không hiện gì, bạn tưởng đã chạy xong. Nay hiện hộp «Lệnh ... bị dừng do lỗi ...» để bạn biết và gửi tác giả.

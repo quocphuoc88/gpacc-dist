@@ -16,6 +16,10 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26110904] 09/11/2026 - lần 04
+
+- Cập nhật nội bộ chuẩn bị cho bản TT58 (bảng vá bố cục biết bỏ qua một số mục theo từng bản), không đổi cách dùng của bản này.
+
 [26110903] 09/11/2026
 
 - Lệnh gặp lỗi giữa chừng nay báo rõ: trước đây nhiều lệnh (Kết chuyển NKC, báo cáo tài chính, công nợ, kho, lương, tải hóa đơn...) gặp lỗi thì dừng im lặng, không hiện gì, bạn tưởng đã chạy xong. Nay hiện hộp «Lệnh ... bị dừng do lỗi ...» để bạn biết và gửi tác giả.
