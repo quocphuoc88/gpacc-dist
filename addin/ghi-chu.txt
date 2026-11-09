@@ -1,3 +1,12 @@
+[26110904]
+- Công nợ xuyên nhiều năm (Ctrl+Alt+Y): ô Mã công nợ nay có mũi tên chọn từ danh sách (131 / 331 lấy từ bảng số dư đầu kỳ của các file năm); chọn xong tên khách và dư đầu kỳ tự điền. Đọc được cả sổ đời cũ (2023) trước đây không nhận năm và báo lỗi khi chạy.
+- Công nợ xuyên nhiều năm: các file năm được đọc NGẦM bằng một Excel ẩn (không còn mở file lên trong Excel của bạn, không đổi sổ đang làm việc); thanh bên hiện tiến trình từng năm và báo kết quả ngay trên thanh bên. Kết xuất ra Excel mới có định dạng: ngày dd/mm/yyyy, tiền có dấu phân cách, MST giữ số 0 đầu, dòng cộng phát sinh và số dư cuối kỳ, cố định dòng tiêu đề, có bộ lọc, in ngang vừa một trang rộng; cửa sổ Xem cũng định dạng như vậy.
+- Công nợ xuyên nhiều năm: sổ đang mở (năm hiện hành) tự vào danh sách khi mở thanh bên, ghi «(đang mở)» — không cần thêm tay; nút «…» cạnh ô Mã công nợ mở bảng chọn khách hàng có ô tìm (mã / tên / MST, không phân biệt dấu) và cột tên rộng; danh sách thả rộng hơn; ô Tên khách hàng hiện đủ tên dài nhiều dòng.
+- Sổ nằm trong Dropbox / OneDrive / thư mục mạng nay vẫn được hỏi «Chuyển sổ sang add-in» khi mở (hộp có nhắc máy khác cần cài add-in và phải tích xác nhận trước khi chuyển).
+- Sổ bản file cũ (còn thẻ GPAcc riêng): hiện thêm thẻ nhỏ «Add-in» có nút «Chuyển Sổ Sang Add-in» để chuyển sổ sang dùng add-in; sổ đã chuyển không hiện thẻ này.
+- Bản tin định kỳ qua email: lỗi báo bằng câu tiếng Việt dễ hiểu (chưa kích hoạt, quá số thư trong ngày, chưa ai xác nhận, mất mạng…); bấm «Lưu + gửi thư xác nhận» mà bị từ chối không còn mất câu báo lý do.
+- Tạo sổ mới — Giá thành xây dựng: sheet chi tiết công trình định dạng đầy đủ; thẻ Nhập Liệu có nút lớn hơn. Giá thành sản xuất: thêm menu «Lấy Định Mức» (lấy thành phẩm + định mức, cập nhật nguyên vật liệu, cập nhật thành phẩm) để xem trước khi bấm Tính Giá Thành.
+
 [26110903]
 - Mới: Xuất bộ báo cáo tài chính ra MỘT tệp PDF (Ctrl+Alt+P) — chọn báo cáo cần in, có trang bìa (logo, tên doanh nghiệp, mã số thuế, kỳ, mục lục có số trang), khổ A4, đánh số trang liên tục. Sổ của bạn không bị sửa.
 - Mới: Kiểm tra trước khi nộp (Ctrl+Alt+B) — thanh bên đối chiếu báo cáo tài chính (cân đối kế toán, kết quả kinh doanh, lưu chuyển tiền tệ, cân đối số phát sinh) và tờ khai GTGT với sổ; dòng đỏ / vàng kèm số chênh và gợi ý nguyên nhân, bấm vào dòng để nhảy tới ô.
