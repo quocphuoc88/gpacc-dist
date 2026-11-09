@@ -16,6 +16,28 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26110903] 09/11/2026
+
+- Lệnh gặp lỗi giữa chừng nay báo rõ: trước đây nhiều lệnh (Kết chuyển NKC, báo cáo tài chính, công nợ, kho, lương, tải hóa đơn...) gặp lỗi thì dừng im lặng, không hiện gì, bạn tưởng đã chạy xong. Nay hiện hộp «Lệnh ... bị dừng do lỗi ...» để bạn biết và gửi tác giả.
+
+- Kết chuyển NKC: không còn bị dừng khi bảng số dư năm trước (CDSPS_NT) có ô chữ rỗng do dán giá trị từ bảng có công thức. Chương trình tự bỏ trống các ô đó trước khi kết chuyển.
+
+- Tải hóa đơn điện tử: mã số thuế bắt đầu bằng số 0 không còn bị mất số 0 khi tải nhiều hóa đơn (từ khoảng hóa đơn thứ 300 trở đi trước đây bị đổi thành số).
+
+- Tải hóa đơn điện tử: tải lại kỳ đã tải không còn thêm trùng hóa đơn vào sheet HOADON. Chương trình báo «Bỏ qua N hóa đơn đã có sẵn» và không tải lại chi tiết đã có, nên nhanh hơn. Dòng đã trùng từ trước không tự mất - muốn sạch hãy tải lại đúng kỳ đó bằng «Xóa + thêm».
+
+- Hóa đơn bán ra cho khách lẻ: khi hóa đơn không ghi tên đơn vị mua / mã số thuế, chương trình lấy họ tên người mua và số căn cước 12 số (từ 07/2025 là mã số thuế cá nhân) như phần mềm GPAcc. Tải lại kỳ cũ sẽ điền bổ sung các ô tên / mã số thuế đang trống, không ghi đè ô bạn đã gõ.
+
+- Tải hóa đơn có «Lấy chi tiết»: cột Nội dung trên HOADON nay được điền cả cho hóa đơn đã có chi tiết từ lần tải trước (trước đây để trống).
+
+- Hóa đơn mua vào chỉ có tiền thuế hạch toán Nợ 1332 (thuế GTGT của tài sản cố định): không còn ghi nhầm diễn giải «Thuế GTGT không được khấu trừ».
+
+- Chạy nhanh hơn, kết quả không đổi: kết chuyển thuế GTGT, in / kết xuất sổ kho nhiều mã hàng, định khoản công nợ tự động, kết chuyển lưu chuyển tiền tệ, kiểm tra dữ liệu khi sheet đang lọc.
+
+- Bảng phân bổ khấu hao (bản đầy đủ): nâng giới hạn vùng chi tiết từ 15 lên 1.000 dòng.
+
+- Bản Doanh nghiệp lớn (nếu bạn dùng): từ bản này có kênh cập nhật riêng - bấm Cập Nhật là nhận bản mới, vẫn giữ phần gộp bút toán bán lẻ theo ngày.
+
 [26102901] 29/10/2026 - lần 01
 
 - Bảng phân bổ công cụ dụng cụ: sửa lỗi tháng ghi giảm (thanh lý, hỏng, mất). Trước đây công cụ đã ghi giảm vẫn còn hiện giá trị còn lại và vẫn tính đủ phân bổ cả tháng, nên tổng «Còn lại» lớn hơn số dư tài khoản 242 trên Cân đối số phát sinh và tổng «Kỳ này» lớn hơn bút toán phân bổ. Nay tháng ghi giảm chỉ tính phân bổ tới ngày ghi giảm, «Còn lại» về 0, cột Ghi chú ghi rõ ngày ghi giảm và giá trị còn lại đã ghi giảm. Bút toán phân bổ trên sổ vốn đã đúng, không đổi.

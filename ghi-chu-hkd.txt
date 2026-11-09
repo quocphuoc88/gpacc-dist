@@ -8,6 +8,14 @@
 #  BAN NHAP 04/10/2026 - TAC GIA DUYET truoc khi chep vao kho gpacc-dist.
 # =============================================================================
 
+[26110903] 09/11/2026
+
+- Lệnh gặp lỗi giữa chừng nay báo rõ (tải hóa đơn điện tử): trước đây gặp lỗi thì dừng im lặng, không hiện gì. Nay hiện hộp báo lỗi để bạn biết và gửi tác giả.
+
+- Tải hóa đơn điện tử: mã số thuế bắt đầu bằng số 0 không còn bị mất số 0 khi tải nhiều hóa đơn.
+
+- Tải hóa đơn có «Lấy chi tiết»: cột Nội dung trên HOADON nay được điền cả cho hóa đơn đã có chi tiết từ lần tải trước.
+
 [26102901] 29/10/2026 - lần 01
 
 - Bảng phân bổ công cụ dụng cụ: sửa lỗi tháng ghi giảm (thanh lý, hỏng, mất). Trước đây công cụ đã ghi giảm vẫn còn hiện giá trị còn lại và vẫn tính đủ phân bổ cả tháng, nên tổng «Còn lại» lớn hơn số dư tài khoản 242 trên Cân đối số phát sinh và tổng «Kỳ này» lớn hơn bút toán phân bổ. Nay tháng ghi giảm chỉ tính phân bổ tới ngày ghi giảm, «Còn lại» về 0, cột Ghi chú ghi rõ ngày ghi giảm và giá trị còn lại đã ghi giảm. Bút toán phân bổ trên sổ vốn đã đúng, không đổi.
