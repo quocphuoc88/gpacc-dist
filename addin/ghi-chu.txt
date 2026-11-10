@@ -1,3 +1,7 @@
+[26111005]
+- Kết xuất nhiều năm (Ctrl+Alt+Y): thêm 5 mục cho đủ báo cáo hay dùng — «Bảng kê bán ra — từng hoá đơn các năm» (sheet BR), «Bảng kê mua vào — từng hoá đơn các năm» (sheet MV), «Sổ quỹ tiền mặt (TK 111)», «Sổ tiền gửi ngân hàng (TK 112)», «Sổ chi phí (mọi TK 6xx)». Chọn mục là ô tên sheet / tài khoản được điền sẵn; sổ cái hay sổ chi tiết của tài khoản khác thì chọn «Sổ cái / Sổ chi tiết tài khoản» rồi gõ tài khoản.
+- Sửa danh sách «Loại báo cáo» của Kết xuất nhiều năm bị hẹp, không đọc hết tên: nay danh sách thả xuống rộng đủ cho tên dài nhất.
+
 [26111004]
 - Sửa lỗi lệnh «Kết chuyển nhập xuất tồn»: ở lần bấm đầu tiên sau khi mở Excel, lệnh có thể không chạy hoặc ra thiếu mặt hàng (kết quả hiện số cũ đã lưu). Nay chạy đúng ngay lần đầu. Cùng nguyên nhân, việc nhận chữ có dấu khi dò tiêu đề cột (như «Thành tiền») cũng được sửa.
 - Sửa lỗi bỏ sót dòng khi sheet đang bật bộ lọc: các lệnh kết chuyển, công nợ, nhập xuất tồn, tải hoá đơn, giá thành… nay đọc đủ cả các dòng đang bị ẩn bởi bộ lọc; thẻ cảnh báo hoá đơn chưa vào sổ và cảnh báo bất thường cũng đọc đủ.
