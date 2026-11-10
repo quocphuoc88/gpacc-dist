@@ -1,3 +1,6 @@
+[26111007]
+- Thẻ GPAcc (khi chưa mở sổ): menu «Sổ gần đây» có thêm nút «Mở file khác…» ở đầu menu — mở hộp chọn tệp của Windows như trong Explorer để chọn bất kỳ tệp sổ nào. Chọn xong sổ được mở và hiện trong danh sách «Sổ gần đây».
+
 [26111006]
 - Kết xuất nhiều năm: «Bảng kê bán ra» và «Bảng kê mua vào» nay kết xuất đúng như lệnh Kết xuất bảng kê của sổ — lọc theo tháng (chọn «từ tháng … đến tháng …»), chia nhóm thuế suất, có dòng Tổng từng nhóm và hai dòng tổng cuối bảng, đầu bảng theo mẫu của sổ (số hoá đơn 7 chữ số, ngày dd/mm/yyyy, mã số thuế đủ 10 số). Chọn «một sheet liên tục» (nối các năm, tổng cả giai đoạn) hoặc «mỗi năm một sheet» kèm Mục lục.
 - Sửa ô «Loại báo cáo» của Kết xuất nhiều năm bị cắt chữ bên phải: nhãn nằm trên ô chọn, ô rộng bằng thanh bên, danh sách thả xuống đọc được hết tên.
