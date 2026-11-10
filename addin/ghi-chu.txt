@@ -1,3 +1,9 @@
+[26111006]
+- Kết xuất nhiều năm: «Bảng kê bán ra» và «Bảng kê mua vào» nay kết xuất đúng như lệnh Kết xuất bảng kê của sổ — lọc theo tháng (chọn «từ tháng … đến tháng …»), chia nhóm thuế suất, có dòng Tổng từng nhóm và hai dòng tổng cuối bảng, đầu bảng theo mẫu của sổ (số hoá đơn 7 chữ số, ngày dd/mm/yyyy, mã số thuế đủ 10 số). Chọn «một sheet liên tục» (nối các năm, tổng cả giai đoạn) hoặc «mỗi năm một sheet» kèm Mục lục.
+- Sửa ô «Loại báo cáo» của Kết xuất nhiều năm bị cắt chữ bên phải: nhãn nằm trên ô chọn, ô rộng bằng thanh bên, danh sách thả xuống đọc được hết tên.
+- Bấm một dòng ở thanh bên (Kiểm tra trước khi nộp, Tổng quan, Hỏi số liệu, Tìm kiếm) mà sheet đó đang bị ẩn: chương trình tự hiện sheet rồi nhảy tới ô, không cần mở sheet trước như trước đây.
+- Các thanh bên (So sánh 2 kỳ, Bản tin định kỳ, Kiểm tra trước khi nộp, Tổng quan, Hỏi số liệu, Kết xuất nhiều năm) nay có cùng một giao diện: dải tiêu đề kèm tên sổ, ô nhập, nút bấm và chữ giống nhau.
+
 [26111005]
 - Kết xuất nhiều năm (Ctrl+Alt+Y): thêm 5 mục cho đủ báo cáo hay dùng — «Bảng kê bán ra — từng hoá đơn các năm» (sheet BR), «Bảng kê mua vào — từng hoá đơn các năm» (sheet MV), «Sổ quỹ tiền mặt (TK 111)», «Sổ tiền gửi ngân hàng (TK 112)», «Sổ chi phí (mọi TK 6xx)». Chọn mục là ô tên sheet / tài khoản được điền sẵn; sổ cái hay sổ chi tiết của tài khoản khác thì chọn «Sổ cái / Sổ chi tiết tài khoản» rồi gõ tài khoản.
 - Sửa danh sách «Loại báo cáo» của Kết xuất nhiều năm bị hẹp, không đọc hết tên: nay danh sách thả xuống rộng đủ cho tên dài nhất.
