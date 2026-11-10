@@ -1,3 +1,10 @@
+[26111001]
+- Kết xuất nhiều năm (Ctrl+Alt+Y; trước là «Công nợ xuyên nhiều năm»): chọn loại báo cáo — công nợ chi tiết 1 khách, tổng hợp công nợ mọi khách (dư cuối năm tự chuyển thành dư đầu năm sau), hoặc chi tiết hàng loạt từng khách (chọn nhiều khách hoặc tất cả). Hai kiểu xuất: một sheet chạy liên tục nhiều năm, hoặc mỗi năm một sheet kèm sheet «Mục lục» có liên kết đi lại giữa các năm. Nút «Thêm file năm» nằm cạnh «Xóa dòng chọn».
+- Các thanh bên (Hàng hoá-dịch vụ, Khách hàng/Công nợ, Hoá đơn điện tử, Kết xuất nhiều năm) có giao diện nhất quán: dải tiêu đề xanh, dòng «Sổ: …», nút và ô nhập cùng kiểu.
+- Mở form Kết chuyển / kết xuất nhanh hơn khi sheet dữ liệu đang lọc (trước khựng 1–2 giây); thanh trạng thái hiện «đang kiểm tra dữ liệu …» để biết chương trình đang làm gì.
+- Sửa lỗi khung đỏ «Sổ này cần GPAcc add-in» hiện ra mỗi lần lưu và dính vào file kết xuất; hộp «Chuyển sổ dùng chung» hiện đủ chữ, không bị cắt.
+- File Giá thành Sản xuất nay chạy thẳng trong add-in GPAcc — không còn mã VBA riêng trong file; mở file cũ sẽ được hỏi «Chuyển sổ sang add-in», số liệu giữ nguyên, có sao lưu.
+
 [26110904]
 - Công nợ xuyên nhiều năm (Ctrl+Alt+Y): ô Mã công nợ nay có mũi tên chọn từ danh sách (131 / 331 lấy từ bảng số dư đầu kỳ của các file năm); chọn xong tên khách và dư đầu kỳ tự điền. Đọc được cả sổ đời cũ (2023) trước đây không nhận năm và báo lỗi khi chạy.
 - Công nợ xuyên nhiều năm: các file năm được đọc NGẦM bằng một Excel ẩn (không còn mở file lên trong Excel của bạn, không đổi sổ đang làm việc); thanh bên hiện tiến trình từng năm và báo kết quả ngay trên thanh bên. Kết xuất ra Excel mới có định dạng: ngày dd/mm/yyyy, tiền có dấu phân cách, MST giữ số 0 đầu, dòng cộng phát sinh và số dư cuối kỳ, cố định dòng tiêu đề, có bộ lọc, in ngang vừa một trang rộng; cửa sổ Xem cũng định dạng như vậy.
