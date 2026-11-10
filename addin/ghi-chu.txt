@@ -1,3 +1,10 @@
+[26111004]
+- Sửa lỗi lệnh «Kết chuyển nhập xuất tồn»: ở lần bấm đầu tiên sau khi mở Excel, lệnh có thể không chạy hoặc ra thiếu mặt hàng (kết quả hiện số cũ đã lưu). Nay chạy đúng ngay lần đầu. Cùng nguyên nhân, việc nhận chữ có dấu khi dò tiêu đề cột (như «Thành tiền») cũng được sửa.
+- Sửa lỗi bỏ sót dòng khi sheet đang bật bộ lọc: các lệnh kết chuyển, công nợ, nhập xuất tồn, tải hoá đơn, giá thành… nay đọc đủ cả các dòng đang bị ẩn bởi bộ lọc; thẻ cảnh báo hoá đơn chưa vào sổ và cảnh báo bất thường cũng đọc đủ.
+- Cập nhật phân bổ / khấu hao: khi kết chuyển báo «PB bạn chưa cập nhật», chương trình nay ghi rõ số lệch và liệt kê các chứng từ gây lệch (vd hoá đơn mua có tài khoản hàng 2412, tài khoản thuế 2422; dòng ngân hàng ghi Nợ 242). Nút «Cập nhật PBKH» cũng báo ngay các chứng từ này.
+- Trợ lý «Hỏi số liệu» (Ctrl+Alt+Q) có giao diện mới như một khung trò chuyện: câu hỏi và trả lời trong bong bóng, gợi ý dạng thẻ, ô nhập có nút gửi.
+- Thẻ GPAcc có thêm nhóm «Tra Cứu & Kiểm Tra»: nút Hỏi Số Liệu, Kết Xuất Nhiều Năm, Kiểm Tra Trước Khi Nộp, Tìm Kiếm và menu Khác (So Sánh 2 Kỳ, Nhật Ký Thao Tác, Bản Tin Định Kỳ) — trước đây chỉ mở được bằng phím tắt.
+
 [26111003]
 - Kết xuất nhiều năm (Ctrl+Alt+Y): thêm 3 nhóm báo cáo. «Nhập xuất tồn kho» — chọn tài khoản kho (hoặc tất cả), mỗi năm có nhập / xuất, kèm tồn đầu năm đầu và tồn cuối năm cuối; báo khi tồn đầu năm sau khác tồn cuối năm trước. Hiện hỗ trợ sổ TT99, Doanh nghiệp lớn, Nhiều chi nhánh, Lệch niên độ, TT58 và Hộ kinh doanh (TT152); sổ TT200 / TT133 báo «chưa hỗ trợ». «Báo cáo tài chính» — bảng cân đối kế toán, kết quả kinh doanh, lưu chuyển tiền tệ (trực tiếp và gián tiếp), các năm xếp cạnh nhau có cột chênh lệch. Nếu mẫu báo cáo đổi giữa các năm (TT200 sang TT99) thì dòng nào khác được hiện riêng và có cảnh báo, không gộp nhầm. «Gom một sheet bất kỳ» — gõ hoặc chọn tên sheet (tờ khai GTGT, TNDN, bảng cân đối số phát sinh…), mỗi năm ra một sheet đúng mẫu của sổ kèm «Mục lục».
 - Các file năm được đọc ngầm, không mở lên và không bị thay đổi; kết quả mở ở file Excel mới.
