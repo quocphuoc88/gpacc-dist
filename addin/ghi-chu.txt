@@ -1,3 +1,9 @@
+[26111009]
+- Sửa các nút «K.Tra 1–4» (và các nút kiểm tra tương tự) trên sheet Bán ra, Mua vào, SDDK_CN, GDLK báo «Cannot run the macro 'GPAccNut …'»: các nút này nằm trong một nhóm hình nên trước đây không được nối lại với add-in. Nay mở sổ là nút trong nhóm chạy được bình thường (vị trí, kích thước nhóm giữ nguyên; sổ sẽ hỏi lưu khi đóng vì nút vừa được nối lại).
+- Thanh bên «Hoá đơn điện tử»: ô «Kết quả KT», «Trạng thái», «HĐ liên quan» nay hiện chữ dễ hiểu («5 – Đã cấp mã», «8 – Có mã từ máy tính tiền»…) thay cho con số, danh sách xổ xuống đủ rộng đọc hết. Thêm hàng ô tích «Loại HĐ»: Có mã / Không mã / Máy tính tiền — tích thiếu loại nào thì chỉ tải loại đã tích (mỗi loại một lượt, hoá đơn ghi nối tiếp, không trùng); tích đủ cả ba là tải hết như trước.
+- Tải hoá đơn: nếu «Đến ngày» lớn hơn ngày hôm nay (ví dụ chọn quý 4 khi mới tháng 11) thì chương trình chỉ tải tới hôm nay, không hỏi Cổng các tháng chưa tới — đỡ tốn lượt gọi. Nếu «Từ ngày» sau hôm nay thì báo, không tải. Lúc đang tải chương trình ghi nhật ký chẩn đoán nếu Excel bị bận quá 3 giây (tệp treo_tai_hd.log trong %LOCALAPPDATA%\GPAcc) để tìm nguyên nhân khi Excel bị đơ.
+- Hộp «Bản quyền»: rộng và cao hơn, danh sách các gói hiện đủ mà không phải kéo lên xuống, các cột đọc trọn chữ.
+
 [26111008]
 - Kết xuất nhiều năm: khi đọc các file năm ngầm, chương trình mở một Excel phụ không hiện cửa sổ. Trước đây Excel phụ này còn treo khoảng hai phút sau khi xong mới tắt. Nay tắt NGAY khi Kết xuất / Xem xong, tắt khi đóng thanh bên hoặc thoát Excel, và nếu chỉ đang chọn tài khoản / thêm file thì tắt sau khoảng 20 giây rảnh. Máy nhẹ hơn, không còn tiến trình EXCEL.EXE thừa trong Task Manager.
 - Thanh bên «Khách hàng / Công nợ» và «Hàng hoá, dịch vụ» có phần dưới giống hệt nhau: hàng nút Thêm / Sửa / Lưu / Hủy / Xóa / Thoát chia đều trên một hàng, ô sửa chia cột như nhau. Form Hàng hoá, dịch vụ bỏ nút «Chọn >>» — nhấp đúp vào dòng trong danh sách để chọn như trước.
