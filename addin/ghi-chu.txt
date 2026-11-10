@@ -1,3 +1,7 @@
+[26111008]
+- Kết xuất nhiều năm: khi đọc các file năm ngầm, chương trình mở một Excel phụ không hiện cửa sổ. Trước đây Excel phụ này còn treo khoảng hai phút sau khi xong mới tắt. Nay tắt NGAY khi Kết xuất / Xem xong, tắt khi đóng thanh bên hoặc thoát Excel, và nếu chỉ đang chọn tài khoản / thêm file thì tắt sau khoảng 20 giây rảnh. Máy nhẹ hơn, không còn tiến trình EXCEL.EXE thừa trong Task Manager.
+- Thanh bên «Khách hàng / Công nợ» và «Hàng hoá, dịch vụ» có phần dưới giống hệt nhau: hàng nút Thêm / Sửa / Lưu / Hủy / Xóa / Thoát chia đều trên một hàng, ô sửa chia cột như nhau. Form Hàng hoá, dịch vụ bỏ nút «Chọn >>» — nhấp đúp vào dòng trong danh sách để chọn như trước.
+
 [26111007]
 - Thẻ GPAcc (khi chưa mở sổ): menu «Sổ gần đây» có thêm nút «Mở file khác…» ở đầu menu — mở hộp chọn tệp của Windows như trong Explorer để chọn bất kỳ tệp sổ nào. Chọn xong sổ được mở và hiện trong danh sách «Sổ gần đây».
 
