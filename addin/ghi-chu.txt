@@ -1,3 +1,6 @@
+[26111014]
+- Sửa lỗi sau cập nhật: chọn «Tắt Excel và mở lại ngay» thì Excel mở lại nhưng chưa có add-in GPAcc. Nay Excel được mở lại như khi anh tự bấm mở, đầy đủ add-in, cùng các sổ đang mở.
+
 [26111013]
 - «Sổ gần đây» → «Mở file khác…» thông minh hơn: add-in nhớ thư mục chứa các sổ Excel anh hay mở (đếm số lần) và gợi ý sẵn. Hộp «Mở sổ» hiện thư mục hay mở nhất ở đầu danh sách, bên phải là các sổ trong thư mục đó (mới sửa nhất trước), có ô lọc theo tên; gõ vài chữ rồi Enter hoặc bấm đúp là mở. Nút «Duyệt thư mục khác…» vẫn mở hộp chọn tệp của Windows.
 
