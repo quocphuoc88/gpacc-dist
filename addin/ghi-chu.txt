@@ -1,3 +1,6 @@
+[26111202]
+- «Quản lý nhân viên» — «Đối chiếu» thêm phép đối chiếu SỐ DƯ CUỐI NĂM TRƯỚC với SỐ DƯ ĐẦU NĂM NAY: với hai sổ liền năm của cùng một công ty (cùng mã số thuế), add-in so số dư cuối kỳ từng tài khoản của bảng CĐSPS sổ năm trước với số dư năm trước đã lấy vào sổ năm nay (bảng CDSPS_NT). Khớp thì báo «Khớp mọi tài khoản»; lệch thì báo Đỏ kèm các tài khoản lệch nhiều nhất (nghĩa là sổ năm trước đã bị sửa sau khi lấy số dư sang, hoặc số dư lấy sai); sổ năm nay chưa lấy số dư năm trước trong khi sổ năm trước còn số dư thì báo Đỏ; sổ năm trước chưa tính đủ 12 tháng, hai sổ khác thông tư (không so từng tài khoản được) hoặc chưa có số liệu thì báo Vàng. Muốn có số dư, bấm Kiểm tra cho cả hai sổ.
+
 [26111201]
 - «Quản lý nhân viên» (Ctrl+Alt+J) — ĐỢT 2, thêm ba việc cho quản lý:
   1) «Kèm kiểm tra dữ liệu»: tích ô này rồi bấm Kiểm tra thì ngoài «Kiểm trước khi nộp» và cảnh báo, add-in còn chạy lệnh «Kiểm Tra Dữ Liệu» của sổ (ô nhập sai kiểu số / ngày, tài khoản không có trong danh mục, hóa đơn lệch…) trên bản chép của từng sổ. Có cột «Lỗi dữ liệu» ở bảng, tab «Lỗi dữ liệu» (sheet, ô, giá trị, vấn đề) ở chi tiết và một sheet «Lỗi dữ liệu» khi Xuất Excel. Chậm hơn kiểm thường nên mặc định tắt; kiểm lại không tích ô này thì kết quả kiểm dữ liệu lần trước được giữ (ghi «cũ» nếu nhân viên đã lưu lại sổ).
