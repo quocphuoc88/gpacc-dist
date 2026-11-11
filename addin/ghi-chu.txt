@@ -1,3 +1,9 @@
+[26111021]
+- «Kéo dữ liệu từ PM» (từ phần mềm kế toán / GPAcc Thuế / GPAcc PRO) làm lại: hộp chọn mới có khoảng ngày (nút Cả năm / Quý này / Tháng này / Tháng trước), chọn phần cần kéo, và cài đặt được NHỚ RIÊNG TỪNG CÔNG TY (theo mã số thuế, sổ năm sau dùng lại).
+- Nhật ký mua / nhật ký bán chỉ kéo khi công ty cần: bỏ tích «Nhật ký bán» hoặc «Nhật ký mua» thì không kéo. Với nhật ký mua có thêm chế độ «Chỉ nhà cung cấp theo dõi»: lần đầu hiện danh sách nhà cung cấp trong dữ liệu kéo về để bạn tích những nhà cung cấp cần ghi nhật ký (các nhà cung cấp điện, nước, viễn thông… không tích thì không vào NK_Mua); lần sau chỉ hỏi các nhà cung cấp MỚI. Nút «Nhà cung cấp…» để thêm, bớt, xóa hoặc tích lại danh sách bất cứ lúc nào. Dòng nhật ký mua đã có sẵn trong sổ không bị xóa.
+- Có bước «Xem trước»: số dòng phần mềm trả về từng sheet và bảng nhà cung cấp, bấm «Ghi vào sổ» mới ghi. Sau khi kéo có bảng kết quả: thêm mới / đã có / bỏ qua từng sheet, kèm danh sách nhà cung cấp bị bỏ qua.
+- Sửa lỗi lệnh «Kéo dữ liệu từ PM» báo «Object variable or With block variable not set» ở bước ghi dữ liệu khi có dòng cần thêm.
+
 [26111020]
 - Sửa lỗi khi tải hóa đơn điện tử ở thanh bên: trong lúc tải, màn hình Excel không được vẽ lại nên bấm chuyển sang sheet khác thì sheet đứng hình, chữ ở hàng tên sheet bị lung tung. Nay trong lúc tải Excel vẫn vẽ lại màn hình và vẫn tự tính công thức như bình thường, bạn xem và chuyển qua lại các sheet được trong khi hóa đơn đang tải (tốc độ tải không đổi).
 
