@@ -8,6 +8,10 @@
 #  BAN NHAP 04/10/2026 - TAC GIA DUYET truoc khi chep vao kho gpacc-dist.
 # =============================================================================
 
+[26111101] 11/11/2026
+
+- Tải hóa đơn điện tử: sửa lỗi bấm «Thực hiện» báo «Lỗi không mong đợi khi tải hóa đơn: 1004 - Cannot run the macro 'GPAccVo_TaiHD_ChayNen'» (có ở bản 26110903 trở đi). Nay tải bình thường như trước.
+
 [26110903] 09/11/2026
 
 - Lệnh gặp lỗi giữa chừng nay báo rõ (tải hóa đơn điện tử): trước đây gặp lỗi thì dừng im lặng, không hiện gì. Nay hiện hộp báo lỗi để bạn biết và gửi tác giả.

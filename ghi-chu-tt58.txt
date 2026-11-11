@@ -8,6 +8,10 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26111101] 11/11/2026
+
+- Tải hóa đơn điện tử: sửa lỗi bấm «Thực hiện» báo «Lỗi không mong đợi khi tải hóa đơn: 1004 - Cannot run the macro 'GPAccVo_TaiHD_ChayNen'» (có ở bản 26110903 trở đi). Nay tải bình thường như trước.
+
 [26110905] 09/11/2026 - lần 05
 
 - Nâng cấp bố cục: dòng tiêu đề «TT58/2026/TT-BTC» ở sheet TTDN không còn bị đổi thành chữ xám nhỏ. Nếu dòng tiêu đề của bạn đã bị xám sau lần cập nhật mẫu biểu trước, chọn ô đó rồi chỉnh lại chữ đậm màu đỏ.

@@ -7,6 +7,10 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26111101] 11/11/2026
+
+- Tải hóa đơn điện tử: sửa lỗi bấm «Thực hiện» báo «Lỗi không mong đợi khi tải hóa đơn: 1004 - Cannot run the macro 'GPAccVo_TaiHD_ChayNen'» (có ở bản 26110903 trở đi). Nay tải bình thường như trước.
+
 [26110903] 09/11/2026
 
 - Lệnh gặp lỗi giữa chừng nay báo rõ: trước đây nhiều lệnh (Kết chuyển NKC, báo cáo tài chính, công nợ, kho, lương, tải hóa đơn...) gặp lỗi thì dừng im lặng, không hiện gì, bạn tưởng đã chạy xong. Nay hiện hộp «Lệnh ... bị dừng do lỗi ...» để bạn biết và gửi tác giả.

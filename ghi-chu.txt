@@ -16,6 +16,10 @@
 #  Cu de mot dau cach truoc chu so la an toan. giao_khach.py tu kiem dieu nay.
 # =============================================================================
 
+[26111101] 11/11/2026
+
+- Tải hóa đơn điện tử: sửa lỗi bấm «Thực hiện» báo «Lỗi không mong đợi khi tải hóa đơn: 1004 - Cannot run the macro 'GPAccVo_TaiHD_ChayNen'» (có ở bản 26110903 trở đi). Nay tải bình thường như trước.
+
 [26110904] 09/11/2026 - lần 04
 
 - Cập nhật nội bộ chuẩn bị cho bản TT58 (bảng vá bố cục biết bỏ qua một số mục theo từng bản), không đổi cách dùng của bản này.
