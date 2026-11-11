@@ -1,3 +1,8 @@
+[26111019]
+- Cửa sổ «Tổng hợp công nợ nhiều năm» (nút Xem) dễ đọc hơn: mở ra rộng theo màn hình, các cột tự vừa nội dung (không còn phải kéo cột, tên khách giãn theo chỗ còn lại), cột «Ký hiệu» đổi thành «Tài khoản», tiền hiện theo dấu phân cách của Excel. Có ô «Tìm» (gõ không dấu) lọc ngay theo tên, MST hoặc tài khoản; bấm tiêu đề cột để sắp xếp.
+- Thêm nút «Xem chi tiết»: chọn một dòng rồi bấm (hoặc bấm đúp / Enter) để xem chi tiết công nợ tài khoản đó qua các năm.
+- Thêm nút «Kết xuất Excel»: giữ Ctrl / Shift chọn các tài khoản cần, không chọn dòng nào thì kết xuất tất cả (theo bộ lọc đang gõ). Chọn «Có» để ra file tổng hợp + chi tiết từng tài khoản (mỗi tài khoản một sheet, bấm «Xem →» ở sheet Tổng hợp để mở), hoặc «Không» để chỉ ra bảng tổng hợp. Khi đọc có thanh tiến trình và nút Dừng.
+
 [26111018]
 - Sửa lỗi khi tải hóa đơn điện tử ở thanh bên: trong lúc tải, Excel bị đứng từng quãng 15–20 giây, không chuyển được sang sheet khác. Nay phần chờ mạng chạy riêng, bạn vẫn xem và thao tác các sheet bình thường trong khi hóa đơn đang tải.
 
