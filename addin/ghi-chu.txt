@@ -1,3 +1,7 @@
+[26111023]
+- Danh sách «Nhà cung cấp theo dõi nhật ký mua» (Kéo dữ liệu từ PM) nay có sẵn ngay lần đầu: tự nạp các nhà cung cấp từ sheet MV (hóa đơn mua vào) của sổ đang mở, kèm mặt hàng mua (3 mặt hàng giá trị lớn nhất, để nhớ ra nhà cung cấp này bán gì), số hóa đơn và giá trị mua, sắp theo giá trị mua từ cao xuống thấp, để bạn tích những nhà cung cấp cần ghi nhật ký (chi nhánh của cùng một MST được gộp chung). Nút «Nạp từ sổ (MV)» để nạp thêm khi sổ có nhà cung cấp mới; «Thêm…» / «Xóa dòng chọn» để chỉnh tay.
+- Nhà cung cấp MỚI xuất hiện khi kéo dữ liệu: hiện ở bước «Xem trước» tô đỏ chữ «Mới», kèm mặt hàng mua để dễ quyết định (ô Tìm lọc được cả theo mặt hàng); mặc định chưa tích, hoặc bật ô «tự động tích theo dõi» ở cửa sổ danh sách nếu muốn nhà cung cấp mới được theo dõi ngay.
+
 [26111021]
 - «Kéo dữ liệu từ PM» (từ phần mềm kế toán / GPAcc Thuế / GPAcc PRO) làm lại: hộp chọn mới có khoảng ngày (nút Cả năm / Quý này / Tháng này / Tháng trước), chọn phần cần kéo, và cài đặt được NHỚ RIÊNG TỪNG CÔNG TY (theo mã số thuế, sổ năm sau dùng lại).
 - Nhật ký mua / nhật ký bán chỉ kéo khi công ty cần: bỏ tích «Nhật ký bán» hoặc «Nhật ký mua» thì không kéo. Với nhật ký mua có thêm chế độ «Chỉ nhà cung cấp theo dõi»: lần đầu hiện danh sách nhà cung cấp trong dữ liệu kéo về để bạn tích những nhà cung cấp cần ghi nhật ký (các nhà cung cấp điện, nước, viễn thông… không tích thì không vào NK_Mua); lần sau chỉ hỏi các nhà cung cấp MỚI. Nút «Nhà cung cấp…» để thêm, bớt, xóa hoặc tích lại danh sách bất cứ lúc nào. Dòng nhật ký mua đã có sẵn trong sổ không bị xóa.
