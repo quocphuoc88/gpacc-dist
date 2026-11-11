@@ -1,3 +1,7 @@
+[26111012]
+- Cập nhật add-in có hộp tiến trình: hiện thanh phần trăm, tên tệp đang tải và dung lượng, có nút Hủy; Excel không còn đứng im lúc tải.
+- Cập nhật xong hỏi «Tắt Excel và mở lại ngay?»: chọn Có thì các sổ đang mở được đóng (Excel hỏi lưu nếu sổ chưa lưu) rồi tự mở lại trong Excel dùng bản mới; chọn Không thì bản mới dùng từ lần mở Excel sau.
+
 [26111011]
 - Sửa lỗi «Lấy BCTC năm trước từ file XML» luôn báo «không có KQKD, cũng không có lưu chuyển tiền tệ» dù chọn đúng file báo cáo tài chính (TT200, TT133, TT99) kết xuất từ HTKK.
 - «Thêm Công Nợ» ở sheet Mua Vào / Bán Ra: hộp thoại tự chọn sẵn đúng nhóm (Mua Vào = phải trả, Bán Ra = phải thu) và điền sẵn ký hiệu công nợ (331-xx / 131-xx); trước đây ô Nhóm và ô Ký hiệu để trống.
