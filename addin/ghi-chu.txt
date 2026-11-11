@@ -1,3 +1,6 @@
+[26111013]
+- «Sổ gần đây» → «Mở file khác…» thông minh hơn: add-in nhớ thư mục chứa các sổ Excel anh hay mở (đếm số lần) và gợi ý sẵn. Hộp «Mở sổ» hiện thư mục hay mở nhất ở đầu danh sách, bên phải là các sổ trong thư mục đó (mới sửa nhất trước), có ô lọc theo tên; gõ vài chữ rồi Enter hoặc bấm đúp là mở. Nút «Duyệt thư mục khác…» vẫn mở hộp chọn tệp của Windows.
+
 [26111012]
 - Cập nhật add-in có hộp tiến trình: hiện thanh phần trăm, tên tệp đang tải và dung lượng, có nút Hủy; Excel không còn đứng im lúc tải.
 - Cập nhật xong hỏi «Tắt Excel và mở lại ngay?»: chọn Có thì các sổ đang mở được đóng (Excel hỏi lưu nếu sổ chưa lưu) rồi tự mở lại trong Excel dùng bản mới; chọn Không thì bản mới dùng từ lần mở Excel sau.
