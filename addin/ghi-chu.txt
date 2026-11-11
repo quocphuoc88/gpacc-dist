@@ -1,3 +1,8 @@
+[26111017]
+- Sửa lỗi «Kết xuất nhiều năm»: bấm «Xem» (báo cáo tài chính, doanh thu, nhập xuất tồn, sổ chi tiết, công nợ) đôi khi báo «Index was out of range» và không hiện bảng.
+- Bảng báo cáo tài chính nhiều năm kết xuất ra Excel được chỉnh cho đẹp: dòng không còn cao ngất, cột tỉ lệ % hiển thị đúng (8,0% thay vì «08%»), tiêu đề cột đủ chỗ hơn.
+- Sửa lỗi sau cập nhật: chọn «mở lại Excel» thì toàn bộ chữ và nút của GPAcc trong Excel mới bị mờ. Nay cập nhật xong chỉ hỏi «Đóng Excel ngay bây giờ?» (các sổ đang mở được đóng, Excel hỏi lưu nếu chưa lưu); bạn mở lại Excel bình thường, các sổ vừa dùng nằm sẵn ở thẻ GPAcc → «Sổ gần đây».
+
 [26111016]
 - Sửa lỗi sau «Chuyển sổ sang add-in»: các nút lệnh trên sheet báo không thao tác được, phải đóng sổ mở lại mới chạy. Nay chuyển xong là các nút chạy ngay.
 - Hộp «Mở sổ» và cửa sổ «Giới thiệu»: chữ rõ nét, đậm màu hơn, dễ đọc hơn (trước hơi mờ).
