@@ -1,3 +1,7 @@
+[26111015]
+- Menu «Giới Thiệu» → «Phần Mềm Kế Toán Thuế - GPAcc» (hoặc «Tác Giả») mở cửa sổ giới thiệu phần mềm và các tính năng nổi bật, chữ chạy từ dưới lên như phần giới thiệu cuối phim; bấm vào chữ để tạm dừng, lăn chuột để kéo, có nút đổi tốc độ và nút liên hệ Zalo tác giả.
+- Hộp «Mở sổ» có nút «Làm mới»: tải lại danh sách (F5), xoá thư mục đang chọn khỏi gợi ý (phím Delete), hoặc xoá hết lịch sử thư mục để gợi ý học lại từ đầu. Chỉ xoá lịch sử gợi ý của GPAcc, không xoá thư mục hay tệp nào.
+
 [26111014]
 - Sửa lỗi sau cập nhật: chọn «Tắt Excel và mở lại ngay» thì Excel mở lại nhưng chưa có add-in GPAcc. Nay Excel được mở lại như khi anh tự bấm mở, đầy đủ add-in, cùng các sổ đang mở.
 
