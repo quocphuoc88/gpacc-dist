@@ -1,3 +1,8 @@
+[26111016]
+- Sửa lỗi sau «Chuyển sổ sang add-in»: các nút lệnh trên sheet báo không thao tác được, phải đóng sổ mở lại mới chạy. Nay chuyển xong là các nút chạy ngay.
+- Hộp «Mở sổ» và cửa sổ «Giới thiệu»: chữ rõ nét, đậm màu hơn, dễ đọc hơn (trước hơi mờ).
+- Sửa lỗi cập nhật báo «không ghi được bản mới … The process cannot access the file because it is being used by another process» khi thư mục cài nằm trong Dropbox / OneDrive hoặc phần mềm diệt virus đang quét tệp vừa tải: nay ghi từng tệp và tự thử lại khi tệp đang bị giữ.
+
 [26111015]
 - Menu «Giới Thiệu» → «Phần Mềm Kế Toán Thuế - GPAcc» (hoặc «Tác Giả») mở cửa sổ giới thiệu phần mềm và các tính năng nổi bật, chữ chạy từ dưới lên như phần giới thiệu cuối phim; bấm vào chữ để tạm dừng, lăn chuột để kéo, có nút đổi tốc độ và nút liên hệ Zalo tác giả.
 - Hộp «Mở sổ» có nút «Làm mới»: tải lại danh sách (F5), xoá thư mục đang chọn khỏi gợi ý (phím Delete), hoặc xoá hết lịch sử thư mục để gợi ý học lại từ đầu. Chỉ xoá lịch sử gợi ý của GPAcc, không xoá thư mục hay tệp nào.
