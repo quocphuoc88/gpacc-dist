@@ -1,3 +1,12 @@
+[26111011]
+- Sửa lỗi «Lấy BCTC năm trước từ file XML» luôn báo «không có KQKD, cũng không có lưu chuyển tiền tệ» dù chọn đúng file báo cáo tài chính (TT200, TT133, TT99) kết xuất từ HTKK.
+- «Thêm Công Nợ» ở sheet Mua Vào / Bán Ra: hộp thoại tự chọn sẵn đúng nhóm (Mua Vào = phải trả, Bán Ra = phải thu) và điền sẵn ký hiệu công nợ (331-xx / 131-xx); trước đây ô Nhóm và ô Ký hiệu để trống.
+- «Định Khoản Tự Động» (Ctrl+Shift+D) ở Mua Vào / Bán Ra: chọn hình thức định khoản từ danh sách có cột Nợ, Có (bấm đúp hoặc Enter để chọn) thay cho ô gõ số; hiện rõ số dòng sẽ áp dụng; nhớ lựa chọn lần trước. Sửa: dòng có VAT ở Mua Vào nay ghi tài khoản 1331 (trước đây ghi 133).
+
+[26111010]
+- Bộ cài gọn và sạch hơn, giảm cảnh báo từ Windows và phần mềm diệt virus: bộ cài không còn kèm tệp script đăng ký (dang_ky.vbs) — nay tự đăng ký add-in vào Excel; không còn kèm tệp macro (.xlam). Sổ theo thông tư 200 / 133 sẽ tự tải thêm bộ xử lý riêng (khoảng 0,6 MB, một lần) ở lần đầu mở sổ đó — máy cần có mạng lúc ấy. Máy đã dùng sổ thông tư 200 / 133 thì giữ nguyên, không phải tải lại.
+- Cập nhật add-in chỉ tải lại bộ xử lý thông tư 200 / 133 nếu máy đã có sẵn.
+
 [26111009]
 - Sửa các nút «K.Tra 1–4» (và các nút kiểm tra tương tự) trên sheet Bán ra, Mua vào, SDDK_CN, GDLK báo «Cannot run the macro 'GPAccNut …'»: các nút này nằm trong một nhóm hình nên trước đây không được nối lại với add-in. Nay mở sổ là nút trong nhóm chạy được bình thường (vị trí, kích thước nhóm giữ nguyên; sổ sẽ hỏi lưu khi đóng vì nút vừa được nối lại).
 - Thanh bên «Hoá đơn điện tử»: ô «Kết quả KT», «Trạng thái», «HĐ liên quan» nay hiện chữ dễ hiểu («5 – Đã cấp mã», «8 – Có mã từ máy tính tiền»…) thay cho con số, danh sách xổ xuống đủ rộng đọc hết. Thêm hàng ô tích «Loại HĐ»: Có mã / Không mã / Máy tính tiền — tích thiếu loại nào thì chỉ tải loại đã tích (mỗi loại một lượt, hoá đơn ghi nối tiếp, không trùng); tích đủ cả ba là tải hết như trước.
