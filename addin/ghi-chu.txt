@@ -1,3 +1,6 @@
+[26111018]
+- Sửa lỗi khi tải hóa đơn điện tử ở thanh bên: trong lúc tải, Excel bị đứng từng quãng 15–20 giây, không chuyển được sang sheet khác. Nay phần chờ mạng chạy riêng, bạn vẫn xem và thao tác các sheet bình thường trong khi hóa đơn đang tải.
+
 [26111017]
 - Sửa lỗi «Kết xuất nhiều năm»: bấm «Xem» (báo cáo tài chính, doanh thu, nhập xuất tồn, sổ chi tiết, công nợ) đôi khi báo «Index was out of range» và không hiện bảng.
 - Bảng báo cáo tài chính nhiều năm kết xuất ra Excel được chỉnh cho đẹp: dòng không còn cao ngất, cột tỉ lệ % hiển thị đúng (8,0% thay vì «08%»), tiêu đề cột đủ chỗ hơn.
