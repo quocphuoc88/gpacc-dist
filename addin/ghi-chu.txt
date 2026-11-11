@@ -1,3 +1,6 @@
+[26111020]
+- Sửa lỗi khi tải hóa đơn điện tử ở thanh bên: trong lúc tải, màn hình Excel không được vẽ lại nên bấm chuyển sang sheet khác thì sheet đứng hình, chữ ở hàng tên sheet bị lung tung. Nay trong lúc tải Excel vẫn vẽ lại màn hình và vẫn tự tính công thức như bình thường, bạn xem và chuyển qua lại các sheet được trong khi hóa đơn đang tải (tốc độ tải không đổi).
+
 [26111019]
 - Cửa sổ «Tổng hợp công nợ nhiều năm» (nút Xem) dễ đọc hơn: mở ra rộng theo màn hình, các cột tự vừa nội dung (không còn phải kéo cột, tên khách giãn theo chỗ còn lại), cột «Ký hiệu» đổi thành «Tài khoản», tiền hiện theo dấu phân cách của Excel. Có ô «Tìm» (gõ không dấu) lọc ngay theo tên, MST hoặc tài khoản; bấm tiêu đề cột để sắp xếp.
 - Thêm nút «Xem chi tiết»: chọn một dòng rồi bấm (hoặc bấm đúp / Enter) để xem chi tiết công nợ tài khoản đó qua các năm.
