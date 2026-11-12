@@ -1,3 +1,6 @@
+[26111205]
+- Sửa lỗi dịch lõi (so với bản VBA gốc): (1) In / Kết xuất SỔ KHO — bộ nhớ đệm nhật ký mua / nhật ký bán (để đọc nhật ký một lần cho cả vòng mã hàng) của bản gốc chưa được dùng trong lõi; nay dùng đúng như bản gốc. Kết quả từng mã không đổi (đã so từng ô với bản trước). (2) Báo cáo công nợ / tồn của bản TT58: tiêu đề từng nhóm chỉ hiện ở nhóm đầu — nay hiện đủ ở mọi nhóm. (3) Hàm đọc số thành chữ tiếng Anh (bản TT152 và File Giá thành) đọc sai khi số có nhiều nhóm hàng nghìn — nay đúng.
+
 [26111203]
 - «Kéo dữ liệu từ PM» — danh sách «Nhà cung cấp theo dõi nhật ký mua» làm lại cho danh sách dài:
   1) Mở ra là SẮP THEO MÃ SỐ THUẾ (tăng dần); bấm tiêu đề cột bất kỳ để sắp xếp như bộ lọc Excel (bấm lại đảo chiều; cột giá trị / số hóa đơn sắp theo số). Áp dụng cho cả cửa sổ danh sách và bước «Xem trước».
