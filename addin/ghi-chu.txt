@@ -1,3 +1,6 @@
+[26111207]
+- Các thanh bên (Công nợ nhiều năm, Tra cứu, Tổng quan, Kiểm tra trước khi nộp, So sánh 2 kỳ, Hỏi số liệu, Bản tin, Hóa đơn điện tử): khi tắt thanh bên, bàn phím được trả về lại lưới sheet để gõ số vào ô ngay, không phải bấm thêm thao tác nào.
+
 [26111206]
 - «Kéo dữ liệu từ PM» — NHẬT KÝ BÁN cũng lọc được theo KHÁCH HÀNG, cùng cách với nhật ký mua theo nhà cung cấp: ở hộp «Kéo dữ liệu từ phần mềm», dòng Nhật ký bán có ô chọn «Tất cả khách hàng / Chỉ khách hàng theo dõi» và nút «Khách hàng…» (danh sách nạp từ sheet BR của sổ, sắp theo MST, trạng thái Đã xử lý / Chưa xử lý, Xuất Excel / Nạp từ Excel). Khi chọn «Chỉ khách hàng theo dõi», bước «Xem trước» có thêm một bảng khách hàng (tích khách cần ghi nhật ký bán); khách lẻ, khách không cần theo dõi thì không vào NK_Ban. Báo cáo sau khi kéo ghi rõ số dòng nhật ký bán đã bỏ qua và danh sách khách. Cài đặt vẫn nhớ riêng từng công ty; công ty chưa từng kéo thì mặc định kéo hết.
 - Nhà cung cấp / khách hàng có chi nhánh (MST dạng 0300951119-006) được gộp vào một dòng và nay hiện TÊN + MST của đơn vị chính (không còn hiện tên chi nhánh gặp đầu tiên).
