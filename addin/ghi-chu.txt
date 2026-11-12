@@ -1,3 +1,6 @@
+[26111208]
+- Sửa lỗi bấm Lưu (Ctrl+S) trong sổ GPAcc thì khung đỏ «Sổ này cần GPAcc Add-in» hiện ra trong lúc lưu rồi mới mất. Nay màn hình được giữ nguyên TRƯỚC khi khung được đặt vào, nên khi lưu không còn thấy khung chớp lên (khung vẫn nằm trong tệp đã lưu để máy chưa cài add-in thấy lời nhắc).
+
 [26111207]
 - Các thanh bên (Công nợ nhiều năm, Tra cứu, Tổng quan, Kiểm tra trước khi nộp, So sánh 2 kỳ, Hỏi số liệu, Bản tin, Hóa đơn điện tử): khi tắt thanh bên, bàn phím được trả về lại lưới sheet để gõ số vào ô ngay, không phải bấm thêm thao tác nào.
 
