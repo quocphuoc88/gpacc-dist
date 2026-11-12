@@ -1,3 +1,7 @@
+[26111206]
+- «Kéo dữ liệu từ PM» — NHẬT KÝ BÁN cũng lọc được theo KHÁCH HÀNG, cùng cách với nhật ký mua theo nhà cung cấp: ở hộp «Kéo dữ liệu từ phần mềm», dòng Nhật ký bán có ô chọn «Tất cả khách hàng / Chỉ khách hàng theo dõi» và nút «Khách hàng…» (danh sách nạp từ sheet BR của sổ, sắp theo MST, trạng thái Đã xử lý / Chưa xử lý, Xuất Excel / Nạp từ Excel). Khi chọn «Chỉ khách hàng theo dõi», bước «Xem trước» có thêm một bảng khách hàng (tích khách cần ghi nhật ký bán); khách lẻ, khách không cần theo dõi thì không vào NK_Ban. Báo cáo sau khi kéo ghi rõ số dòng nhật ký bán đã bỏ qua và danh sách khách. Cài đặt vẫn nhớ riêng từng công ty; công ty chưa từng kéo thì mặc định kéo hết.
+- Nhà cung cấp / khách hàng có chi nhánh (MST dạng 0300951119-006) được gộp vào một dòng và nay hiện TÊN + MST của đơn vị chính (không còn hiện tên chi nhánh gặp đầu tiên).
+
 [26111205]
 - Sửa lỗi dịch lõi (so với bản VBA gốc): (1) In / Kết xuất SỔ KHO — bộ nhớ đệm nhật ký mua / nhật ký bán (để đọc nhật ký một lần cho cả vòng mã hàng) của bản gốc chưa được dùng trong lõi; nay dùng đúng như bản gốc. Kết quả từng mã không đổi (đã so từng ô với bản trước). (2) Báo cáo công nợ / tồn của bản TT58: tiêu đề từng nhóm chỉ hiện ở nhóm đầu — nay hiện đủ ở mọi nhóm. (3) Hàm đọc số thành chữ tiếng Anh (bản TT152 và File Giá thành) đọc sai khi số có nhiều nhóm hàng nghìn — nay đúng.
 
