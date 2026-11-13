@@ -1,3 +1,7 @@
+[26111305]
+- Mới: Giá thành xây dựng có «Sổ Hợp Đồng - Dự Toán» (thẻ Hợp Đồng - Dự Toán): mỗi công trình một dòng — ngày bắt đầu và thời gian thi công, phụ lục tăng/giảm, dự toán vật liệu / nhân công / chi phí chung (nhập tay), so với số thực tế lũy kế (dở dang đầu kỳ + phát sinh cả niên độ). Có chênh lệch, % thực hiện, lãi gộp và cảnh báo: vượt dự toán, sắp hết dự toán (từ 90%), quá hạn thi công, chi phí vượt giá trị hợp đồng. Bấm «Làm Mới» để lấy công trình mới và cập nhật số thực tế; nhập liệu cũ được giữ theo mã công trình. Dự toán, phụ lục và ngày thi công tự điền sang «Chi Tiết Công Trình».
+- Cập nhật: File Giá thành xây dựng nay chạy thẳng trong add-in GPAcc — không còn mã VBA riêng trong file; mở file cũ sẽ được hỏi «Chuyển sổ sang add-in», số liệu giữ nguyên, có sao lưu. Sổ cũ chưa có «Sổ Hợp Đồng - Dự Toán» sẽ tự có sheet này khi bấm nút.
+
 [26111304]
 - Sửa: ở thanh bên «Khách hàng / Công nợ», nhấp đúp vào một khách giờ ghi được cả vào sheet Linh Tinh (LT), không chỉ sheet Ngân hàng (NH): ghi tên, mã số thuế và ký hiệu khách vào dòng đang chọn (Phải thu → cột Có, Phải trả → cột Nợ). Áp dụng cho sổ TT99 và sổ hộ TT152.
 
