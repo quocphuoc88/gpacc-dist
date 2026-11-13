@@ -1,3 +1,9 @@
+[26111309]
+- Sửa: file Giá thành xây dựng báo «circular references» (tham chiếu vòng) khi mở và bấm Tổng hợp NVL lúc danh sách vật tư còn trống — dòng «Tổng cộng» của sheet NVL_TH tự cộng chính nó. Nay dòng tổng nằm đúng chỗ, không còn cảnh báo. File đã dính cảnh báo: bấm lại «Tổng hợp NVL» là hết.
+- Cải tiến: thông báo bản quyền (đang dùng thử / hết dùng thử / hết hạn / lệnh bị chặn) nay có hai nút «Kích hoạt bản quyền…» (mở thẳng hộp Bản quyền) và «Để sau», thay cho hộp chỉ có nút OK bắt tự tìm thẻ Tiện ích. Cùng một kiểu hộp ở mọi nơi.
+- Mới (file Giá thành xây dựng): nút «Cập Nhật NVL» trên từng sheet NVL 12 tháng, sheet NXT NVL cả năm có thêm nút «Tổng Hợp NVL», và trên thẻ Giá Thành. Bấm sau khi nhập thêm dòng Mua NVL / Xuất NVL: máy dựng lại danh sách mã vật tư và công thức nhập - xuất - tồn từ tháng đang xem đến tháng 12.
+- Mới (file Giá thành xây dựng): thẻ «Kiểm Soát» cho trường hợp kế toán sửa ngược sổ TT99. «Đối Chiếu Với TT99» so từng tháng số mua NVL, chi phí trực tiếp, doanh thu, chi phí 622 / 627 ở sổ TT99 với số file đang giữ và chỉ ra tháng nào lệch để Kéo DL lại; «Kiểm Trùng Chứng Từ» tìm hoá đơn cùng số bị đưa vào cả Mua NVL lẫn Chi Phí Trực Tiếp, và các dòng nhập lặp. Kết quả ở sheet «Đối Chiếu TT99». Chỉ đọc sổ TT99, không sửa gì.
+
 [26111307]
 - Sửa: bản 26111305 và 26111306 hiện cửa sổ «GPAccVo Add-In - Diagnostic Display» (báo «Repeated function name») mỗi lần mở Excel. Chỉ là cửa sổ báo lỗi đăng ký của một hàm kiểm thử trùng tên, không ảnh hưởng số liệu hay tính năng; nay đã gỡ, mở Excel không còn hiện cửa sổ này.
 
