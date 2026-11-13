@@ -1,3 +1,6 @@
+[26111302]
+- Tính lương: sửa lỗi trừ bảo hiểm của người lao động sai trên một số máy. Tỉ lệ bảo hiểm ghi ở sheet TTNV (ví dụ «17,5;3;1», «8;1,5;1») nay được đọc đúng dù máy đặt dấu thập phân kiểu nào (dấu phẩy hay dấu chấm) — trước đây máy đặt kiểu Mỹ đọc «17,5» thành 175% nên lương bị trừ bảo hiểm cao gấp nhiều lần. Áp dụng cho sổ TT99 và TT152. Anh chị nào đã tính lương trên máy kiểu này nên chạy lại bước tính lương của các tháng đã làm.
+
 [26111301]
 - «Kéo dữ liệu từ PM» — danh sách nhà cung cấp / khách hàng theo dõi: cửa sổ rộng và cao hơn (kéo giãn hoặc phóng to được, bảng tự co giãn theo cửa sổ). Chọn NHIỀU dòng cùng lúc bằng Ctrl / Shift + bấm (hoặc kéo chuột) rồi bấm «Chuyển các dòng đã chọn» để đưa lên / xuống vùng kia một lần; sau khi lọc theo tên / MST, chỉ các dòng đang hiện được chuyển. Hai nút «Tích hết» / «Bỏ tích» ghi rõ «(đang hiện)» — chỉ áp cho các dòng đang lọc. Bước «Xem trước» cũng có nút «Chuyển dòng đã chọn».
 
