@@ -1,3 +1,6 @@
+[26111304]
+- Sửa: ở thanh bên «Khách hàng / Công nợ», nhấp đúp vào một khách giờ ghi được cả vào sheet Linh Tinh (LT), không chỉ sheet Ngân hàng (NH): ghi tên, mã số thuế và ký hiệu khách vào dòng đang chọn (Phải thu → cột Có, Phải trả → cột Nợ). Áp dụng cho sổ TT99 và sổ hộ TT152.
+
 [26111303]
 - Cập nhật: hộp hỏi sau khi cập nhật xong nay nói đúng việc sẽ làm — «Tắt Excel ngay bây giờ?», sau đó bạn tự mở lại Excel (các sổ vừa dùng nằm sẵn ở «Sổ gần đây»). Trước đây hộp ghi «rồi tự mở lại» nhưng Excel không tự mở.
 
