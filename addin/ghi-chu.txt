@@ -1,3 +1,6 @@
+[26111307]
+- Sửa: bản 26111305 và 26111306 hiện cửa sổ «GPAccVo Add-In - Diagnostic Display» (báo «Repeated function name») mỗi lần mở Excel. Chỉ là cửa sổ báo lỗi đăng ký của một hàm kiểm thử trùng tên, không ảnh hưởng số liệu hay tính năng; nay đã gỡ, mở Excel không còn hiện cửa sổ này.
+
 [26111306]
 - Mới: Giá thành sản xuất có «Lãi Gộp - Xưởng» (thẻ Giá Thành): lãi gộp theo từng thành phẩm cho kỳ chọn (ô «Từ tháng» / «Đến tháng», để trống = cả niên độ) — số lượng sản xuất, số lượng bán, doanh thu, giá vốn, lãi gộp, % lãi gộp, giá bán / giá vốn / giá thành bình quân, kèm cảnh báo bán lỗ, lãi gộp dưới 10%, chỉ sản xuất chưa bán. Gõ tên phân xưởng cho từng thành phẩm để có bảng tổng hợp theo xưởng (doanh thu, giá vốn, lãi gộp, tỷ trọng). Bấm «Làm Mới Lãi Gộp» sau khi Tính Giá Thành. Phân xưởng chỉ dùng để báo cáo, chi phí 622 / 627 vẫn phân bổ như cũ. Sổ cũ chưa có sheet này sẽ tự có khi bấm nút.
 - Sửa: trên máy đặt vùng Việt Nam (hoặc Excel tắt «Use system separators»), một số lệnh — kết xuất ra file Excel, báo cáo giá thành sản xuất, phiếu in giá thành, bản siêu nhỏ TT58 — đặt định dạng số hoặc chọn nhiều vùng ô theo dấu phân cách của máy nên số có thể hiện lệch hoặc báo lỗi; nay đặt đúng theo máy.
