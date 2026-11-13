@@ -1,3 +1,6 @@
+[26111301]
+- «Kéo dữ liệu từ PM» — danh sách nhà cung cấp / khách hàng theo dõi: cửa sổ rộng và cao hơn (kéo giãn hoặc phóng to được, bảng tự co giãn theo cửa sổ). Chọn NHIỀU dòng cùng lúc bằng Ctrl / Shift + bấm (hoặc kéo chuột) rồi bấm «Chuyển các dòng đã chọn» để đưa lên / xuống vùng kia một lần; sau khi lọc theo tên / MST, chỉ các dòng đang hiện được chuyển. Hai nút «Tích hết» / «Bỏ tích» ghi rõ «(đang hiện)» — chỉ áp cho các dòng đang lọc. Bước «Xem trước» cũng có nút «Chuyển dòng đã chọn».
+
 [26111208]
 - Sửa lỗi bấm Lưu (Ctrl+S) trong sổ GPAcc thì khung đỏ «Sổ này cần GPAcc Add-in» hiện ra trong lúc lưu rồi mới mất. Nay màn hình được giữ nguyên TRƯỚC khi khung được đặt vào, nên khi lưu không còn thấy khung chớp lên (khung vẫn nằm trong tệp đã lưu để máy chưa cài add-in thấy lời nhắc).
 
