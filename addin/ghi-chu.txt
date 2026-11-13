@@ -1,3 +1,6 @@
+[26111303]
+- Cập nhật: hộp hỏi sau khi cập nhật xong nay nói đúng việc sẽ làm — «Tắt Excel ngay bây giờ?», sau đó bạn tự mở lại Excel (các sổ vừa dùng nằm sẵn ở «Sổ gần đây»). Trước đây hộp ghi «rồi tự mở lại» nhưng Excel không tự mở.
+
 [26111302]
 - Tính lương: sửa lỗi trừ bảo hiểm của người lao động sai trên một số máy. Tỉ lệ bảo hiểm ghi ở sheet TTNV (ví dụ «17,5;3;1», «8;1,5;1») nay được đọc đúng dù máy đặt dấu thập phân kiểu nào (dấu phẩy hay dấu chấm) — trước đây máy đặt kiểu Mỹ đọc «17,5» thành 175% nên lương bị trừ bảo hiểm cao gấp nhiều lần. Áp dụng cho sổ TT99 và TT152. Anh chị nào đã tính lương trên máy kiểu này nên chạy lại bước tính lương của các tháng đã làm.
 
