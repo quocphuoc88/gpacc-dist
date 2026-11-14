@@ -1,3 +1,7 @@
+[26111312]
+- Cải tiến (file Giá thành sản xuất): thẻ ribbon sắp theo đúng thứ tự làm việc: «Cài Đặt (làm một lần)» → «Bước 1 · Lấy Số Liệu TT99» (Kéo DL, Nhật Ký Mua, Nhật Ký Bán) → «Bước 2 · Hao Hụt - Không Hoá Đơn» → «Bước 3 · Tính Giá Thành» → «Bước 4 · Xem Kết Quả» (Xem Giá Thành, Lãi Gộp - Xưởng) → «Bước 5 · Về Sổ TT99» → «Tra Cứu Từng Tháng». Mục «Mỗi tháng làm 5 bước» trong sheet Hướng Dẫn viết lại khớp từng bước.
+- Cải tiến (sổ Ngân hàng - công nợ): thẻ ribbon sắp theo trình tự làm việc, đánh số khớp mục «Trình tự làm việc» của sheet Hướng Dẫn: «Bước 1-2 · Khai Báo» → «Bước 3-5 · Sổ, Tỷ Giá, Số Dư Đầu Kỳ» → «Bước 6 · Nhập Phát Sinh» (có Lấy Từ TT99) → «Bước 7-8 · Kiểm Tra - Tổng Hợp» → «Bước 9 · Chênh Lệch Tỷ Giá» → «Bước 10-11 · Cuối Kỳ - Đối Chiếu» (Đối Chiếu, So Khớp Công Nợ, Xuất Sang TT99, Tạo File Niên Độ Mới) → «Tiện Ích - Tài Liệu». Nút «Tạo File Niên Độ Mới» ra thành nút riêng (trước nằm trong menu nút Thông Tin); hai nút công nợ đổi tên «Công Nợ Tổng Hợp», «Công Nợ Chi Tiết».
+
 [26111311]
 - Cải tiến (file Giá thành xây dựng): thẻ ribbon sắp lại theo đúng thứ tự làm việc, nhìn từ trái sang phải là biết làm gì trước, gì sau: «Cài Đặt (làm một lần)» → «Bước 1 · Lấy Số Liệu TT99» (Kéo DL, Đối Chiếu, Kiểm Trùng) → «Xem Dữ Liệu Kéo Về» → «Bước 2 · Nhập Tại File Này» (Xuất NVL, Lương) → «Bước 3 · NXT NVL» → «Bước 4 · Tính Giá Thành» → «Bước 5 · Về Sổ TT99» (Ghi Về TT99) → «Theo Dõi Hợp Đồng - Dự Toán». Rê chuột vào từng nút có ghi nút đó là bước nào. Mục «Mỗi tháng làm 5 bước» trong sheet Hướng Dẫn viết lại khớp từng bước.
 
