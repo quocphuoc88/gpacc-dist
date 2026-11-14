@@ -1,3 +1,6 @@
+[26111408]
+- Sửa nhỏ (nội bộ): khi chạy ở môi trường kiểm thử (màn hình Windows riêng, không phải màn hình làm việc), add-in ghi nhật ký thao tác và nhật ký thời gian lệnh vào thư mục tạm, không lẫn vào nhật ký thật của máy. Người dùng bình thường không thấy thay đổi nào.
+
 [26111407]
 - Sửa: «Nhật Ký Thao Tác» (Ctrl+Alt+N) bỏ sót lần xoá toàn bộ sheet (chọn cả sheet rồi xoá) — nay được ghi lại. Các sheet ẩn của phần mềm (ví dụ XUAT_TT99 của sổ Ngân hàng) không còn ghi thừa một dòng «Sửa/xoá dữ liệu hàng loạt» mỗi lần lưu sổ.
 
