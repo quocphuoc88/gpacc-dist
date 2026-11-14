@@ -1,3 +1,6 @@
+[26111406]
+- Cải tiến (sổ Ngân hàng - công nợ): thẻ ribbon gọn hơn. Nhóm «Tiện Ích - Tài Liệu» chỉ còn «Khoá Công Thức», «Hướng Dẫn» và nút «Khác»; Ẩn Sheet, Quy Tắc Tỷ Giá, Nhật Ký, Bản Quyền, Tạo Sổ Mới, Chuyển Sổ Sang Add-in, Chuyển Về Bản File, Góp Ý / Báo Lỗi nằm gọn trong nút «Khác». Các nút này không còn xếp lẫn vào nhóm «Bước 10-11 · Cuối Kỳ - Đối Chiếu».
+
 [26111405]
 - Cải tiến (Pro) «Lịch Thuế» (Ctrl+Alt+L): hạn nộp thuế rơi vào Tết, Giỗ Tổ (10/3 âm lịch), 1/1, 30/4, 1/5, 2/9 hoặc ngày nghỉ bù (lễ trùng thứ Bảy, Chủ nhật) nay tự chuyển sang ngày làm việc kế tiếp, mọi năm — không phải nhớ. Nghỉ thêm / hoán đổi ngày làm việc do Chính phủ quyết định từng năm: nhập ở nút «Ngày nghỉ & gia hạn» (nhớ chung cho máy).
 - Mới (Pro) «Lịch Thuế»: gia hạn nộp thuế theo nghị định từng năm — mỗi dòng «nghĩa vụ | kỳ | hạn mới ; ghi chú» (ví dụ GTGT | quý 3/2026 | 30/12/2026), nhớ riêng từng công ty; hạn hiển thị là hạn mới, ghi chú nêu hạn thường lệ.
