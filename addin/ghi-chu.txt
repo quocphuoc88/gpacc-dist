@@ -1,3 +1,6 @@
+[26111318]
+- Mới: file Theo dõi sản xuất (khoá TDSX: nền NXT + lệnh sản xuất theo chỉ số điện + giá thành) chạy thẳng trong add-in như các file Giá thành — file không còn mã VBA, mở file là có thẻ «GPAcc · Theo dõi sản xuất». Lệnh «Tạo sổ mới» có thêm mục «Theo dõi sản xuất» (nhóm File hỗ trợ). Thẻ ribbon sắp theo bước: Cài Đặt (làm một lần) → Bước 1 Nhập Hoá Đơn → Bước 2 Lệnh Và Chi Phí SX → Bước 3 Tính Giá Thành → Bước 4 Kho - Giá Vốn → Kiểm Tra. Bản quyền riêng của TDSX giữ nguyên (khách đã kích hoạt không phải làm lại). File TDSX cũ còn mã VBA vẫn dùng như trước.
+
 [26111313]
 - Mới (file Giá thành xây dựng): «Đối Chiếu Với TT99» nay hỏi luôn «Kéo lại ngay các tháng lệch từ sổ TT99?». Chọn Có thì máy tự kéo lại đúng các tháng lệch (từng dải tháng liền nhau, tháng đã khớp không đụng tới), rồi đối chiếu lại và báo còn lệch khoản nào. Lưu ý: dòng gõ tay ở Mua NVL, Chi Phí Trực Tiếp, Bán Ra của các tháng được kéo lại sẽ được thay bằng số TT99; số 622 / 627 đã sửa tay vẫn được giữ (tô cam) nên có thể còn hiện lệch ở khoản này.
 
