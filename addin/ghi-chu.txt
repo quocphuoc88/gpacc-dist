@@ -1,3 +1,8 @@
+[26111409]
+- Mới: nút «Hướng Dẫn Sử Dụng» mở đúng hướng dẫn của LOẠI SỔ. Đang ở sổ nào thì mở hướng dẫn của loại đó; chưa mở sổ nào (hoặc đang mở một file khác) thì hiện hộp «Bạn cần hướng dẫn của loại sổ nào?» liệt kê đủ các loại để chọn rồi mở lên đọc (trước đây luôn chỉ ra hướng dẫn TT99). Có hướng dẫn riêng cho File Ngân hàng - Tỷ giá, Giá thành sản xuất, Giá thành xây dựng, Theo dõi sản xuất; các loại sổ kế toán còn lại dùng chung hướng dẫn TT99. Loại nào có video hướng dẫn thì hộp có thêm nút «Xem video».
+- Mới: thẻ GPAcc của sổ Hộ kinh doanh (TT152), TT58, TT133 và Theo dõi sản xuất có thêm nút «Hướng Dẫn Sử Dụng».
+- Cải tiến: sổ mới tạo bằng «Tạo Sổ Mới» cho File Ngân hàng, Giá thành sản xuất, Giá thành xây dựng không còn mang sheet hướng dẫn bên trong (file gọn hơn) — hướng dẫn mở bằng nút «Hướng Dẫn Sử Dụng» như trên. Sổ đã tạo trước đó giữ nguyên.
+
 [26111408]
 - Sửa nhỏ (nội bộ): khi chạy ở môi trường kiểm thử (màn hình Windows riêng, không phải màn hình làm việc), add-in ghi nhật ký thao tác và nhật ký thời gian lệnh vào thư mục tạm, không lẫn vào nhật ký thật của máy. Người dùng bình thường không thấy thay đổi nào.
 

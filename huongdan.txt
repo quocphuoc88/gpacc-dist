@@ -1,0 +1,6 @@
+﻿# CHI MUC HUONG DAN GPAcc - add-in tai tep nay tu goc kho phat hanh (nho 1 ngay), KHONG can phat hanh ban moi khi sua.
+# Moi dong:  MA | tep PDF | dia chi video   (de trong cot nao thi giu mac dinh cua add-in; dong bat dau bang # la ghi chu)
+# MA = TT99, DNL, CN, LND, TT200, TT133, TT58, TT152, NH, GTSX, GTXD, TDSX.
+# Co video thi hop «Huong dan» hien nut «Xem video» o loai do. Vi du (bo dau # de dung):
+#   NH | HUONG_DAN_NH.pdf | https://youtu.be/xxxxxxxxxxx
+#   TT152 | HUONG_DAN_TT152.pdf |            <- khi co PDF rieng cho ho kinh doanh (tep dat o goc kho)
