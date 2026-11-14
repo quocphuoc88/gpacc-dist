@@ -1,3 +1,8 @@
+[26111403]
+- Mới (Pro): «Hồ Sơ Quyết Toán» (Ctrl+Alt+O, hoặc Tìm kiếm → «Hồ sơ quyết toán thuế») — một nút dựng thư mục hồ sơ quyết toán của năm: báo cáo tài chính, tờ khai quyết toán TNDN 03/TNDN và phụ lục, quyết toán TNCN 05/QTT-TNCN, tờ khai GTGT, bảng đối chiếu và giải trình (PDF); bảng kê hóa đơn bán ra / mua vào, nhập xuất tồn, bảng lương (Excel, chỉ giá trị). Có mục lục, bảng «còn thiếu gì» (sheet nào chưa có số liệu), kết quả «Kiểm tra trước khi nộp» (khớp / cần xem / lệch lớn) và nén thành một tệp .zip. Sổ đang mở không bị sửa. Dùng cho sổ TT99, DNL, CN, LND, TT58.
+- Mới (Pro): «Hồ Sơ Nhiều Năm» (Tìm kiếm Ctrl+Alt+T → «Hồ sơ nhiều năm») — dựng hồ sơ quyết toán của nhiều năm một lượt: chọn các sổ năm đang mở (có nút mở thêm sổ năm khác ở chế độ chỉ đọc); mỗi năm một thư mục con, một mục lục chung, tệp nén .zip — dùng khi bàn giao, kiểm toán, thanh tra.
+- Sửa nhỏ: sổ trắng mới tạo từ «Tạo Sổ Mới» (Theo dõi sản xuất và TT152) không còn dòng «Kiểm tra lúc …» cũ ở sheet Báo Lỗi — sổ mới tạo ra là sạch.
+
 [26111402]
 - Mới (file Giá thành sản xuất): «Phân Xưởng» (thẻ Bước 2) — khai xưởng của từng thành phẩm thì nhân công 622 và chi phí chung 627x được tập hợp riêng cho từng xưởng rồi mới phân bổ cho thành phẩm của xưởng đó. Chi phí trực tiếp của xưởng (ví dụ lương quản đốc, khấu hao máy, điện đo riêng) nhập riêng; phần chung được chia cho các xưởng theo giá trị NVL, doanh thu, số lượng sản xuất hoặc tỷ lệ % tự nhập. Không khai xưởng thì tính như cũ; khai xưởng mà không nhập thêm gì thì kết quả giống hệt cũ. «Lãi Gộp - Xưởng» lấy xưởng từ sheet này nên giá vốn mỗi xưởng phản ánh đúng chi phí xưởng đó. Hướng dẫn mục 10.
 
