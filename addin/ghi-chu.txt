@@ -1,3 +1,8 @@
+[26111310]
+- Sửa: tạo sổ mới (file Giá thành xây dựng) có hộp «Đang dùng thử…» nhảy ra cùng lúc với hộp hỏi «Liên kết ngay với file sổ GPAcc TT99…?» rồi Excel đứng. Nay hộp nhắc dùng thử chờ các hộp thoại khác trả lời xong mới hiện, và không nổi đè lên hộp nào.
+- Cải tiến (file Giá thành xây dựng): sheet NVL 12 tháng và NXT NVL cả năm gọn lại — hai nút «Cập Nhật NVL» và «Tổng Hợp Cả Năm» nằm thẳng hàng ở góc trên phải, cùng kiểu nút «Tính Giá Thành» (không còn kiểu nút đỏ). Thẻ ribbon có nhóm riêng «Nhập Xuất Tồn NVL» gồm Cập Nhật NVL, Tổng Hợp Cả Năm, ô chọn tháng, NXT NVL Cả Năm.
+- Cải tiến (file Giá thành xây dựng): định dạng các sheet nhập liệu (Bán Ra, Chi Phí Trực Tiếp, Mua NVL, Xuất NVL, Lương, Khai Báo Công Trình) và Tổng Hợp Dở Dang đồng nhất toàn bảng; trước đây từ dòng 69 trở xuống còn kiểu kẻ nét đứt cũ, bảng dở dang chỉ đẹp ở các dòng có công trình.
+
 [26111309]
 - Sửa: file Giá thành xây dựng báo «circular references» (tham chiếu vòng) khi mở và bấm Tổng hợp NVL lúc danh sách vật tư còn trống — dòng «Tổng cộng» của sheet NVL_TH tự cộng chính nó. Nay dòng tổng nằm đúng chỗ, không còn cảnh báo. File đã dính cảnh báo: bấm lại «Tổng hợp NVL» là hết.
 - Cải tiến: thông báo bản quyền (đang dùng thử / hết dùng thử / hết hạn / lệnh bị chặn) nay có hai nút «Kích hoạt bản quyền…» (mở thẳng hộp Bản quyền) và «Để sau», thay cho hộp chỉ có nút OK bắt tự tìm thẻ Tiện ích. Cùng một kiểu hộp ở mọi nơi.
