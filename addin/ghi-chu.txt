@@ -1,3 +1,9 @@
+[26111405]
+- Cải tiến (Pro) «Lịch Thuế» (Ctrl+Alt+L): hạn nộp thuế rơi vào Tết, Giỗ Tổ (10/3 âm lịch), 1/1, 30/4, 1/5, 2/9 hoặc ngày nghỉ bù (lễ trùng thứ Bảy, Chủ nhật) nay tự chuyển sang ngày làm việc kế tiếp, mọi năm — không phải nhớ. Nghỉ thêm / hoán đổi ngày làm việc do Chính phủ quyết định từng năm: nhập ở nút «Ngày nghỉ & gia hạn» (nhớ chung cho máy).
+- Mới (Pro) «Lịch Thuế»: gia hạn nộp thuế theo nghị định từng năm — mỗi dòng «nghĩa vụ | kỳ | hạn mới ; ghi chú» (ví dụ GTGT | quý 3/2026 | 30/12/2026), nhớ riêng từng công ty; hạn hiển thị là hạn mới, ghi chú nêu hạn thường lệ.
+- Mới (Pro) «Lịch Thuế»: dòng gợi ý kỳ khai GTGT từ doanh thu bán hàng và cung cấp dịch vụ năm trước ngay trong sổ (không quá 50 tỷ đồng được khai theo quý, trên 50 tỷ phải khai theo tháng) và báo khi lựa chọn đang khác gợi ý.
+- Mới (Pro) «Lịch Thuế»: nút «Xuất lịch (.ics)» — đưa các hạn thuế 12 tháng tới sang Outlook, Google Calendar hoặc lịch điện thoại, mỗi hạn nhắc trước 3 ngày và 1 ngày.
+
 [26111404]
 - Mới (Pro): «Tuổi Nợ» (Ctrl+Alt+A, hoặc Tìm kiếm → «Tuổi nợ») — công nợ phải thu khách hàng và phải trả người bán chia theo 0-30, 31-60, 61-90, trên 90 ngày, tính đến ngày bạn chọn (thu / trả tiền trừ vào khoản cũ nhất trước); đối chiếu khớp bảng CĐSPS. Bấm một khách ở phải thu: tự soạn thư nhắc nợ (email) hoặc tin ngắn (Zalo) có số chứng từ, ngày, số tiền còn nợ, số ngày quá hạn — chép một nút. Xuất Excel gồm bảng tổng hợp và chi tiết từng khoản.
 - Mới (Pro): «Giải Trình Biến Động» (Ctrl+Alt+V, hoặc Tìm kiếm → «Giải trình biến động») — liệt kê các chỉ tiêu báo cáo tình hình tài chính và kết quả kinh doanh lệch lớn so với đầu năm / cùng kỳ năm trước (ngưỡng chỉnh được) kèm nháp giải trình tự soạn từ sổ: tăng giảm bao nhiêu, bao nhiêu %, và nguyên nhân gợi ý (khách hàng / tài khoản làm số dư đổi nhiều nhất). Sửa nguyên nhân thực tế ngay trong bảng, chép sang Word hoặc xuất Excel.
