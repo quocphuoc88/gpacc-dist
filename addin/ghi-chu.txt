@@ -1,3 +1,6 @@
+[26111407]
+- Sửa: «Nhật Ký Thao Tác» (Ctrl+Alt+N) bỏ sót lần xoá toàn bộ sheet (chọn cả sheet rồi xoá) — nay được ghi lại. Các sheet ẩn của phần mềm (ví dụ XUAT_TT99 của sổ Ngân hàng) không còn ghi thừa một dòng «Sửa/xoá dữ liệu hàng loạt» mỗi lần lưu sổ.
+
 [26111406]
 - Cải tiến (sổ Ngân hàng - công nợ): thẻ ribbon gọn hơn. Nhóm «Tiện Ích - Tài Liệu» chỉ còn «Khoá Công Thức», «Hướng Dẫn» và nút «Khác»; Ẩn Sheet, Quy Tắc Tỷ Giá, Nhật Ký, Bản Quyền, Tạo Sổ Mới, Chuyển Sổ Sang Add-in, Chuyển Về Bản File, Góp Ý / Báo Lỗi nằm gọn trong nút «Khác». Các nút này không còn xếp lẫn vào nhóm «Bước 10-11 · Cuối Kỳ - Đối Chiếu».
 
