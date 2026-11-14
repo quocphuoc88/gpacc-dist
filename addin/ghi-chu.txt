@@ -1,3 +1,6 @@
+[26111402]
+- Mới (file Giá thành sản xuất): «Phân Xưởng» (thẻ Bước 2) — khai xưởng của từng thành phẩm thì nhân công 622 và chi phí chung 627x được tập hợp riêng cho từng xưởng rồi mới phân bổ cho thành phẩm của xưởng đó. Chi phí trực tiếp của xưởng (ví dụ lương quản đốc, khấu hao máy, điện đo riêng) nhập riêng; phần chung được chia cho các xưởng theo giá trị NVL, doanh thu, số lượng sản xuất hoặc tỷ lệ % tự nhập. Không khai xưởng thì tính như cũ; khai xưởng mà không nhập thêm gì thì kết quả giống hệt cũ. «Lãi Gộp - Xưởng» lấy xưởng từ sheet này nên giá vốn mỗi xưởng phản ánh đúng chi phí xưởng đó. Hướng dẫn mục 10.
+
 [26111401]
 - Mới: «Kéo dữ liệu từ phần mềm» có thêm ô «Chỉ kéo phát sinh có TK bắt đầu bằng» — nhập các đầu tài khoản cách nhau dấu phẩy (ví dụ 111,112,131) thì chỉ kéo các dòng Bán ra, Mua vào, Linh tinh, Ngân hàng có TK Nợ hoặc TK Có (kể cả TK thuế) bắt đầu bằng các số đó. Dòng chưa có tài khoản định khoản vẫn được kéo; để trống thì kéo tất cả như trước. Cài đặt được nhớ riêng cho từng công ty, và hộp «Kết quả kéo dữ liệu» báo số dòng đã bỏ qua theo tài khoản.
 
