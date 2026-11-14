@@ -1,3 +1,6 @@
+[26111311]
+- Cải tiến (file Giá thành xây dựng): thẻ ribbon sắp lại theo đúng thứ tự làm việc, nhìn từ trái sang phải là biết làm gì trước, gì sau: «Cài Đặt (làm một lần)» → «Bước 1 · Lấy Số Liệu TT99» (Kéo DL, Đối Chiếu, Kiểm Trùng) → «Xem Dữ Liệu Kéo Về» → «Bước 2 · Nhập Tại File Này» (Xuất NVL, Lương) → «Bước 3 · NXT NVL» → «Bước 4 · Tính Giá Thành» → «Bước 5 · Về Sổ TT99» (Ghi Về TT99) → «Theo Dõi Hợp Đồng - Dự Toán». Rê chuột vào từng nút có ghi nút đó là bước nào. Mục «Mỗi tháng làm 5 bước» trong sheet Hướng Dẫn viết lại khớp từng bước.
+
 [26111310]
 - Sửa: tạo sổ mới (file Giá thành xây dựng) có hộp «Đang dùng thử…» nhảy ra cùng lúc với hộp hỏi «Liên kết ngay với file sổ GPAcc TT99…?» rồi Excel đứng. Nay hộp nhắc dùng thử chờ các hộp thoại khác trả lời xong mới hiện, và không nổi đè lên hộp nào.
 - Cải tiến (file Giá thành xây dựng): sheet NVL 12 tháng và NXT NVL cả năm gọn lại — hai nút «Cập Nhật NVL» và «Tổng Hợp Cả Năm» nằm thẳng hàng ở góc trên phải, cùng kiểu nút «Tính Giá Thành» (không còn kiểu nút đỏ). Thẻ ribbon có nhóm riêng «Nhập Xuất Tồn NVL» gồm Cập Nhật NVL, Tổng Hợp Cả Năm, ô chọn tháng, NXT NVL Cả Năm.
