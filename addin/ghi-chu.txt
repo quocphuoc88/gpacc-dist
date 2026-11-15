@@ -1,3 +1,6 @@
+[26111501]
+- Cải tiến: hộp «Hướng Dẫn Sử Dụng» — nút «Xem video» đổi tên thành «Xem hướng dẫn trực quan» (ảnh chụp phần mềm thật, con trỏ chạy từng bước, mở trên trang web của GPAcc). Sổ TT58 (doanh nghiệp siêu nhỏ) và sổ Hộ kinh doanh (TT152) nay có hướng dẫn trực quan riêng nên không còn ghi «bản riêng đang soạn».
+
 [26111409]
 - Mới: nút «Hướng Dẫn Sử Dụng» mở đúng hướng dẫn của LOẠI SỔ. Đang ở sổ nào thì mở hướng dẫn của loại đó; chưa mở sổ nào (hoặc đang mở một file khác) thì hiện hộp «Bạn cần hướng dẫn của loại sổ nào?» liệt kê đủ các loại để chọn rồi mở lên đọc (trước đây luôn chỉ ra hướng dẫn TT99). Có hướng dẫn riêng cho File Ngân hàng - Tỷ giá, Giá thành sản xuất, Giá thành xây dựng, Theo dõi sản xuất; các loại sổ kế toán còn lại dùng chung hướng dẫn TT99. Loại nào có video hướng dẫn thì hộp có thêm nút «Xem video».
 - Mới: thẻ GPAcc của sổ Hộ kinh doanh (TT152), TT58, TT133 và Theo dõi sản xuất có thêm nút «Hướng Dẫn Sử Dụng».
