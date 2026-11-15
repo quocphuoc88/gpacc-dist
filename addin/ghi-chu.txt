@@ -1,3 +1,7 @@
+[26111505]
+- Sửa: sau một số lệnh (xóa dữ liệu, kết chuyển công nợ, kết xuất sổ chi tiết, kéo dữ liệu từ phần mềm khác…) trên thanh trạng thái phía dưới Excel còn sót chữ «FALSE». Nay tự trả thanh trạng thái về bình thường.
+- Cải tiến: «Kết chuyển NKC» nay hiện tiến độ ở thanh trạng thái phía dưới Excel («đang tổng hợp số liệu…», «đang ghi Sổ Nhật ký chung…», «đang đánh số trang…») để biết phần mềm đang làm gì khi sổ có nhiều dòng; xong thì tự xoá. Cũng vậy khi phần mềm tự sao lưu sổ trước các lệnh «Kết chuyển / Kết xuất / Xóa dữ liệu» (hiện «đang sao lưu sổ trước khi chạy lệnh…», sổ lớn mất khoảng 1–2 giây, 30 phút mới sao lưu một lần).
+
 [26111504]
 - Cải tiến: tăng tốc khi sổ có nhiều dòng (đo với 100.000 dòng «Linh tinh», tức khoảng 200.000 dòng Nhật ký chung) — «Kết chuyển NKC» từ khoảng 17 giây còn 10 giây; «Lưu chuyển tiền tệ trực tiếp» từ 7,6 giây còn dưới 0,4 giây; «Lưu chuyển tiền tệ gián tiếp» từ 3,7 giây còn dưới 0,4 giây. Số liệu ra giống hệt trước.
 - Sửa: «Kết chuyển NKC» không còn báo lỗi khi sổ có trên 250.000 dòng «Linh tinh» (trước đây vượt sức chứa của bảng nhật ký). Nay đã thử chạy với 300.000 dòng «Linh tinh» (khoảng 600.000 dòng Nhật ký chung) không lỗi; mức tối đa là giới hạn dòng của Excel.
