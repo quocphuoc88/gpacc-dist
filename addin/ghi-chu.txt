@@ -1,3 +1,6 @@
+[26111503]
+- Sửa (sổ TT58): các hộp thông báo của TT58 — ví dụ nhắc «Hãy Kết chuyển NKC trước khi lập sổ» khi bấm «Lập Sổ» lúc Nhật Ký Chung chưa có số liệu, hộp xác nhận «Lập Toàn Bộ Sổ», thông báo sổ chưa tạo — trước đây báo lỗi kỹ thuật «Specified cast is not valid» thay vì hiện nội dung; nay hiện đúng nội dung để biết cần làm gì.
+
 [26111502]
 - Sửa: hộp «Hướng Dẫn Sử Dụng» — dòng hướng dẫn phía trên danh sách bị cắt mất nửa câu, nay gọn một dòng. Danh sách hướng dẫn (PDF và hướng dẫn trực quan) trên máy được làm mới sau tối đa 1 giờ (trước là 1 ngày), nên nút «Xem hướng dẫn trực quan» sáng lên đúng loại sổ ngay khi có bài mới.
 
