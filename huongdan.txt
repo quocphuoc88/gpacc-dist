@@ -6,7 +6,7 @@
 #   TT152 | HUONG_DAN_TT152.pdf |            <- khi co PDF rieng cho ho kinh doanh (tep dat o goc kho)
 # Cot PDF de trong = giu PDF mac dinh cua add-in. Cot 3 = trang huong dan truc quan (anh chup that + con tro + khung do) tren Google Site GPAcc.
 # Trang «Dung thu» gom cac bai cua so TT99 (Tao so moi, Keo du lieu tu PM, Ket chuyen 37/38 GTGT, Lich thue/Tuoi no); trang «Lien thong» danh cho so Ngan hang / Gia thanh.
-# Trang «So ho kinh doanh TT152» danh cho so Ho kinh doanh (TT152). Chua co bai rieng cho TT58, TDSX -> de trong (khong hien nut).
+# Trang «So ho kinh doanh TT152» danh cho so Ho kinh doanh (TT152); trang «So doanh nghiep sieu nho TT58» danh cho so TT58. Chua co bai rieng cho TDSX -> de trong (khong hien nut).
 TT99 | | https://sites.google.com/view/gpacc/d%C3%B9ng-th%E1%BB%AD
 DNL | | https://sites.google.com/view/gpacc/d%C3%B9ng-th%E1%BB%AD
 CN | | https://sites.google.com/view/gpacc/d%C3%B9ng-th%E1%BB%AD
@@ -17,3 +17,4 @@ NH | | https://sites.google.com/view/gpacc/li%C3%AAn-th%C3%B4ng-s%E1%BB%95-ng%C3
 GTSX | | https://sites.google.com/view/gpacc/li%C3%AAn-th%C3%B4ng-s%E1%BB%95-ng%C3%A2n-h%C3%A0ng-gi%C3%A1-th%C3%A0nh
 GTXD | | https://sites.google.com/view/gpacc/li%C3%AAn-th%C3%B4ng-s%E1%BB%95-ng%C3%A2n-h%C3%A0ng-gi%C3%A1-th%C3%A0nh
 TT152 | | https://sites.google.com/view/gpacc/s%E1%BB%95-h%E1%BB%99-kinh-doanh-tt152
+TT58 | | https://sites.google.com/view/gpacc/s%E1%BB%95-doanh-nghi%E1%BB%87p-si%C3%AAu-nh%E1%BB%8F-tt58
