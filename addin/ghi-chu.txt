@@ -1,3 +1,10 @@
+[26111508]
+- Mới: «đường lui» khi cập nhật gặp sự cố. Nếu bản vừa cập nhật không khởi động được hoặc không chạy ổn, GPAcc tự quay về bản trước ở lần mở Excel kế tiếp và nhớ không tự cập nhật lại lên đúng bản lỗi đó. Anh/chị không phải làm gì; sổ và dữ liệu không bị đụng đến.
+- Mới: sau mỗi lần cập nhật, GPAcc theo dõi vài lần mở Excel đầu tiên; mở lên bình thường và chạy ổn thì bản mới được xác nhận, từ đó không theo dõi nữa.
+- Mới: tệp «QuayVeBanTruoc.vbs» (nằm trong thư mục cài add-in, thường là C:\GPAcc\AddIn) — nếu add-in biến mất hẳn sau cập nhật, đóng Excel rồi nhấp đúp tệp này để quay về bản trước; mở lại Excel là dùng được.
+- Mới: «Thông tin phiên bản» có thêm lời hỏi quay về bản trước khi bản hiện tại đang trong thời gian theo dõi.
+- Mới: khi nhà phát hành xác định một bản đã phát hành bị lỗi, bản đó được đánh dấu để máy chưa cập nhật sẽ không tải về, còn máy đã cập nhật sẽ được đưa về bản trước.
+
 [26111507]
 - Cải tiến: «Kết xuất Sổ kho» nhiều mặt hàng nhanh hơn rõ rệt — trước đây mỗi mã hàng quét lại toàn bộ Nhật ký mua và Nhật ký bán, nay lập chỉ mục theo mã hàng (thử 150 mã hàng với khoảng 38.000 dòng nhật ký: từ 31 giây còn 17 giây; càng nhiều mã và nhiều dòng càng được nhiều hơn). Số liệu ra giống hệt trước.
 - Cải tiến: «Kết xuất Công nợ» nhiều khách và «Kết xuất Bảng kê Bán ra / Mua vào» (không còn ghi lại cả mảng 40.000 dòng cho mỗi nhóm thuế), «In / Kết xuất Phiếu Nhập – Xuất» (số phiếu lớn không còn quét lại từ đầu cho từng phiếu), «Xuất Excel Phiếu Thu – Chi / Nhập – Xuất / Sổ kho» (bớt thao tác sao chép trung gian, lưu file một lần). Kết quả giống trước, chỉ khác ô trống trong file Excel nay để trống thật thay vì chứa chuỗi rỗng.
