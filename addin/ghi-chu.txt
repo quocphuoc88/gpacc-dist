@@ -1,3 +1,8 @@
+[26111504]
+- Cải tiến: tăng tốc khi sổ có nhiều dòng (đo với 100.000 dòng «Linh tinh», tức khoảng 200.000 dòng Nhật ký chung) — «Kết chuyển NKC» từ khoảng 17 giây còn 10 giây; «Lưu chuyển tiền tệ trực tiếp» từ 7,6 giây còn dưới 0,4 giây; «Lưu chuyển tiền tệ gián tiếp» từ 3,7 giây còn dưới 0,4 giây. Số liệu ra giống hệt trước.
+- Sửa: «Kết chuyển NKC» không còn báo lỗi khi sổ có trên 250.000 dòng «Linh tinh» (trước đây vượt sức chứa của bảng nhật ký). Nay đã thử chạy với 300.000 dòng «Linh tinh» (khoảng 600.000 dòng Nhật ký chung) không lỗi; mức tối đa là giới hạn dòng của Excel.
+- Cải tiến: «Báo cáo tình hình tài chính» (CDKT) nay ghi số liệu trực tiếp thay cho công thức: cập nhật tự động mỗi lần «Kết chuyển NKC» và bấm «Kết chuyển» ở sheet CDKT, khi xuất báo cáo/XML cũng tự cập nhật nếu cần. Nếu sau đó anh/chị sửa tay Bảng cân đối số phát sinh, ô E3 phía trên báo cáo hiện dòng đỏ «số CDKT có thể là số cũ» — bấm «Kết chuyển» ở sheet CDKT để làm mới. Số liệu ra giống hệt trước.
+
 [26111503]
 - Sửa (sổ TT58): các hộp thông báo của TT58 — ví dụ nhắc «Hãy Kết chuyển NKC trước khi lập sổ» khi bấm «Lập Sổ» lúc Nhật Ký Chung chưa có số liệu, hộp xác nhận «Lập Toàn Bộ Sổ», thông báo sổ chưa tạo — trước đây báo lỗi kỹ thuật «Specified cast is not valid» thay vì hiện nội dung; nay hiện đúng nội dung để biết cần làm gì.
 
