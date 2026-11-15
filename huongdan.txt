@@ -4,3 +4,15 @@
 # Co video thi hop «Huong dan» hien nut «Xem video» o loai do. Vi du (bo dau # de dung):
 #   NH | HUONG_DAN_NH.pdf | https://youtu.be/xxxxxxxxxxx
 #   TT152 | HUONG_DAN_TT152.pdf |            <- khi co PDF rieng cho ho kinh doanh (tep dat o goc kho)
+# Cot PDF de trong = giu PDF mac dinh cua add-in. Cot 3 = trang huong dan truc quan (anh chup that + con tro + khung do) tren Google Site GPAcc.
+# Trang «Dung thu» gom cac bai cua so TT99 (Tao so moi, Keo du lieu tu PM, Ket chuyen 37/38 GTGT, Lich thue/Tuoi no); trang «Lien thong» danh cho so Ngan hang / Gia thanh.
+# Chua co bai rieng cho TT58, TT152, TDSX -> de trong (khong hien nut).
+TT99 | | https://sites.google.com/view/gpacc/d%C3%B9ng-th%E1%BB%AD
+DNL | | https://sites.google.com/view/gpacc/d%C3%B9ng-th%E1%BB%AD
+CN | | https://sites.google.com/view/gpacc/d%C3%B9ng-th%E1%BB%AD
+LND | | https://sites.google.com/view/gpacc/d%C3%B9ng-th%E1%BB%AD
+TT200 | | https://sites.google.com/view/gpacc/d%C3%B9ng-th%E1%BB%AD
+TT133 | | https://sites.google.com/view/gpacc/d%C3%B9ng-th%E1%BB%AD
+NH | | https://sites.google.com/view/gpacc/li%C3%AAn-th%C3%B4ng-s%E1%BB%95-ng%C3%A2n-h%C3%A0ng-gi%C3%A1-th%C3%A0nh
+GTSX | | https://sites.google.com/view/gpacc/li%C3%AAn-th%C3%B4ng-s%E1%BB%95-ng%C3%A2n-h%C3%A0ng-gi%C3%A1-th%C3%A0nh
+GTXD | | https://sites.google.com/view/gpacc/li%C3%AAn-th%C3%B4ng-s%E1%BB%95-ng%C3%A2n-h%C3%A0ng-gi%C3%A1-th%C3%A0nh
