@@ -16,5 +16,5 @@ TT133 | | https://sites.google.com/view/gpacc/d%C3%B9ng-th%E1%BB%AD
 NH | | https://sites.google.com/view/gpacc/li%C3%AAn-th%C3%B4ng-s%E1%BB%95-ng%C3%A2n-h%C3%A0ng-gi%C3%A1-th%C3%A0nh
 GTSX | | https://sites.google.com/view/gpacc/li%C3%AAn-th%C3%B4ng-s%E1%BB%95-ng%C3%A2n-h%C3%A0ng-gi%C3%A1-th%C3%A0nh
 GTXD | | https://sites.google.com/view/gpacc/li%C3%AAn-th%C3%B4ng-s%E1%BB%95-ng%C3%A2n-h%C3%A0ng-gi%C3%A1-th%C3%A0nh
-TT152 | | https://sites.google.com/view/gpacc/s%E1%BB%95-h%E1%BB%99-kinh-doanh-tt152
-TT58 | | https://sites.google.com/view/gpacc/s%E1%BB%95-doanh-nghi%E1%BB%87p-si%C3%AAu-nh%E1%BB%8F-tt58
+TT152 | HUONG_DAN_TT152.pdf | https://sites.google.com/view/gpacc/s%E1%BB%95-h%E1%BB%99-kinh-doanh-tt152
+TT58 | HUONG_DAN_TT58.pdf | https://sites.google.com/view/gpacc/s%E1%BB%95-doanh-nghi%E1%BB%87p-si%C3%AAu-nh%E1%BB%8F-tt58
