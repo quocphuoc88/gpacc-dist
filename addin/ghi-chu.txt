@@ -1,3 +1,7 @@
+[26111507]
+- Cải tiến: «Kết xuất Sổ kho» nhiều mặt hàng nhanh hơn rõ rệt — trước đây mỗi mã hàng quét lại toàn bộ Nhật ký mua và Nhật ký bán, nay lập chỉ mục theo mã hàng (thử 150 mã hàng với khoảng 38.000 dòng nhật ký: từ 31 giây còn 17 giây; càng nhiều mã và nhiều dòng càng được nhiều hơn). Số liệu ra giống hệt trước.
+- Cải tiến: «Kết xuất Công nợ» nhiều khách và «Kết xuất Bảng kê Bán ra / Mua vào» (không còn ghi lại cả mảng 40.000 dòng cho mỗi nhóm thuế), «In / Kết xuất Phiếu Nhập – Xuất» (số phiếu lớn không còn quét lại từ đầu cho từng phiếu), «Xuất Excel Phiếu Thu – Chi / Nhập – Xuất / Sổ kho» (bớt thao tác sao chép trung gian, lưu file một lần). Kết quả giống trước, chỉ khác ô trống trong file Excel nay để trống thật thay vì chứa chuỗi rỗng.
+
 [26111506]
 - Cải tiến: kết xuất nhiều tài khoản / nhiều khách ít bị đứng hơn. «Kết xuất Sổ cái / Sổ chi tiết / Sổ tiền gửi ngân hàng» (nhiều tài khoản) và «Kết xuất Công nợ» (nhiều khách) trước đây MỖI tài khoản / MỖI khách đều đọc lại toàn bộ Nhật ký chung hoặc toàn bộ Bán ra, Mua vào, Ngân hàng, Linh tinh; nay đọc một lần cho cả lần kết xuất (sổ có hàng chục nghìn dòng chạy nhanh hơn khoảng 15–25% mỗi tài khoản / khách, càng nhiều dòng càng được). Kết xuất Sổ cái và Sổ tiền gửi ngân hàng hiện «đang kết xuất sổ – tài khoản …» ở thanh trạng thái và nhả điều khiển để Excel không báo «Not Responding». Số liệu ra giống hệt trước.
 - Cải tiến: «Kết chuyển NKC» với sổ cỡ nhỏ nhanh hơn khoảng 0,1 giây (phần cập nhật Báo cáo tình hình tài chính ghi theo khối thay vì từng ô).
