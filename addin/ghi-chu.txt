@@ -1,3 +1,7 @@
+[26111509]
+- Cải tiến: «Kết xuất Nhập xuất tồn» nhanh hơn — trước đây mỗi tháng (và cả dòng tổng) đều đọc lại toàn bộ Nhật ký mua và Nhật ký bán; nay đọc một lần cho cả lần kết xuất (thử 150 mặt hàng, hơn 22.000 dòng Nhật ký mua: từ 2,05 giây còn 1,41 giây; sổ càng lớn càng được nhiều hơn). Số liệu ra giống hệt trước.
+- Cải tiến: các lệnh kết xuất ra tệp Excel riêng (Nhập xuất tồn, Bảng lương, Phân bổ / Khấu hao, Công nợ, Hợp đồng lao động, Tình hình sử dụng hóa đơn, tờ khai thuế…) chuyển bảng sang giá trị trực tiếp thay vì sao chép – dán qua bộ nhớ tạm, mỗi sheet nhanh hơn khoảng ba lần (thử 8 sheet: từ 1,76 giây còn 0,53 giây). Kết quả giống hệt trước; riêng sheet có ô chữ trông như số (ví dụ mã 0012) hoặc dạng ngày, chương trình tự dùng cách cũ để giữ nguyên chữ.
+
 [26111508]
 - Mới: «đường lui» khi cập nhật gặp sự cố. Nếu bản vừa cập nhật không khởi động được hoặc không chạy ổn, GPAcc tự quay về bản trước ở lần mở Excel kế tiếp và nhớ không tự cập nhật lại lên đúng bản lỗi đó. Anh/chị không phải làm gì; sổ và dữ liệu không bị đụng đến.
 - Mới: sau mỗi lần cập nhật, GPAcc theo dõi vài lần mở Excel đầu tiên; mở lên bình thường và chạy ổn thì bản mới được xác nhận, từ đó không theo dõi nữa.
