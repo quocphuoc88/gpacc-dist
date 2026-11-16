@@ -1,3 +1,6 @@
+[26111601]
+- Cải tiến: việc nhận diện «sổ đang mở có phải sổ GPAcc không» (chạy ở mỗi lần chuyển sheet, kích hoạt sổ và mỗi lần ribbon vẽ lại) nay được ghi nhớ trong 2 giây thay vì hỏi lại Excel hàng trăm lần (đo trên sổ mẫu: mỗi lần hỏi mất khoảng 1,5 mili giây, nay gần như bằng 0). Ribbon và các thao tác chuyển sheet nhẹ hơn; số liệu và cách dùng không đổi.
+
 [26111512]
 - Cải tiến độ ổn định: các nút và phím tắt của GPAcc được đăng ký lại tự động nếu lần đăng ký đầu tiên gặp lỗi lúc khởi động, và ngừng đăng ký khi Excel đang đóng. Nếu vẫn lỗi, chi tiết được ghi vào tệp dangky_nut_loi.txt (thư mục %LOCALAPPDATA%\GPAcc) để dễ tìm nguyên nhân. Cách dùng không đổi.
 
