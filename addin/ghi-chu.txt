@@ -1,3 +1,7 @@
+[26111603]
+- Mới: tên file khi kết xuất (Excel và PDF) nay thống nhất theo dạng «Mã số thuế_Năm_Tên báo cáo», ví dụ 0314372376_2026_Tong Hop - Chi Tiet CNo Tu Thang 1 Den Thang 9. Kết xuất nhiều năm thì Windows tự xếp theo mã số thuế rồi theo năm. Các tên cũ có sẵn năm ở cuối (…_2026, … Nam 2026) được chuyển lên đầu; tên chưa có mã số thuế (Sổ cái, Sổ chi tiết, Sổ quỹ, Sổ tiền gửi ngân hàng, Phụ lục lương…) được thêm mã số thuế và năm của kỳ đang chọn. Áp dụng cho các sổ TT99, TT152, Ngân hàng, Giá thành sản xuất, Giá thành xây dựng và Theo dõi sản xuất. Phiếu thu, phiếu chi, phiếu nhập xuất giữ tên theo số phiếu như cũ.
+- Mới: khi kết xuất Tổng hợp - Chi tiết công nợ, mỗi sheet chi tiết có sẵn nút «← Về Tổng hợp» ở ô C1 (bấm để quay lại sheet Tổng hợp, không phải kéo qua hàng trăm sheet).
+
 [26111601]
 - Cải tiến: việc nhận diện «sổ đang mở có phải sổ GPAcc không» (chạy ở mỗi lần chuyển sheet, kích hoạt sổ và mỗi lần ribbon vẽ lại) nay được ghi nhớ trong 2 giây thay vì hỏi lại Excel hàng trăm lần (đo trên sổ mẫu: mỗi lần hỏi mất khoảng 1,5 mili giây, nay gần như bằng 0). Ribbon và các thao tác chuyển sheet nhẹ hơn; số liệu và cách dùng không đổi.
 
