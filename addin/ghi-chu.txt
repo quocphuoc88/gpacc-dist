@@ -1,3 +1,6 @@
+[26111512]
+- Cải tiến độ ổn định: các nút và phím tắt của GPAcc được đăng ký lại tự động nếu lần đăng ký đầu tiên gặp lỗi lúc khởi động, và ngừng đăng ký khi Excel đang đóng. Nếu vẫn lỗi, chi tiết được ghi vào tệp dangky_nut_loi.txt (thư mục %LOCALAPPDATA%\GPAcc) để dễ tìm nguyên nhân. Cách dùng không đổi.
+
 [26111511]
 - Sửa lỗi: «Tổng hợp các định khoản» (Mua vào, Bán ra, Ngân hàng, Linh tinh, phân bổ, giá vốn) báo lỗi «Index was outside the bounds of the array» và dừng giữa chừng khi tổng số dòng có định khoản của Bán ra + Mua vào + Ngân hàng + Linh tinh vượt 50.000 (sổ lớn nhiều năm). Nay bảng gom tự mở rộng theo số dòng thật. Sổ dưới 50.000 dòng chạy y như trước, số liệu giống hệt.
 
