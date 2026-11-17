@@ -1,3 +1,10 @@
+[26111703]
+- Sửa lỗi: sổ nằm trong thư mục Dropbox / OneDrive / Google Drive / thư mục mạng, bấm «Chuyển Sổ Sang Add-in» không có phản ứng gì. Nay hiện đúng hộp xác nhận «sổ dùng chung» như trước.
+- Sửa lỗi: một số chức năng của bản 26111702 không chạy (không báo lỗi): kết xuất công nợ nhiều năm khi đang mở sổ của chính năm đó, kéo dữ liệu từ file Excel, vài dòng thông tin ở «Tổng quan». Nay đã chạy bình thường.
+- Sửa lỗi: thanh bên «Kết xuất nhiều năm» và «So sánh 2 kỳ» bật ở một sổ rồi chuyển sang sổ khác bấm lại thì không hiện. Nay mỗi sổ có thanh bên riêng.
+- Mới: danh sách «Loại báo cáo» của «Kết xuất nhiều năm» xếp theo nhóm cho dễ tìm: Công nợ · Sổ sách kế toán · Hàng hoá – kho · Mua bán – hoá đơn · Báo cáo tài chính · Khác.
+- Mới: «Sổ kho — chi tiết 1 mặt hàng» nhiều năm (nhóm Hàng hoá – kho): chọn mã hàng, ra thẻ kho theo từng chứng từ (tồn đầu năm, nhập, xuất, tồn sau mỗi lần, cộng từng năm) — một sheet nối liền các năm hoặc mỗi năm một sheet có mục lục. Số tính đúng như nút «Sổ kho» trong sổ; báo khi tồn đầu năm khác tồn cuối năm trước. Hỗ trợ sổ TT99, DN lớn, nhiều chi nhánh, lệch niên độ, TT58.
+
 [26111702]
 - Sửa lỗi của bản 26111701: sau bước xử lý bảo mật mã nguồn, một số lệnh nhóm «Kết xuất nhiều năm» và vài báo cáo (Tuổi nợ và nhắc nợ, Giải trình biến động báo cáo tài chính, Gom một sheet nhiều năm) có thể không ra kết quả (trả bảng trống) vì một số hàm nội bộ bị đổi tên. Nay đã khắc phục; các lệnh này chạy và cho số liệu đúng y như bản chưa xử lý bảo mật.
 - Bao gồm đầy đủ nội dung của bản 26111701:
