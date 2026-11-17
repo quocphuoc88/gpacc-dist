@@ -1,3 +1,9 @@
+[26111702]
+- Sửa lỗi của bản 26111701: sau bước xử lý bảo mật mã nguồn, một số lệnh nhóm «Kết xuất nhiều năm» và vài báo cáo (Tuổi nợ và nhắc nợ, Giải trình biến động báo cáo tài chính, Gom một sheet nhiều năm) có thể không ra kết quả (trả bảng trống) vì một số hàm nội bộ bị đổi tên. Nay đã khắc phục; các lệnh này chạy và cho số liệu đúng y như bản chưa xử lý bảo mật.
+- Bao gồm đầy đủ nội dung của bản 26111701:
+  - Sửa lỗi: bộ cài add-in đôi khi báo lỗi "ApplicationBase could not be set" ngay lúc cài (do add-in tự đăng ký lại nhiều lần trong một lần mở Excel). Nay chỉ đăng ký một lần; cài mới và cài đè đều không còn gặp lỗi này.
+  - Cải tiến bảo mật: mã của add-in được xử lý để khó đọc ngược hơn trước khi đóng gói; không đổi cách dùng, không đổi số liệu.
+
 [26111701]
 - Sửa lỗi: bộ cài add-in đôi khi báo lỗi "ApplicationBase could not be set" ngay lúc cài (do add-in tự đăng ký lại nhiều lần trong một lần mở Excel). Nay chỉ đăng ký một lần; cài mới và cài đè đều không còn gặp lỗi này.
 - Cải tiến bảo mật: mã của add-in được xử lý để khó đọc ngược hơn trước khi đóng gói; không đổi cách dùng, không đổi số liệu.
