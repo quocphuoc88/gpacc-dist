@@ -1,3 +1,7 @@
+[26111801]
+- Sửa lỗi: từ bản 26111701, các nút và lệnh của sổ chạy bằng lõi (nút trên sheet, nút ribbon, khởi động sổ…) có thể báo «Lệnh … chưa có trong lõi GPAcc (bản không còn tệp .xlam) - báo tác giả» và không chạy. Nguyên nhân: bước xử lý bảo mật mã nguồn đổi tên các lệnh nên add-in không tìm thấy lệnh theo tên. Nay mỗi lệnh mang mã nhận diện riêng, add-in tìm đúng lệnh dù mã đã được xử lý bảo mật.
+- Sửa lỗi: «Bảng khấu hao TSCĐ» — tài sản ghi giảm / thanh lý giữa tháng: cột chi tiết từng tháng và bút toán khấu hao đã tính đến ngày thanh lý, nhưng hai cột «Khấu hao đã tính đến khi ghi giảm TSCĐ» [13] và «Khấu hao cộng dồn năm nay» [18] lại chỉ tính đến hết tháng trước. Nay hai cột này tính đến đúng ngày thanh lý, khớp với cột chi tiết từng tháng và bút toán. Các tháng không có ghi giảm: số liệu không đổi.
+
 [26111705]
 - Cải tiến bảo mật: gỡ khỏi bản cài các lệnh nội bộ chỉ dùng để kiểm thử phần mềm; add-in gọn hơn, không đổi cách dùng, không đổi số liệu.
 
