@@ -1,3 +1,6 @@
+[26111705]
+- Cải tiến bảo mật: gỡ khỏi bản cài các lệnh nội bộ chỉ dùng để kiểm thử phần mềm; add-in gọn hơn, không đổi cách dùng, không đổi số liệu.
+
 [26111704]
 - Mới: «Kết xuất nhiều năm» — Nhập xuất tồn kho nay chạy được cả sổ đời cũ (bản file còn code riêng, ví dụ sổ 2025), sổ TT200 và TT133: dùng đúng lệnh nhập xuất tồn của chính sổ đó, ghép liền với các năm sau.
 - Mới: «Sổ kho — chi tiết 1 mặt hàng» nhiều năm chạy được cả sổ đời cũ: dùng đúng lệnh «Sổ kho» của chính sổ đó, nối liền với các năm sau.
