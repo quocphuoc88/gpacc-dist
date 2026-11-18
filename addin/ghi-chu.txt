@@ -1,3 +1,8 @@
+[26111802]
+- Sửa lỗi: tải hóa đơn điện tử trên add-in báo «Lỗi không mong đợi khi tải hóa đơn: khong thay type GPAccLoi.ModTaiHD» và không tải được hóa đơn nào (có từ bản 26111701, sau bước xử lý bảo mật mã nguồn). Nay tải bình thường.
+- Sửa lỗi: «So sánh 2 kỳ» và «Công nợ xuyên nhiều năm» khi đọc sổ đang mở báo «… Rieng__KChuyen_CTCN không có» và không ra số liệu (có từ bản 26111701). Nay chạy bình thường.
+- Cải tiến: trong lúc tải hóa đơn, các bước ghi vào sổ được đưa về luồng chính của Excel nên vẫn chuyển sheet, cuộn, xem sổ bình thường khi đang tải (thử: tải 12 hóa đơn kèm chi tiết, 449 lần chuyển sheet trong lúc tải, chậm nhất 0,09 giây).
+
 [26111801]
 - Sửa lỗi: từ bản 26111701, các nút và lệnh của sổ chạy bằng lõi (nút trên sheet, nút ribbon, khởi động sổ…) có thể báo «Lệnh … chưa có trong lõi GPAcc (bản không còn tệp .xlam) - báo tác giả» và không chạy. Nguyên nhân: bước xử lý bảo mật mã nguồn đổi tên các lệnh nên add-in không tìm thấy lệnh theo tên. Nay mỗi lệnh mang mã nhận diện riêng, add-in tìm đúng lệnh dù mã đã được xử lý bảo mật.
 - Sửa lỗi: «Bảng khấu hao TSCĐ» — tài sản ghi giảm / thanh lý giữa tháng: cột chi tiết từng tháng và bút toán khấu hao đã tính đến ngày thanh lý, nhưng hai cột «Khấu hao đã tính đến khi ghi giảm TSCĐ» [13] và «Khấu hao cộng dồn năm nay» [18] lại chỉ tính đến hết tháng trước. Nay hai cột này tính đến đúng ngày thanh lý, khớp với cột chi tiết từng tháng và bút toán. Các tháng không có ghi giảm: số liệu không đổi.
