@@ -7,6 +7,22 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26111801] 18/11/2026
+
+- Sửa lỗi: «Bảng khấu hao TSCĐ» — tài sản ghi giảm / thanh lý giữa tháng: cột chi tiết từng tháng và bút toán khấu hao đã tính đến ngày thanh lý, nhưng hai cột «Khấu hao đã tính đến khi ghi giảm TSCĐ» [13] và «Khấu hao cộng dồn năm nay» [18] lại chỉ tính đến hết tháng trước. Nay hai cột này tính đến đúng ngày thanh lý, khớp với cột chi tiết từng tháng và bút toán. Các tháng không có ghi giảm: số liệu không đổi.
+
+- Sửa lỗi: «Tổng hợp các định khoản» báo lỗi «Subscript out of range» và dừng giữa chừng khi tổng số dòng có định khoản của Bán ra + Mua vào + Ngân hàng + Linh tinh vượt 50.000 dòng (sổ lớn). Nay bảng gom tự mở rộng theo số dòng thật; sổ dưới 50.000 dòng chạy y như trước.
+
+- Sửa lỗi: «Kết chuyển NKC» không còn báo lỗi khi sổ có trên 250.000 dòng «Linh tinh». Sổ nhiều dòng kết chuyển nhanh hơn và hiện tiến độ ở thanh trạng thái phía dưới Excel («đang tổng hợp số liệu…», «đang ghi Sổ Nhật ký chung…»). Số liệu ra giống hệt trước.
+
+- Sửa: ở hộp danh sách khách hàng / công nợ, nhấp đúp vào một khách nay ghi được cả vào sheet Linh Tinh (LT), không chỉ sheet Ngân hàng (NH): ghi tên, mã số thuế và ký hiệu khách vào dòng đang chọn.
+
+- Cải tiến: «Lưu chuyển tiền tệ» trực tiếp và gián tiếp chạy nhanh hơn nhiều với sổ nhiều dòng. «Báo cáo tình hình tài chính» (CDKT) nay ghi số liệu trực tiếp thay cho công thức, tự cập nhật mỗi lần «Kết chuyển NKC» và khi bấm «Kết chuyển» ở sheet CDKT; nếu sau đó sửa tay Bảng cân đối số phát sinh, phía trên báo cáo hiện dòng đỏ nhắc «số CDKT có thể là số cũ» — bấm «Kết chuyển» ở sheet CDKT để làm mới. Số liệu ra giống hệt trước.
+
+- Cải tiến: các lệnh kết xuất nhanh hơn, ít bị đứng hơn — Sổ cái, Sổ chi tiết, Sổ quỹ, Sổ tiền gửi ngân hàng nhiều tài khoản; Công nợ nhiều khách; Nhập xuất tồn; Sổ kho nhiều mặt hàng; Bảng kê Bán ra / Mua vào; Phiếu thu chi, phiếu nhập xuất; các bảng xuất ra tệp Excel riêng. Số liệu ra giống hệt trước.
+
+- Mới: tên file khi kết xuất (Excel và PDF) thống nhất theo dạng «Mã số thuế_Năm_Tên báo cáo», ví dụ 0314372376_2026_Tong Hop - Chi Tiet CNo Tu Thang 1 Den Thang 9. Kết xuất Tổng hợp - Chi tiết công nợ: mỗi sheet chi tiết có nút «← Về Tổng hợp» ở ô C1 để quay lại sheet Tổng hợp.
+
 [26111101] 11/11/2026
 
 - Tải hóa đơn điện tử: sửa lỗi bấm «Thực hiện» báo «Lỗi không mong đợi khi tải hóa đơn: 1004 - Cannot run the macro 'GPAccVo_TaiHD_ChayNen'» (có ở bản 26110903 trở đi). Nay tải bình thường như trước.
