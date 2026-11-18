@@ -1,3 +1,8 @@
+[26111704]
+- Mới: «Kết xuất nhiều năm» — Nhập xuất tồn kho nay chạy được cả sổ đời cũ (bản file còn code riêng, ví dụ sổ 2025), sổ TT200 và TT133: dùng đúng lệnh nhập xuất tồn của chính sổ đó, ghép liền với các năm sau.
+- Mới: «Sổ kho — chi tiết 1 mặt hàng» nhiều năm chạy được cả sổ đời cũ: dùng đúng lệnh «Sổ kho» của chính sổ đó, nối liền với các năm sau.
+- Cải tiến: khi lệnh của sổ đời cũ gặp lỗi lúc kết xuất nhiều năm, add-in báo rõ năm bị lỗi thay vì đứng chờ.
+
 [26111703]
 - Sửa lỗi: sổ nằm trong thư mục Dropbox / OneDrive / Google Drive / thư mục mạng, bấm «Chuyển Sổ Sang Add-in» không có phản ứng gì. Nay hiện đúng hộp xác nhận «sổ dùng chung» như trước.
 - Sửa lỗi: một số chức năng của bản 26111702 không chạy (không báo lỗi): kết xuất công nợ nhiều năm khi đang mở sổ của chính năm đó, kéo dữ liệu từ file Excel, vài dòng thông tin ở «Tổng quan». Nay đã chạy bình thường.
