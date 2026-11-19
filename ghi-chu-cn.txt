@@ -7,6 +7,10 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26111901] 19/11/2026
+
+- Cải tiến: «Kiểm Tra Dữ Liệu» sheet TTNV — khi chèn thêm khoản vào khối «Các khoản phụ cấp không thường xuyên» mà chỉ chèn 1 cột (thiếu cột «Tháng tính PC» đi kèm), trước đây báo hàng loạt dòng «tháng phải là số nguyên từ 1 đến 12» ở từng ô; nay báo một dòng chỉ rõ cột bị lệch cặp và cách sửa: mỗi khoản phải chèn đủ 2 cột liền nhau (cột tiền + cột «Tháng tính PC», dòng ký hiệu ghi [KTX]); khoản trả đều hằng tháng thì chèn vào khối «Các khoản phụ cấp» (dòng ký hiệu ghi [PC]).
+
 [26111801] 18/11/2026
 
 - Sửa lỗi: «Bảng khấu hao TSCĐ» — tài sản ghi giảm / thanh lý giữa tháng: cột chi tiết từng tháng và bút toán khấu hao đã tính đến ngày thanh lý, nhưng hai cột «Khấu hao đã tính đến khi ghi giảm TSCĐ» [13] và «Khấu hao cộng dồn năm nay» [18] lại chỉ tính đến hết tháng trước. Nay hai cột này tính đến đúng ngày thanh lý, khớp với cột chi tiết từng tháng và bút toán. Các tháng không có ghi giảm: số liệu không đổi.

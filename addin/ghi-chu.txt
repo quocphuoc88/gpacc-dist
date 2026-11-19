@@ -1,3 +1,6 @@
+[26111901]
+- Cải tiến: «Kiểm Tra Dữ Liệu» sheet TTNV — khi chèn thêm khoản vào khối «Các khoản phụ cấp không thường xuyên» mà chỉ chèn 1 cột (thiếu cột «Tháng tính PC» đi kèm), trước đây báo hàng loạt dòng «tháng phải là số nguyên từ 1 đến 12» ở từng ô; nay báo một dòng chỉ rõ cột bị lệch cặp và cách sửa: mỗi khoản phải chèn đủ 2 cột liền nhau (cột tiền + cột «Tháng tính PC», dòng ký hiệu ghi [KTX]); khoản trả đều hằng tháng thì chèn vào khối «Các khoản phụ cấp» (dòng ký hiệu ghi [PC]).
+
 [26111802]
 - Sửa lỗi: tải hóa đơn điện tử trên add-in báo «Lỗi không mong đợi khi tải hóa đơn: khong thay type GPAccLoi.ModTaiHD» và không tải được hóa đơn nào (có từ bản 26111701, sau bước xử lý bảo mật mã nguồn). Nay tải bình thường.
 - Sửa lỗi: «So sánh 2 kỳ» và «Công nợ xuyên nhiều năm» khi đọc sổ đang mở báo «… Rieng__KChuyen_CTCN không có» và không ra số liệu (có từ bản 26111701). Nay chạy bình thường.
