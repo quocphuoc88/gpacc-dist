@@ -203,6 +203,6 @@ UI_CN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_cn/26112
 # --- KENH RIENG CUA BAN TT58 (che do ke toan doanh nghiep sieu nho - TT58/2026/TT-BTC) ----------
 #  Ban TT58 KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_TT58, ghi chu ghi-chu-tt58.txt).
 #  VER_TT58 / BIN_TT58 / UI_TT58 - tao boi PhatHanhTT.ps1 -Channel tt58 (giao_khach_tt58.py).
-VER_TT58|26112001|
-BIN_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26112001/vbaProject.bin|384d55496f3d0c2178ac5867debaceab069d8182bd70982e4471003785892184|6970368
-UI_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26112001/customUI.xml|70f50aaf4a2fdf6691aee6f5d05acd0769d08d5cade1b0f58511769b60e03ef4|19753
+VER_TT58|26112003|
+BIN_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26112003/vbaProject.bin|dda3db68897d1cbd60aab0fd5dace90240a3da1d075d515ef520a064b9e9fb8a|7013888
+UI_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26112003/customUI.xml|70f50aaf4a2fdf6691aee6f5d05acd0769d08d5cade1b0f58511769b60e03ef4|19753

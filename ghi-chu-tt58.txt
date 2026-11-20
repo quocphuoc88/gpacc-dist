@@ -8,6 +8,11 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26112003] 20/11/2026
+
+- Giao diện: các nút Lập Sổ, Lập Toàn Bộ Sổ, Thiết Lập TT58, Áp Dụng Trường Hợp, Hạch Toán Thuế % có biểu tượng nhỏ trước chữ như các nút khác.
+- Sửa lỗi: sau lần cập nhật trước, sheet TTDN có thể bị thêm nút «Lấy BCTC từ file XML» (không dùng cho TT58); nay tự gỡ khi cập nhật.
+
 [26112001] 20/11/2026
 
 - Giao diện: các nút trên sheet có biểu tượng nhỏ trước chữ theo chức năng (cập nhật, kết chuyển, kết xuất, xóa, in, kiểm tra, lấy dữ liệu…) để dễ nhận ra; nút tự nới rộng cho vừa chữ. Sổ tự gắn biểu tượng khi bấm Cập Nhật xong.
