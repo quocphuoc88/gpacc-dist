@@ -8,6 +8,10 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26112001] 20/11/2026
+
+- Giao diện: các nút trên sheet có biểu tượng nhỏ trước chữ theo chức năng (cập nhật, kết chuyển, kết xuất, xóa, in, kiểm tra, lấy dữ liệu…) để dễ nhận ra; nút tự nới rộng cho vừa chữ. Sổ tự gắn biểu tượng khi bấm Cập Nhật xong.
+
 [26111901] 19/11/2026
 
 - Cải tiến: «Kiểm Tra Dữ Liệu» sheet TTNV — khi chèn thêm khoản vào khối «Các khoản phụ cấp không thường xuyên» mà chỉ chèn 1 cột (thiếu cột «Tháng tính PC» đi kèm), trước đây báo hàng loạt dòng «tháng phải là số nguyên từ 1 đến 12» ở từng ô; nay báo một dòng chỉ rõ cột bị lệch cặp và cách sửa: mỗi khoản phải chèn đủ 2 cột liền nhau (cột tiền + cột «Tháng tính PC», dòng ký hiệu ghi [KTX]); khoản trả đều hằng tháng thì chèn vào khối «Các khoản phụ cấp» (dòng ký hiệu ghi [PC]).

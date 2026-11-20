@@ -1,3 +1,9 @@
+[26112001]
+- Mới: «Trả / thu tiền mặt hàng loạt» (nút ₫ trên Bảng tổng hợp công nợ, hoặc menu Công Nợ): tự tìm các hóa đơn còn nợ chưa thanh toán qua ngân hàng, đề xuất trả (mua vào) / thu (bán ra) bằng tiền mặt theo ngày hóa đơn; tự GIỮ LẠI hóa đơn từ 5 triệu trở lên (cộng mọi hóa đơn cùng người bán / người mua cùng ngày, gồm thuế GTGT) theo quy định thanh toán không dùng tiền mặt. Xem trước, tích chọn hoặc sửa số tiền rồi mới ghi; bút toán sinh bên Linh Tinh như ghi TMAT bằng tay. Hóa đơn đã ghi TMAT mà sau đó lại trả qua ngân hàng: tự phát hiện, gỡ cả ghi chú TMAT lẫn bút toán tiền mặt.
+- Mới: sheet Báo cáo tình hình tài chính (CDKT) có nút ↻ Cập Nhật cạnh nút Kết Xuất — bấm để tính lại số theo bảng cân đối số phát sinh ngay, không cần chạy Kết chuyển NKC.
+- Sửa lỗi: ở máy đặt dấu thập phân là dấu phẩy, dòng cảnh báo «số CDKT có thể là số cũ» (ô E3) trước đây không hoạt động với sổ có số tiền lẻ; nay đã chạy đúng.
+- Giao diện: các nút trên sheet có biểu tượng theo chức năng (↻ cập nhật, ▶ kết chuyển, ↗ kết xuất, ✕ xóa, ⎙ in, ✓ kiểm tra, ⬇ lấy dữ liệu…) để dễ nhận ra; nút tự nới rộng cho vừa chữ. Sổ đang dùng: bấm «Cập Nhật» (hoặc «Chỉ Nâng Cấp Bố Cục») để có các nút mới và biểu tượng; sổ tạo mới đã có sẵn.
+
 [26111901]
 - Cải tiến: «Kiểm Tra Dữ Liệu» sheet TTNV — khi chèn thêm khoản vào khối «Các khoản phụ cấp không thường xuyên» mà chỉ chèn 1 cột (thiếu cột «Tháng tính PC» đi kèm), trước đây báo hàng loạt dòng «tháng phải là số nguyên từ 1 đến 12» ở từng ô; nay báo một dòng chỉ rõ cột bị lệch cặp và cách sửa: mỗi khoản phải chèn đủ 2 cột liền nhau (cột tiền + cột «Tháng tính PC», dòng ký hiệu ghi [KTX]); khoản trả đều hằng tháng thì chèn vào khối «Các khoản phụ cấp» (dòng ký hiệu ghi [PC]).
 
