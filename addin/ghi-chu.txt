@@ -1,3 +1,6 @@
+[26112002]
+- Sửa: menu Công Nợ chưa có mục «Trả / Thu Tiền Mặt Hàng Loạt» ở bản 26112001 — nay đã có (cuối menu Công Nợ).
+
 [26112001]
 - Mới: «Trả / thu tiền mặt hàng loạt» (nút ₫ trên Bảng tổng hợp công nợ, hoặc menu Công Nợ): tự tìm các hóa đơn còn nợ chưa thanh toán qua ngân hàng, đề xuất trả (mua vào) / thu (bán ra) bằng tiền mặt theo ngày hóa đơn; tự GIỮ LẠI hóa đơn từ 5 triệu trở lên (cộng mọi hóa đơn cùng người bán / người mua cùng ngày, gồm thuế GTGT) theo quy định thanh toán không dùng tiền mặt. Xem trước, tích chọn hoặc sửa số tiền rồi mới ghi; bút toán sinh bên Linh Tinh như ghi TMAT bằng tay. Hóa đơn đã ghi TMAT mà sau đó lại trả qua ngân hàng: tự phát hiện, gỡ cả ghi chú TMAT lẫn bút toán tiền mặt.
 - Mới: sheet Báo cáo tình hình tài chính (CDKT) có nút ↻ Cập Nhật cạnh nút Kết Xuất — bấm để tính lại số theo bảng cân đối số phát sinh ngay, không cần chạy Kết chuyển NKC.
