@@ -1,3 +1,6 @@
+[26112103]
+- Mới: Sổ theo dõi tờ khai hải quan (cho doanh nghiệp nhập khẩu) — menu Mua Vào (bấm mũi tên dưới nút Mua Vào) → «Thêm Sổ Theo Dõi Tờ Khai Hải Quan». Thêm 2 sheet: TKHQ (mỗi tờ khai một dòng: thuế nhập khẩu / TTĐB / BVMT / GTGT, nguyên tệ, tỷ giá, ngày nộp thuế, chi phí mua hàng, giá nhập kho, đối chiếu Nhật ký mua) và NK_TKHQ (giá nhập kho, đơn giá từng mặt hàng). Số tự lấy từ Mua Vào (Ký hiệu HĐ = TKHQ, chi phí mua hàng ghi chú CPMH-<số tờ khai>), Nhật ký mua và Ngân hàng / Linh tinh; bấm «↻ Cập Nhật» trên sheet để làm mới. Chỉ để theo dõi, không nhập ở đây, không ảnh hưởng báo cáo và kết chuyển.
+
 [26112102]
 - Cải tiến: các hộp chọn tệp để lấy dữ liệu vào (XML/Excel hóa đơn, BCTC XML năm trước, dữ liệu năm trước, sao kê ngân hàng, sổ năm khác, logo…) nay luôn mở ở thư mục chứa sổ đang làm, không còn mở thư mục của khách làm trước đó.
 
