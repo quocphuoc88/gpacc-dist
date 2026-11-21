@@ -1,3 +1,11 @@
+[26112101]
+- Cải tiến: cửa sổ «Trả / thu tiền mặt hàng loạt» làm lại cho dễ đọc: chữ to hơn, cột đủ rộng để thấy hết số tiền / ngày / số hóa đơn, dải tiêu đề có tên doanh nghiệp, cảnh báo hiện gọn phía trên bảng (không có thì ẩn), cột «Số tiền TM» nổi bật để sửa; cửa sổ vừa màn hình laptop.
+- Cải tiến: hóa đơn phí ngân hàng (người bán là ngân hàng) mặc định «Giữ lại», không đề xuất trả tiền mặt — ngân hàng đã tự trừ thẳng vào tài khoản.
+- Giao diện: nút ₫ trên Bảng tổng hợp công nợ gọn lại thành «₫ Tiền Mặt», nằm trong dải nút đầu sheet cạnh «Xem chi tiết».
+- Giao diện: các nút «K.Tra» (sheet Mua vào, Bán ra, Số dư đầu kỳ công nợ) có biểu tượng ✓ như các nút khác.
+- Sửa: sổ tạo bằng «Tạo sổ mới» đã có đủ nút và biểu tượng ngay khi tạo, không còn hỏi / báo nâng cấp bố cục.
+- Sửa: nâng cấp bố cục không còn báo nhầm số mục (gắn lại biểu tượng cho các nút đã có).
+
 [26112003]
 - Mới: mở sổ còn bố cục cũ (thiếu nút / biểu tượng mới) thì add-in hỏi nâng cấp bố cục ngay (chỉ sửa cấu trúc sheet, không đụng số liệu, xong tự lưu); chọn No thì không hỏi lại cho sổ đó đến khi có bản nâng cấp bố cục mới.
 - Giao diện: sổ TT58 — các nút Lập Sổ, Lập Toàn Bộ Sổ, Thiết Lập TT58, Áp Dụng Trường Hợp, Hạch Toán Thuế % có biểu tượng.

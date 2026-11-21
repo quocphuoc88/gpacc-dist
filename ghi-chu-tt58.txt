@@ -8,6 +8,13 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26112101] 21/11/2026
+
+- Sửa: nâng cấp bố cục không còn báo nhầm số mục (gắn lại biểu tượng cho các nút đã có).
+- Cải tiến: các nút «K.Tra» (sheet Mua vào, Bán ra, Số dư đầu kỳ công nợ) cũng có biểu tượng như các nút khác.
+- Sửa lỗi chính tả trong thông báo cập nhật («có thể do mạng chặn»).
+- Cải tiến: chuẩn bị cho các bản cập nhật sau nhẹ hơn nhiều (tải nhanh hơn, ít lỗi khi mạng yếu).
+
 [26112003] 20/11/2026
 
 - Giao diện: các nút Lập Sổ, Lập Toàn Bộ Sổ, Thiết Lập TT58, Áp Dụng Trường Hợp, Hạch Toán Thuế % có biểu tượng nhỏ trước chữ như các nút khác.

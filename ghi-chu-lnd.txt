@@ -7,6 +7,13 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26112101] 21/11/2026
+
+- Sửa: nâng cấp bố cục không còn báo nhầm số mục (gắn lại biểu tượng cho các nút đã có).
+- Cải tiến: các nút «K.Tra» (sheet Mua vào, Bán ra, Số dư đầu kỳ công nợ) cũng có biểu tượng như các nút khác.
+- Sửa lỗi chính tả trong thông báo cập nhật («có thể do mạng chặn»).
+- Cải tiến: chuẩn bị cho các bản cập nhật sau nhẹ hơn nhiều (tải nhanh hơn, ít lỗi khi mạng yếu).
+
 [26112001] 20/11/2026
 
 - Mới: sheet Báo cáo tình hình tài chính (CDKT) có nút «Cập Nhật» cạnh nút Kết Xuất — bấm để tính lại số theo bảng cân đối số phát sinh ngay, không cần chạy Kết chuyển NKC.
