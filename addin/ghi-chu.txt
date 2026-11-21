@@ -1,3 +1,6 @@
+[26112102]
+- Cải tiến: các hộp chọn tệp để lấy dữ liệu vào (XML/Excel hóa đơn, BCTC XML năm trước, dữ liệu năm trước, sao kê ngân hàng, sổ năm khác, logo…) nay luôn mở ở thư mục chứa sổ đang làm, không còn mở thư mục của khách làm trước đó.
+
 [26112101]
 - Cải tiến: cửa sổ «Trả / thu tiền mặt hàng loạt» làm lại cho dễ đọc: chữ to hơn, cột đủ rộng để thấy hết số tiền / ngày / số hóa đơn, dải tiêu đề có tên doanh nghiệp, cảnh báo hiện gọn phía trên bảng (không có thì ẩn), cột «Số tiền TM» nổi bật để sửa; cửa sổ vừa màn hình laptop.
 - Cải tiến: hóa đơn phí ngân hàng (người bán là ngân hàng) mặc định «Giữ lại», không đề xuất trả tiền mặt — ngân hàng đã tự trừ thẳng vào tài khoản.
