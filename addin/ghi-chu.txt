@@ -1,3 +1,13 @@
+[26112202]
+- Sửa lỗi: một số nút trên sheet (₫ Tiền Mặt, Lấy số dư PBKH…) báo «… chưa có trong lõi GPAcc» sau khi lưu và mở lại sổ. Nay bấm chạy bình thường, không cần làm gì thêm.
+- Sửa (Kéo dữ liệu từ phần mềm): dòng Bán ra / Mua vào đã kéo trước mà Nội dung còn «Bán ra theo HĐ…» được điền tên hàng thật khi kéo lại (ô bạn đã tự gõ giữ nguyên).
+- Sửa (Kéo dữ liệu từ phần mềm): cửa sổ Kéo dữ liệu nhớ lại phần cần kéo, khoảng ngày, chế độ nhật ký và danh sách nhà cung cấp / khách hàng theo dõi cho từng công ty.
+- Sửa (Kéo dữ liệu từ phần mềm): dòng kéo xuống vượt vùng kẻ sẵn của sheet nay có đủ định dạng (số tiền có dấu phân cách, viền, màu nền) như các dòng trên.
+- Sửa (Giá thành xây dựng): ô «Xem tháng» trên thẻ Giá Thành XD có lúc mở ra trống khi mở cùng lúc hai sổ cùng loại — nay luôn đủ danh sách (sửa luôn cho ô danh sách của sổ Ngân hàng, Giá thành sản xuất).
+- Sửa (Giá thành xây dựng): «Tiện Ích → Lấy DL File Cũ» nhận được sổ giá vốn mẫu cũ (sheet NK_Ban): chép đúng khai báo công trình, xuất NVL cho công trình, không còn dừng giữa chừng.
+- Cải tiến (Giá thành xây dựng): «Kéo DL Từ TT99» nói rõ vì sao ít hoặc không có dòng (chưa khai báo công trình, hàng mua thiếu mã hoặc không phải TK 152, chứng từ chưa ghi mã công trình ở cột Ghi chú).
+- Sửa (Giá thành xây dựng): sổ giá thành xây dựng kiểu cũ không còn bị «Chuyển sổ sang add-in» làm hỏng nút; add-in báo và hướng dẫn tạo sổ Xây dựng mới rồi «Lấy DL File Cũ».
+
 [26112201]
 - Sửa: trên máy đặt Excel dùng dấu thập phân «,» (không theo Windows), add-in hỏi «Nâng cấp bố cục» (mục 15 18) mỗi lần mở sổ dù đã chọn Yes. Nay sổ đã đủ bố cục thì không hỏi nữa; nếu nâng cấp xong vẫn còn mục chưa sửa được thì add-in cũng không hỏi lại cho đến khi có bản nâng cấp bố cục mới.
 
