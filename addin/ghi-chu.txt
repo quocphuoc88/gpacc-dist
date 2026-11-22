@@ -1,3 +1,6 @@
+[26112201]
+- Sửa: trên máy đặt Excel dùng dấu thập phân «,» (không theo Windows), add-in hỏi «Nâng cấp bố cục» (mục 15 18) mỗi lần mở sổ dù đã chọn Yes. Nay sổ đã đủ bố cục thì không hỏi nữa; nếu nâng cấp xong vẫn còn mục chưa sửa được thì add-in cũng không hỏi lại cho đến khi có bản nâng cấp bố cục mới.
+
 [26112103]
 - Mới: Sổ theo dõi tờ khai hải quan (cho doanh nghiệp nhập khẩu) — menu Mua Vào (bấm mũi tên dưới nút Mua Vào) → «Thêm Sổ Theo Dõi Tờ Khai Hải Quan». Thêm 2 sheet: TKHQ (mỗi tờ khai một dòng: thuế nhập khẩu / TTĐB / BVMT / GTGT, nguyên tệ, tỷ giá, ngày nộp thuế, chi phí mua hàng, giá nhập kho, đối chiếu Nhật ký mua) và NK_TKHQ (giá nhập kho, đơn giá từng mặt hàng). Số tự lấy từ Mua Vào (Ký hiệu HĐ = TKHQ, chi phí mua hàng ghi chú CPMH-<số tờ khai>), Nhật ký mua và Ngân hàng / Linh tinh; bấm «↻ Cập Nhật» trên sheet để làm mới. Chỉ để theo dõi, không nhập ở đây, không ảnh hưởng báo cáo và kết chuyển.
 
