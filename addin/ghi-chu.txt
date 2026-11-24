@@ -1,3 +1,7 @@
+[26112401]
+- Cải tiến (Kéo dữ liệu từ phần mềm): kéo xong mà có dòng mới thì sổ được lưu ngay, tránh mất phần vừa kéo nếu Excel bị đóng khi chưa lưu.
+- Cải tiến (Kéo dữ liệu từ phần mềm): hóa đơn mua vào điều chỉnh khác kỳ với hóa đơn gốc được ghi sẵn mã HDDC ở cột «Mã D/C», để tờ khai GTGT tự đưa vào chỉ tiêu [37]/[38] của kỳ nhận.
+
 [26112202]
 - Sửa lỗi: một số nút trên sheet (₫ Tiền Mặt, Lấy số dư PBKH…) báo «… chưa có trong lõi GPAcc» sau khi lưu và mở lại sổ. Nay bấm chạy bình thường, không cần làm gì thêm.
 - Sửa (Kéo dữ liệu từ phần mềm): dòng Bán ra / Mua vào đã kéo trước mà Nội dung còn «Bán ra theo HĐ…» được điền tên hàng thật khi kéo lại (ô bạn đã tự gõ giữ nguyên).
