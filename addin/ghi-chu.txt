@@ -1,3 +1,6 @@
+[26112403]
+- Cải tiến (Đối chiếu tờ khai đã nộp): bảng kết quả và hộp thông báo trình bày lại gọn, dễ đọc — mỗi kỳ có dòng «Khớp sổ / N chỉ tiêu lệch», chỉ tô màu ô lệch, chỉ tiêu chia nhóm; số người lao động lệch dù 1 người cũng được đánh dấu đỏ.
+
 [26112402]
 - Mới: «Đối chiếu tờ khai đã nộp» (phím Ctrl+Alt+X, hoặc gõ «đối chiếu tờ khai» ở ô Tìm kiếm Ctrl+Alt+T) — đọc các tệp XML tờ khai GTGT và TNCN 05/KK trong thư mục XML cạnh sổ, so từng chỉ tiêu với số sổ của từng kỳ (lấy lần nộp cuối), tô màu chỗ lệch; kết quả ra một sổ Excel riêng, sổ đang mở không bị sửa.
 
