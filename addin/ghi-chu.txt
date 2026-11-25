@@ -1,3 +1,6 @@
+[26112402]
+- Mới: «Đối chiếu tờ khai đã nộp» (phím Ctrl+Alt+X, hoặc gõ «đối chiếu tờ khai» ở ô Tìm kiếm Ctrl+Alt+T) — đọc các tệp XML tờ khai GTGT và TNCN 05/KK trong thư mục XML cạnh sổ, so từng chỉ tiêu với số sổ của từng kỳ (lấy lần nộp cuối), tô màu chỗ lệch; kết quả ra một sổ Excel riêng, sổ đang mở không bị sửa.
+
 [26112401]
 - Cải tiến (Kéo dữ liệu từ phần mềm): kéo xong mà có dòng mới thì sổ được lưu ngay, tránh mất phần vừa kéo nếu Excel bị đóng khi chưa lưu.
 - Cải tiến (Kéo dữ liệu từ phần mềm): hóa đơn mua vào điều chỉnh khác kỳ với hóa đơn gốc được ghi sẵn mã HDDC ở cột «Mã D/C», để tờ khai GTGT tự đưa vào chỉ tiêu [37]/[38] của kỳ nhận.
