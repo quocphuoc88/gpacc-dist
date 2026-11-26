@@ -1,3 +1,6 @@
+[26112404]
+- Sửa: sổ bản file chưa chuyển sang add-in — nếu chọn không chuyển, GPAcc không hỏi lại mỗi lần mở sổ nữa; khi cần chuyển, bấm thẻ «Add-in» → «Chuyển Sổ Sang Add-in».
+
 [26112403]
 - Cải tiến (Đối chiếu tờ khai đã nộp): bảng kết quả và hộp thông báo trình bày lại gọn, dễ đọc — mỗi kỳ có dòng «Khớp sổ / N chỉ tiêu lệch», chỉ tô màu ô lệch, chỉ tiêu chia nhóm; số người lao động lệch dù 1 người cũng được đánh dấu đỏ.
 
