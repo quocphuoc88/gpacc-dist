@@ -8,6 +8,11 @@
 #  dong, dong # la chu thich. Khong de nguyen am / chu d DINH LIEN chu so.
 # =============================================================================
 
+[26112701] 27/11/2026
+
+- Cải tiến: các hộp chọn tệp để lấy dữ liệu vào (XML/Excel hóa đơn, BCTC XML năm trước, dữ liệu năm trước, sao kê ngân hàng, sổ năm khác, logo…) nay luôn mở ở thư mục chứa sổ đang làm, không còn mở thư mục của khách làm trước đó.
+- Sửa: trên máy đặt Excel dùng dấu thập phân «,» (không theo Windows), nâng cấp bố cục xong vẫn báo còn thiếu mục 15 18 — nay nâng cấp đủ thì không báo nữa.
+
 [26112101] 21/11/2026
 
 - Sửa: nâng cấp bố cục không còn báo nhầm số mục (gắn lại biểu tượng cho các nút đã có).

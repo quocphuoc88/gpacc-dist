@@ -9,10 +9,10 @@
 # =============================================================================
 
 # VER | <yymmdd> | U neu co doi customUI (bo trong neu khong doi)
-VER|26112101|
+VER|26112701|
 
 # BIN | <url vbaProject.bin> | <sha256>
-BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26112101/vbaProject.bin|5e81798ede4f323c63452e92143ee01fb7212ba47755d958e515a23e0c1ed616|7218176
+BIN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26112701/vbaProject.bin|5ae8a1d7df0775cb2d2e37aa88737bdfc9772a956fd54e17da298af5f4839e0a|7271936
 
 # UI | <url customUI.xml> | <sha256>
 UI|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin/26100601/customUI.xml|be46f507161cfddf7d74e8c9e8c7da8b5c3b71936436301090b322531dee8fc7|21788
@@ -101,13 +101,13 @@ MAU|BCTC-LCTTGT|TT99|2026-01-01||CuoiKy|LCGT|https://raw.githubusercontent.com/q
 #   «Diem moi» hien cho nguoi dung: luc bam Check Update (vai dong dau, Cancel de xem
 #   day du), ngay sau khi cap nhat xong, va bat cu luc nao qua «Thong Tin Phien Ban».
 #   Moi ban la mot muc bat dau bang [yymmdd] o dau dong. Doc boi ModDist.DistGhiChu.
-GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|49c52b912ca10b885ec431d68ac41c6ba82e14acdf14508a1a71a93644c3cea6|43102
+GHICHU|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/ghi-chu.txt|8991c2f3e88bbdd6a2fc87022681413b6fccf624eee9191b97a35ae7df31c794|44012
 
 # KHOSHEET | <so schema> | <url KhoSheet.xlsx> | <sha256> | <kich thuoc>
 #   Goi chua BAN TRONG cua MOI sheet trong ban goc. Chi tai ve khi file khach THIEU HAN
 #   mot sheet goc - thay cho duong nang "tao file moi roi Lay DL file cu".
 #   Doc boi ModKhoSheet.LaySheetThieu (Code new 2026-09-21).
-KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|2c9a45c9923ffe115909997478944e1eaf641c9328bf23638a93039370de436e|1720231
+KHOSHEET|1|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/KhoSheet.xlsx|b9faaed920addd0a6b2117a7a582ca3c7db05061b8fed6e5bd843be1d2993662|1719875
 
 
 
@@ -183,30 +183,34 @@ UI_HKD|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_hkd/261
 
 
 
+
+
+
+
 # --- KENH RIENG CUA BAN DOANH NGHIEP LON (TT99 + gop ban le) ----------
 #  Ban DNL KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_DNL, ghi chu dung chung ghi-chu.txt).
 #  VER_DNL / BIN_DNL / UI_DNL - tao boi PhatHanhTT.ps1 -Channel dnl (giao_khach_dnl.py).
-VER_DNL|26112101|
-BIN_DNL|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_dnl/26112101/vbaProject.bin|cbb1d945cbd6abf6b5762a07a852a79db2d12d9b4284fdbcb4e1ddaa800e5671|7222784
-UI_DNL|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_dnl/26112101/customUI.xml|be46f507161cfddf7d74e8c9e8c7da8b5c3b71936436301090b322531dee8fc7|21788
+VER_DNL|26112701|
+BIN_DNL|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_dnl/26112701/vbaProject.bin|a357201025ea5086fe644cb8fb8fa45e63b254c87e83d2825a11ad57a3180c41|7344128
+UI_DNL|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_dnl/26112701/customUI.xml|be46f507161cfddf7d74e8c9e8c7da8b5c3b71936436301090b322531dee8fc7|21788
 
 # --- KENH RIENG CUA BAN NHIEU CHI NHANH (TT99 + BCTC theo chi nhanh) ----------
 #  Ban CN KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_CN, ghi chu ghi-chu-cn.txt).
 #  VER_CN / BIN_CN / UI_CN - tao boi PhatHanhTT.ps1 -Channel cn (giao_khach_cn.py).
-VER_CN|26112101|
-BIN_CN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_cn/26112101/vbaProject.bin|fa76436a95f1eddc8a0a90f5520bc776df90fea9481a761d15dcf6336d15039c|7283200
-UI_CN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_cn/26112101/customUI.xml|7fb24b93e27ce48cee4756aa40259d371d26941aa25e8841ba463378b137ad8e|23197
+VER_CN|26112701|
+BIN_CN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_cn/26112701/vbaProject.bin|2fd1ab02606c96926c250793bdeb2fa990bf4f2397dc0d1a763787dd26fdf296|7371264
+UI_CN|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_cn/26112701/customUI.xml|7fb24b93e27ce48cee4756aa40259d371d26941aa25e8841ba463378b137ad8e|23197
 
 # --- KENH RIENG CUA BAN LECH NIEN DO (nien do ke toan khac 01/01-31/12) ----------
 #  Ban lech nien do KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_LND, ghi chu ghi-chu-lnd.txt).
 #  VER_LND / BIN_LND / UI_LND - tao boi PhatHanhTT.ps1 -Channel lnd (giao_khach_lnd.py).
-VER_LND|26112101|
-BIN_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26112101/vbaProject.bin|c7eb50152e7e8396ac95a9be91e30c1e73ce34d11437f6592a602107b3bef933|7223296
-UI_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26112101/customUI.xml|be46f507161cfddf7d74e8c9e8c7da8b5c3b71936436301090b322531dee8fc7|21788
+VER_LND|26112701|
+BIN_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26112701/vbaProject.bin|0ffbeb4257f1ee17fa3d9622c0c045a99e1851dbf496731aa6db6a2c3a2797bf|7344640
+UI_LND|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_lnd/26112701/customUI.xml|be46f507161cfddf7d74e8c9e8c7da8b5c3b71936436301090b322531dee8fc7|21788
 
 # --- KENH RIENG CUA BAN TT58 (che do ke toan doanh nghiep sieu nho - TT58/2026/TT-BTC) ----------
 #  Ban TT58 KHONG dung chung dong VER/BIN/UI voi ban goc (doc *_TT58, ghi chu ghi-chu-tt58.txt).
 #  VER_TT58 / BIN_TT58 / UI_TT58 - tao boi PhatHanhTT.ps1 -Channel tt58 (giao_khach_tt58.py).
-VER_TT58|26112101|
-BIN_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26112101/vbaProject.bin|c783aef69fb3d5b1edd341adfd7930d7e88b208c03d6c68f8bbfeac87ac91f47|7101440
-UI_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26112101/customUI.xml|70f50aaf4a2fdf6691aee6f5d05acd0769d08d5cade1b0f58511769b60e03ef4|19753
+VER_TT58|26112701|
+BIN_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26112701/vbaProject.bin|91ec38b2d4cc10f3ea9ac0905e08d1a501c307aa066caa764462b1945f76edb3|7222784
+UI_TT58|https://raw.githubusercontent.com/quocphuoc88/gpacc-dist/main/bin_tt58/26112701/customUI.xml|70f50aaf4a2fdf6691aee6f5d05acd0769d08d5cade1b0f58511769b60e03ef4|19753
