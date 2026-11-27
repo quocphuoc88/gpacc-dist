@@ -1,3 +1,6 @@
+[26112405]
+- Sửa: «Hạch toán thanh lý TSCĐ» báo lỗi 457 khi thanh lý từ 2 tài sản trở lên mua cùng một hoá đơn.
+
 [26112404]
 - Sửa: sổ bản file chưa chuyển sang add-in — nếu chọn không chuyển, GPAcc không hỏi lại mỗi lần mở sổ nữa; khi cần chuyển, bấm thẻ «Add-in» → «Chuyển Sổ Sang Add-in».
 
